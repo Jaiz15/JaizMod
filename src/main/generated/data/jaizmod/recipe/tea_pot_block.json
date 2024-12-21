@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:coal"
+    },
+    "R": {
+      "item": "minecraft:copper_ingot"
+    },
+    "X": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "pattern": [
+    "R R",
+    " R ",
+    "XCX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "jaizmod:tea_pot_block"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "pattern": [
+    "R R",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "jaizmod:unfired_tea_cup"
+  }
+}

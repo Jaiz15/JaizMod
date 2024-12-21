@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:clay",
+    "minecraft:moss_block",
+    "minecraft:grass_block",
+    "minecraft:dirt",
+    "minecraft:sand",
+    "minecraft:mud",
+    "minecraft:gravel",
+    "minecraft:coarse_dirt",
+    "minecraft:rooted_dirt"
+  ]
+}

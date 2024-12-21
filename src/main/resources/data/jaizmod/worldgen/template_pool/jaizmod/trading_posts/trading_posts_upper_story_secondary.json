@@ -1,0 +1,78 @@
+{
+	"name": "jaizmod:jaizmod/trading_posts/trading_posts_upper_story_secondary",
+	"fallback": "minecraft:empty",
+	"elements": [{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/upper_story/upper_floor_1",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/upper_story/upper_floor_2",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/upper_story/upper_floor_3",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/upper_story/upper_floor_4",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/upper_story/upper_floor_5",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/upper_story/upper_floor_6",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/extensions/extension_2",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 45,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/extensions/hollow",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}
+	]
+}

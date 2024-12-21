@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "jaizmod:block/fancy_orange_wool_top",
+    "side": "jaizmod:block/fancy_orange_wool"
+  }
+}

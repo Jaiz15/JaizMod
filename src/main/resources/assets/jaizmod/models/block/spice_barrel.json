@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "jaizmod:block/spice_barrel_top",
+    "side": "minecraft:block/barrel_side"
+  }
+}

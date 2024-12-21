@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "jaizmod:block/fancy_green_wool_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "jaizmod:block/fancy_green_wool"
+    },
+    "axis=z": {
+      "model": "jaizmod:block/fancy_green_wool_horizontal",
+      "x": 90
+    }
+  }
+}

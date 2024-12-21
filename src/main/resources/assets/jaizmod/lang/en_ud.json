@@ -1,0 +1,268 @@
+{
+  "itemgroup.jungle": "ǝʇɐpd∩ ǝꞁᵷunՐ",
+  "itemgroup.plantsandjunk": "ʞunՐ puⱯ sʇuɐꞁԀ",
+  "itemgroup.desertmodupdate": "ǝʇɐpd∩ ʇɹǝsǝᗡ",
+  "itemgroup.glow_squid": "pᴉnbS ʍoꞁ⅁",
+
+  "item.jaizmod.mahogany_sign": "uᵷᴉS ʎuɐᵷoɥɐW",
+  "item.jaizmod.mahogany_wall_sign": "uᵷᴉS ʎuɐᵷoɥɐW",
+  "item.jaizmod.mahogany_hanging_sign": "uᵷᴉS ᵷuᴉᵷuɐH ʎuɐᵷoɥɐW",
+  "item.jaizmod.mahogany_wall_hanging_sign": "uᵷᴉS ᵷuᴉᵷuɐH ʎuɐᵷoɥɐW",
+
+  "gamerule.doGlowingSquid": "pᴉnbS ᵷuᴉʍoꞁ⅁ oᗡ",
+
+  "item.jaizmod.guano": "ouɐn⅁",
+  "entity.jaizmod.guano": "ouɐn⅁",
+  "block.jaizmod.guano_block": "ǝꞁᴉԀ ouɐn⅁",
+
+  "block.jaizmod.amethyst_thorn": "uɹoɥ⟘ ʇsʎɥʇǝɯⱯ",
+
+  "block.jaizmod.slime_drip": "dᴉɹᗡ ǝɯᴉꞁS",
+  "block.jaizmod.slimey_stone": "ǝuoʇS ʎǝɯᴉꞁS",
+
+  "item.jaizmod.fruit_bat_spawn_egg": "ᵷᵷƎ uʍɐdS ʇɐᗺ ʇᴉnɹℲ",
+  "entity.jaizmod.fruit_bat": "ʇɐᗺ ʇᴉnɹℲ",
+
+  "item.jaizmod.glowing_spyglass": "ssɐꞁᵷʎdS ᵷuᴉʍoꞁ⅁",
+  "item.jaizmod.glowball": "ꞁꞁɐᗺ ʍoꞁ⅁",
+  "block.jaizmod.bioluminescent_bottle": "ǝꞁʇʇoᗺ ʇuǝɔsǝuᴉɯnꞁoᴉᗺ",
+
+  "instrument.minecraft.amethyst_horn": "suɹoɥ⟘ ʇsʎɥʇǝɯⱯ",
+  "instrument.minecraft.air_horn": "ʇsɹnᗺ puᴉM",
+  "instrument.minecraft.ancient_horn": "uoᴉʇɐʌɹǝsǝɹԀ",
+
+  "item.jaizmod.amethyst_horn": "uɹoH ʇsʎɥʇǝɯⱯ",
+  "item.jaizmod.air_horn": "uɹoH ɹᴉⱯ",
+  "item.jaizmod.ancient_horn": "uɹoH ʇuǝᴉɔuⱯ",
+
+  "effect.jaizmod.stinky": "ʎʞuᴉʇS",
+  "effect.jaizmod.hypno": "pǝsᴉʇoudʎH",
+  "effect.jaizmod.shimmer": "ɹǝɯɯᴉɥS",
+
+  "jukebox_song.jaizmod.origami_hairball": "ꞁꞁɐqɹᴉɐH ᴉɯɐᵷᴉɹO - sǝʞᴉԀ ɟoʇzsʎzɹꞰ",
+
+  "biome.jaizmod.mahogany_forest": "ʇsǝɹoℲ ʎuɐᵷoɥɐW",
+  "biome.jaizmod.fruit_bat_caves": "sǝʌɐƆ ʇɐᗺ ʇᴉnɹℲ",
+
+  "block.jaizmod.mahogany_log": "ᵷoꞀ ʎuɐᵷoɥɐW",
+  "block.jaizmod.stripped_mahogany_log": "ᵷoꞀ ʎuɐᵷoɥɐW pǝddᴉɹʇS",
+  "block.jaizmod.mahogany_wood": "pooM ʎuɐᵷoɥɐW",
+  "block.jaizmod.stripped_mahogany_wood": "pooM ʎuɐᵷoɥɐW pǝddᴉɹʇS",
+  "block.jaizmod.mahogany_planks": "sʞuɐꞁԀ ʎuɐᵷoɥɐW",
+  "block.jaizmod.mahogany_button": "uoʇʇnᗺ ʎuɐᵷoɥɐW",
+  "block.jaizmod.mahogany_pressure_plate": "ǝʇɐꞁԀ ǝɹnssǝɹԀ ʎuɐᵷoɥɐW",
+  "block.jaizmod.mahogany_leaves": "sǝʌɐǝꞀ ʎuɐᵷoɥɐW",
+  "block.jaizmod.mahogany_sapling": "ᵷuᴉꞁdɐS ʎuɐᵷoɥɐW",
+  "block.jaizmod.mahogany_standing_sign": "uᵷᴉS ᵷuᴉpuɐʇS ʎuɐᵷoɥɐW",
+  "block.jaizmod.mahogany_wall_sign": "uᵷᴉS ꞁꞁɐM ʎuɐᵷoɥɐW",
+
+  "block.jaizmod.mahogany_hanging_sign": "uᵷᴉS ᵷuᴉᵷuɐH ʎuɐᵷoɥɐW",
+  "block.jaizmod.mahogany_wall_hanging_sign": "uᵷᴉS ᵷuᴉᵷuɐH ꞁꞁɐM ʎuɐᵷoɥɐW",
+
+  "block.jaizmod.water_torch": "ɥɔɹo⟘ ɹǝʇɐM",
+
+  "block.jaizmod.mahogany_stairs": "sɹᴉɐʇS ʎuɐᵷoɥɐW",
+  "block.jaizmod.mahogany_slab": "qɐꞁS ʎuɐᵷoɥɐW",
+  "block.jaizmod.mahogany_fence": "ǝɔuǝℲ ʎuɐᵷoɥɐW",
+  "block.jaizmod.mahogany_fence_gate": "ǝʇɐ⅁ ǝɔuǝℲ ʎuɐᵷoɥɐW",
+  "block.jaizmod.mahogany_door": "ɹooᗡ ʎuɐᵷoɥɐW",
+  "block.jaizmod.mahogany_trapdoor": "ɹooᗡdɐɹ⟘ ʎuɐᵷoɥɐW",
+
+
+
+  "item.jaizmod.butterfly_spawn_egg": "ᵷᵷƎ uʍɐdS ʎꞁɟɹǝʇʇnᗺ",
+  "item.jaizmod.firefly_swarm_spawn_egg": "ᵷᵷƎ uʍɐdS ɯɹɐʍS ʎꞁɟǝɹᴉℲ",
+  "item.jaizmod.dragonfly_spawn_egg": "ᵷᵷƎ uʍɐdS ʎꞁɟuoᵷɐɹᗡ",
+  "item.jaizmod.caterpillar_spawn_egg": "ᵷᵷƎ uʍɐdS ɯɹɐʍS ɹɐꞁꞁᴉdɹǝʇɐƆ",
+  "entity.jaizmod.butterfly": "ʎꞁɟɹǝʇʇnᗺ",
+  "entity.jaizmod.dragonfly": "ʎꞁɟuoᵷɐɹᗡ",
+  "entity.jaizmod.caterpillar": "ɹɐꞁꞁᴉdɹǝʇɐƆ",
+  "entity.jaizmod.fire_fly_swarm": "ɯɹɐʍS ʎꞁɟǝɹᴉℲ",
+  "item.jaizmod.firefly_bottle": "sǝᴉꞁɟǝɹᴉℲ ɟO ǝꞁʇʇoᗺ",
+  "entity.jaizmod.snail": "ꞁᴉɐuS",
+  "item.jaizmod.snail_spawn_egg": "ᵷᵷƎ uʍɐdS ꞁᴉɐuS",
+  "block.jaizmod.shelf_mushroom": "ɯooɹɥsnW ɟꞁǝɥS",
+  "block.jaizmod.firefly_bottle": "sǝᴉꞁɟǝɹᴉℲ ɟO ǝꞁʇʇoᗺ",
+  "block.jaizmod.cocoon_block": "sᴉꞁɐsʎɹɥƆ ʎꞁɟɹǝʇʇnᗺ",
+  "item.jaizmod.cocoon_block": "sᴉꞁɐsʎɹɥƆ ʎꞁɟɹǝʇʇnᗺ",
+  "block.jaizmod.columbine": "ǝuᴉqɯnꞁoƆ",
+  "block.jaizmod.callalily_white": "ǝʇᴉɥM ʎꞁᴉꞁɐꞁꞁɐƆ",
+  "block.jaizmod.callalily_pink": "ʞuᴉԀ ʎꞁᴉꞁɐꞁꞁɐƆ",
+  "block.jaizmod.callalily_purple": "ǝꞁdɹnԀ ʎꞁᴉꞁɐꞁꞁɐƆ",
+  "block.jaizmod.callalily_lilac": "ɔɐꞁᴉꞀ ʎꞁᴉꞁɐꞁꞁɐƆ",
+  "block.jaizmod.callalily_yellow": "ʍoꞁꞁǝ⅄ ʎꞁᴉꞁɐꞁꞁɐƆ",
+
+  "block.jaizmod.ivy": "ʎʌI",
+  "block.jaizmod.undergrowth": "ɥʇʍoɹᵷɹǝpu∩",
+  "block.jaizmod.rot_block": "ʇoᴚ",
+  "block.jaizmod.rotten_log": "ᵷoꞀ uǝʇʇoᴚ",
+  "block.jaizmod.rotten_wood": "pooM uǝʇʇoᴚ",
+  "block.jaizmod.stripped_rotten_log": "ᵷoꞀ uǝʇʇoᴚ pǝddᴉɹʇS",
+  "block.jaizmod.stripped_rotten_wood": "pooM uǝʇʇoᴚ pǝddᴉɹʇS",
+  "block.jaizmod.rotten_planks": "sʞuɐꞁԀ uǝʇʇoᴚ",
+  "block.jaizmod.rotten_door": "ɹooᗡ uǝʇʇoᴚ",
+  "block.jaizmod.rotten_trapdoor": "ɹoopdɐɹ⟘ uǝʇʇoᴚ",
+  "block.jaizmod.rotten_slab": "qɐꞁS uǝʇʇoᴚ",
+  "block.jaizmod.rotten_stairs": "sɹᴉɐʇS uǝʇʇoᴚ",
+  "block.jaizmod.rotten_standing_sign": "uᵷᴉS uǝʇʇoᴚ",
+  "block.jaizmod.rotten_hanging_sign": "uᵷᴉS ᵷuᴉᵷuɐH uǝʇʇoᴚ",
+  "block.jaizmod.rotten_fence": "ǝɔuǝℲ uǝʇʇoᴚ",
+  "block.jaizmod.rotten_fence_gate": "ǝʇɐ⅁ ǝɔuǝℲ uǝʇʇoᴚ",
+  "block.jaizmod.rotten_button": "uoʇʇnᗺ uǝʇʇoᴚ",
+  "block.jaizmod.rotten_pressure_plate": "ǝʇɐꞁԀ ǝɹnssǝɹԀ uǝʇʇoᴚ",
+
+
+  "item.jaizmod.silk": "ʞꞁᴉS",
+
+  "item.jaizmod.desert_oak_sign": "uᵷᴉS ʞɐO ʇɹǝsǝᗡ",
+  "item.jaizmod.desert_oak_wall_sign": "uᵷᴉS ʞɐO ʇɹǝsǝᗡ",
+  "item.jaizmod.hanging_desert_oak_sign": "uᵷᴉS ᵷuᴉᵷuɐH ʞɐO ʇɹǝsǝᗡ",
+  "item.jaizmod.desert_oak_wall_hanging_sign": "uᵷᴉS ᵷuᴉᵷuɐH ʞɐO ʇɹǝsǝᗡ",
+
+  "block.jaizmod.fancy_white_wool": "ꞁooM ǝʇᴉɥM ʎɔuɐℲ",
+  "block.jaizmod.fancy_blue_wool": "ꞁooM ǝnꞁᗺ ʎɔuɐℲ",
+  "block.jaizmod.fancy_black_wool": "ꞁooM ʞɔɐꞁᗺ ʎɔuɐℲ",
+  "block.jaizmod.fancy_gray_wool": "ꞁooM ʎɐɹ⅁ ʎɔuɐℲ",
+  "block.jaizmod.fancy_light_gray_wool": "ꞁooM ʎɐɹ⅁ ʇɥᵷᴉꞀ ʎɔuɐℲ",
+  "block.jaizmod.fancy_brown_wool": "ꞁooM uʍoɹᗺ ʎɔuɐℲ",
+  "block.jaizmod.fancy_red_wool": "ꞁooM pǝᴚ ʎɔuɐℲ",
+  "block.jaizmod.fancy_orange_wool": "ꞁooM ǝᵷuɐɹO ʎɔuɐℲ",
+  "block.jaizmod.fancy_yellow_wool": "ꞁooM ʍoꞁꞁǝ⅄ ʎɔuɐℲ",
+  "block.jaizmod.fancy_lime_wool": "ꞁooM ǝɯᴉꞀ ʎɔuɐℲ",
+  "block.jaizmod.fancy_green_wool": "ꞁooM uǝǝɹ⅁ ʎɔuɐℲ",
+  "block.jaizmod.fancy_cyan_wool": "ꞁooM uɐʎƆ ʎɔuɐℲ",
+  "block.jaizmod.fancy_light_blue_wool": "ꞁooM ǝnꞁᗺ ʇɥᵷᴉꞀ ʎɔuɐℲ",
+  "block.jaizmod.fancy_purple_wool": "ꞁooM ǝꞁdɹnԀ ʎɔuɐℲ",
+  "block.jaizmod.fancy_magenta_wool": "ꞁooM ɐʇuǝᵷɐW ʎɔuɐℲ",
+  "block.jaizmod.fancy_pink_wool": "ꞁooM ʞuᴉԀ ʎɔuɐℲ",
+
+  "block.jaizmod.fancy_white_carpet": "ʇǝdɹɐƆ ǝʇᴉɥM ʎɔuɐℲ",
+  "block.jaizmod.fancy_blue_carpet": "ʇǝdɹɐƆ ǝnꞁᗺ ʎɔuɐℲ",
+  "block.jaizmod.fancy_black_carpet": "ʇǝdɹɐƆ ʞɔɐꞁᗺ ʎɔuɐℲ",
+  "block.jaizmod.fancy_gray_carpet": "ʇǝdɹɐƆ ʎɐɹ⅁ ʎɔuɐℲ",
+  "block.jaizmod.fancy_light_gray_carpet": "ʇǝdɹɐƆ ʎɐɹ⅁ ʇɥᵷᴉꞀ ʎɔuɐℲ",
+  "block.jaizmod.fancy_brown_carpet": "ʇǝdɹɐƆ uʍoɹᗺ ʎɔuɐℲ",
+  "block.jaizmod.fancy_red_carpet": "ʇǝdɹɐƆ pǝᴚ ʎɔuɐℲ",
+  "block.jaizmod.fancy_orange_carpet": "ʇǝdɹɐƆ ǝᵷuɐɹO ʎɔuɐℲ",
+  "block.jaizmod.fancy_yellow_carpet": "ʇǝdɹɐƆ ʍoꞁꞁǝ⅄ ʎɔuɐℲ",
+  "block.jaizmod.fancy_lime_carpet": "ʇǝdɹɐƆ ǝɯᴉꞀ ʎɔuɐℲ",
+  "block.jaizmod.fancy_green_carpet": "ʇǝdɹɐƆ uǝǝɹ⅁ ʎɔuɐℲ",
+  "block.jaizmod.fancy_cyan_carpet": "ʇǝdɹɐƆ uɐʎƆ ʎɔuɐℲ",
+  "block.jaizmod.fancy_light_blue_carpet": "ʇǝdɹɐƆ ǝnꞁᗺ ʇɥᵷᴉꞀ ʎɔuɐℲ",
+  "block.jaizmod.fancy_purple_carpet": "ʇǝdɹɐƆ ǝꞁdɹnԀ ʎɔuɐℲ",
+  "block.jaizmod.fancy_magenta_carpet": "ʇǝdɹɐƆ ɐʇuǝᵷɐW ʎɔuɐℲ",
+  "block.jaizmod.fancy_pink_carpet": "ʇǝdɹɐƆ ʞuᴉԀ ʎɔuɐℲ",
+
+  "block.jaizmod.gilded_sandstone": "ǝuoʇspuɐS pǝpꞁᴉ⅁",
+  "block.jaizmod.gilded_cut_sandstone": "ǝuoʇspuɐS ʇnƆ pǝpꞁᴉ⅁",
+  "block.jaizmod.gilded_chiseled_sandstone": "ǝuoʇspuɐS pǝꞁǝsᴉɥƆ pǝpꞁᴉ⅁",
+
+  "block.jaizmod.desert_oak_log": "ᵷoꞀ ʞɐO ʇɹǝsǝᗡ",
+  "block.jaizmod.stripped_desert_oak_log": "ᵷoꞀ ʞɐO ʇɹǝsǝᗡ pǝddᴉɹʇS",
+  "block.jaizmod.desert_oak_wood": "pooM ʞɐO ʇɹǝsǝᗡ",
+  "block.jaizmod.stripped_desert_oak_wood": "pooM ʞɐO ʇɹǝsǝᗡ pǝddᴉɹʇS",
+  "block.jaizmod.desert_oak_planks": "sʞuɐꞁԀ ʞɐO ʇɹǝsǝᗡ",
+  "block.jaizmod.desert_oak_button": "uoʇʇnᗺ ʞɐO ʇɹǝsǝᗡ",
+  "block.jaizmod.desert_oak_pressure_plate": "ǝʇɐꞁԀ ǝɹnssǝɹԀ ʞɐO ʇɹǝsǝᗡ",
+  "block.jaizmod.desert_oak_leaves": "sǝʌɐǝꞀ ʞɐO ʇɹǝsǝᗡ",
+  "item.jaizmod.desert_oak_leaves": "sǝʌɐǝꞀ ʞɐO ʇɹǝsǝᗡ",
+
+  "item.jaizmod.gourmet_meal": "ꞁɐǝW ʇǝɯɹno⅁",
+
+  "advancements.adventure.cops_and_robbers.title": "sɹǝqqoᴚ puⱯ sdoƆ",
+  "advancements.adventure.cops_and_robbers.description": "ʇᴉpuɐᗺ Ɐ ꞁꞁᴉꞰ",
+
+  "advancements.adventure.the_british_are_coming.title": "ᵷuᴉɯoƆ ǝɹⱯ ɥsᴉʇᴉɹᗺ ǝɥ⟘",
+  "advancements.adventure.the_british_are_coming.description": "ǝɔuǝɹǝɟǝᴚ ᘔ pꞁǝᴉɟɹɐ⅁ osꞁɐ ˙ǝɔᴉds ǝɯos dn ʞɔᴉԀ",
+
+  "block.jaizmod.spice_barrel": "ꞁǝɹɹɐᗺ ǝɔᴉdS",
+  "item.jaizmod.rare_spices": "sǝɔᴉdS ǝɹɐᴚ",
+
+  "block.jaizmod.desert_oak_sapling": "ᵷuᴉꞁdɐS ʞɐO ʇɹǝsǝᗡ",
+  "item.jaizmod.desert_oak_sapling": "ᵷuᴉꞁdɐS ʞɐO ʇɹǝsǝᗡ",
+
+  "item.jaizmod.origami_hairball_music_disc": "ɔsᴉᗡ ɔᴉsnW",
+  "item.jaizmod.origami_hairball_music_disc.desc": "ꞁꞁɐqɹᴉɐH ᴉɯɐᵷᴉɹO - sǝʞᴉԀ ɟoʇzsʎzɹꞰ",
+
+  "item.jaizmod.mimic_pot": "ʇoԀ ɔᴉɯᴉW",
+  "entity.jaizmod.mason_mouth": "ɥʇnoW uosɐW",
+  "entity.jaizmod.bandit": "ʇᴉpuɐᗺ",
+  "item.jaizmod.bandit_spawn_egg": "ᵷᵷƎ uʍɐdS ʇᴉpuɐᗺ",
+
+  "item.jaizmod.battered_axe_remnant": "ʇuɐuɯǝᴚ ǝxⱯ pǝɹǝʇʇɐᗺ",
+  "item.jaizmod.battered_axe": "ǝxⱯ pǝɹǝʇʇɐᗺ",
+
+  "block.jaizmod.desert_oak_standing_sign": "uᵷᴉS ᵷuᴉpuɐʇS ʞɐO ʇɹǝsǝᗡ",
+  "block.jaizmod.desert_oak_wall_sign": "uᵷᴉS ꞁꞁɐM ʞɐO ʇɹǝsǝᗡ",
+
+  "block.jaizmod.desert_oak_hanging_sign": "uᵷᴉS ᵷuᴉᵷuɐH ʞɐO ʇɹǝsǝᗡ",
+  "block.jaizmod.desert_oak_wall_hanging_sign": "uᵷᴉS ᵷuᴉᵷuɐH ꞁꞁɐM ʞɐO ʇɹǝsǝᗡ",
+
+  "block.jaizmod.desert_oak_stairs": "sɹᴉɐʇS ʞɐO ʇɹǝsǝᗡ",
+  "block.jaizmod.desert_oak_slab": "qɐꞁS ʞɐO ʇɹǝsǝᗡ",
+  "block.jaizmod.desert_oak_fence": "ǝɔuǝℲ ʞɐO ʇɹǝsǝᗡ",
+  "block.jaizmod.desert_oak_fence_gate": "ǝʇɐ⅁ ǝɔuǝℲ ʞɐO ʇɹǝsǝᗡ",
+  "block.jaizmod.desert_oak_door": "ɹooᗡ ʞɐO ʇɹǝsǝᗡ",
+  "block.jaizmod.desert_oak_trapdoor": "ɹooᗡdɐɹ⟘ ʞɐO ʇɹǝsǝᗡ",
+
+  "block.jaizmod.fossil_soil": "ꞁᴉoS ꞁᴉssoℲ",
+  "block.jaizmod.soil": "ꞁᴉoS",
+  "item.jaizmod.fossil_soil": "ꞁᴉoS ꞁᴉssoℲ",
+  "item.jaizmod.soil": "ꞁᴉoS",
+
+  "block.jaizmod.honeycomb_dirt": "ʇɹᴉᗡ qɯoƆʎǝuoH",
+  "item.jaizmod.honeycomb_dirt": "ʇɹᴉᗡ qɯoƆʎǝuoH",
+
+  "item.jaizmod.terracotta_bricks": "sʞɔᴉɹᗺ ɐʇʇoɔɐɹɹǝ⟘",
+  "block.jaizmod.terracotta_bricks": "sʞɔᴉɹᗺ ɐʇʇoɔɐɹɹǝ⟘",
+  "block.jaizmod.terracotta_brick_slab": "qɐꞁS ʞɔᴉɹᗺ ɐʇʇoɔɐɹɹǝ⟘",
+  "block.jaizmod.terracotta_brick_stairs": "sɹᴉɐʇS ʞɔᴉɹᗺ ɐʇʇoɔɐɹɹǝ⟘",
+  "block.jaizmod.terracotta_brick_wall": "ꞁꞁɐM ʞɔᴉɹᗺ ɐʇʇoɔɐɹɹǝ⟘",
+
+  "item.jaizmod.desert_oak_stairs": "sɹᴉɐʇS pooM ʞɐO ʇɹǝsǝᗡ",
+  "item.jaizmod.desert_oak_slab": "qɐꞁS pooM ʞɐO ʇɹǝsǝᗡ",
+  "item.jaizmod.desert_oak_fence": "ǝɔuǝℲ pooM ʞɐO ʇɹǝsǝᗡ",
+  "item.jaizmod.desert_oak_fence_gate": "ǝʇɐ⅁ ǝɔuǝℲ pooM ʞɐO ʇɹǝsǝᗡ",
+  "item.jaizmod.desert_oak_door": "ɹooᗡ pooM ʞɐO ʇɹǝsǝᗡ",
+  "item.jaizmod.desert_oak_trapdoor": "ɹooᗡdɐɹ⟘ pooM ʞɐO ʇɹǝsǝᗡ",
+
+
+
+  "item.jaizmod.fancy_white_wool": "ꞁooM ǝʇᴉɥM ʎɔuɐℲ",
+  "item.jaizmod.fancy_blue_wool": "ꞁooM ǝnꞁᗺ ʎɔuɐℲ",
+  "item.jaizmod.fancy_black_wool": "ꞁooM ʞɔɐꞁᗺ ʎɔuɐℲ",
+  "item.jaizmod.fancy_gray_wool": "ꞁooM ʎɐɹ⅁ ʎɔuɐℲ",
+  "item.jaizmod.fancy_light_gray_wool": "ꞁooM ʎɐɹ⅁ ʇɥᵷᴉꞀ ʎɔuɐℲ",
+  "item.jaizmod.fancy_brown_wool": "ꞁooM uʍoɹᗺ ʎɔuɐℲ",
+  "item.jaizmod.fancy_red_wool": "ꞁooM pǝᴚ ʎɔuɐℲ",
+  "item.jaizmod.fancy_orange_wool": "ꞁooM ǝᵷuɐɹO ʎɔuɐℲ",
+  "item.jaizmod.fancy_yellow_wool": "ꞁooM ʍoꞁꞁǝ⅄ ʎɔuɐℲ",
+  "item.jaizmod.fancy_lime_wool": "ꞁooM ǝɯᴉꞀ ʎɔuɐℲ",
+  "item.jaizmod.fancy_green_wool": "ꞁooM uǝǝɹ⅁ ʎɔuɐℲ",
+  "item.jaizmod.fancy_cyan_wool": "ꞁooM uɐʎƆ ʎɔuɐℲ",
+  "item.jaizmod.fancy_light_blue_wool": "ꞁooM ǝnꞁᗺ ʇɥᵷᴉꞀ ʎɔuɐℲ",
+  "item.jaizmod.fancy_purple_wool": "ꞁooM ǝꞁdɹnԀ ʎɔuɐℲ",
+  "item.jaizmod.fancy_magenta_wool": "ꞁooM ɐʇuǝᵷɐW ʎɔuɐℲ",
+  "item.jaizmod.fancy_pink_wool": "ꞁooM ʞuᴉԀ ʎɔuɐℲ",
+  "item.jaizmod.gilded_sandstone": "ǝuoʇspuɐS pǝpꞁᴉ⅁",
+  "item.jaizmod.gilded_cut_sandstone": "ǝuoʇspuɐS ʇnƆ pǝpꞁᴉ⅁",
+  "item.jaizmod.gilded_chiseled_sandstone": "ǝuoʇspuɐS pǝꞁǝsᴉɥƆ pǝpꞁᴉ⅁",
+
+  "item.jaizmod.obsidian_shard": "pɹɐɥS uɐᴉpᴉsqO",
+  "item.jaizmod.sharp_obsidian_shard": "pɹɐɥS uɐᴉpᴉsqO dɹɐɥS",
+  "item.jaizmod.wedge_obsidian_shard": "pɹɐɥS uɐᴉpᴉsqO ǝᵷpǝM",
+  "item.jaizmod.obsidian_dagger": "ɹǝᵷᵷɐᗡ uɐᴉpᴉsqO",
+  "item.jaizmod.sharp_obsidian_dagger": "ɹǝᵷᵷɐᗡ uɐᴉpᴉsqO dɹɐɥS",
+  "item.jaizmod.wedge_obsidian_dagger": "ɹǝᵷᵷɐᗡ uɐᴉpᴉsqO ǝᵷpǝM",
+
+  "item.jaizmod.obsidian_sword": "pɹoʍS uɐᴉpᴉsqO",
+  "item.jaizmod.sharp_obsidian_sword": "pɹoʍS uɐᴉpᴉsqO dɹɐɥS",
+  "item.jaizmod.wedge_obsidian_sword": "pɹoʍS uɐᴉpᴉsqO ǝᵷpǝM",
+  "item.jaizmod.wedge_regular_obsidian_sword": "pɹoʍS uɐᴉpᴉsqO ɹɐꞁnᵷǝᴚ ǝᵷpǝM",
+  "item.jaizmod.sharp_wedge_obsidian_sword": "pɹoʍS uɐᴉpᴉsqO ǝᵷpǝM dɹɐɥS",
+  "item.jaizmod.sharp_regular_obsidian_sword": "pɹoʍS uɐᴉpᴉsqO ɹɐꞁnᵷǝᴚ dɹɐɥS",
+
+  "entity.minecraft.villager.spice_trader": "ɹǝpɐɹ⟘ ǝɔᴉdS"
+
+
+}

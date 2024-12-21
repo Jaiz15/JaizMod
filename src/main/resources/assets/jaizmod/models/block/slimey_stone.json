@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "jaizmod:block/slimey_stone_base",
+    "side": "jaizmod:block/slimey_stone",
+    "top": "jaizmod:block/slimey_stone_top"
+  }
+}

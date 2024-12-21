@@ -1,0 +1,187 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:random_patch",
+          "config": {
+            "feature": {
+              "feature": {
+                "type": "minecraft:simple_block",
+                "config": {
+                  "to_place": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "jaizmod:callalily_white",
+                      "Properties": {
+                        "half": "lower"
+                      }
+                    }
+                  }
+                }
+              },
+              "placement": [
+                {
+                  "type": "minecraft:block_predicate_filter",
+                  "predicate": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:air"
+                  }
+                }
+              ]
+            },
+            "tries": 96,
+            "xz_spread": 7,
+            "y_spread": 3
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:random_patch",
+          "config": {
+            "feature": {
+              "feature": {
+                "type": "minecraft:simple_block",
+                "config": {
+                  "to_place": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "jaizmod:callalily_yellow",
+                      "Properties": {
+                        "half": "lower"
+                      }
+                    }
+                  }
+                }
+              },
+              "placement": [
+                {
+                  "type": "minecraft:block_predicate_filter",
+                  "predicate": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:air"
+                  }
+                }
+              ]
+            },
+            "tries": 96,
+            "xz_spread": 7,
+            "y_spread": 3
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:random_patch",
+          "config": {
+            "feature": {
+              "feature": {
+                "type": "minecraft:simple_block",
+                "config": {
+                  "to_place": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "jaizmod:callalily_purple",
+                      "Properties": {
+                        "half": "lower"
+                      }
+                    }
+                  }
+                }
+              },
+              "placement": [
+                {
+                  "type": "minecraft:block_predicate_filter",
+                  "predicate": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:air"
+                  }
+                }
+              ]
+            },
+            "tries": 96,
+            "xz_spread": 7,
+            "y_spread": 3
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:random_patch",
+          "config": {
+            "feature": {
+              "feature": {
+                "type": "minecraft:simple_block",
+                "config": {
+                  "to_place": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "jaizmod:callalily_lilac",
+                      "Properties": {
+                        "half": "lower"
+                      }
+                    }
+                  }
+                }
+              },
+              "placement": [
+                {
+                  "type": "minecraft:block_predicate_filter",
+                  "predicate": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:air"
+                  }
+                }
+              ]
+            },
+            "tries": 96,
+            "xz_spread": 7,
+            "y_spread": 3
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:random_patch",
+          "config": {
+            "feature": {
+              "feature": {
+                "type": "minecraft:simple_block",
+                "config": {
+                  "to_place": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "jaizmod:callalily_pink",
+                      "Properties": {
+                        "half": "lower"
+                      }
+                    }
+                  }
+                }
+              },
+              "placement": [
+                {
+                  "type": "minecraft:block_predicate_filter",
+                  "predicate": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:air"
+                  }
+                }
+              ]
+            },
+            "tries": 96,
+            "xz_spread": 7,
+            "y_spread": 3
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

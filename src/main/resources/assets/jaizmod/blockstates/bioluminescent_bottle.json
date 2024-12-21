@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "jaizmod:block/bioluminescent_bottle"
+    },
+    "hanging=true": {
+      "model": "jaizmod:block/bioluminescent_bottle_hanging"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "sand": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sand"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.sand.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:sand"
+    },
+    "title": {
+      "translate": "advancements.adventure.sand.title"
+    }
+  },
+  "requirements": [
+    [
+      "sand"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

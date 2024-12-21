@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "jaizmod:rotten_boat"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "jaizmod:rotten_chest_boat"
+  }
+}

@@ -1,0 +1,14 @@
+{
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 18594657,
+		"separation": 18,
+		"spacing": 32,
+		"spread_type": "triangular"
+	},
+	"structures": [{
+		"structure": "jaizmod:fossil_pits",
+		"weight": 1
+	}
+	]
+}

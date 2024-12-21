@@ -1,0 +1,258 @@
+{
+	"name": "jaizmod:jaizmod/trading_posts_badlands/trading_posts_badlands_badlands_extensions",
+	"fallback": "minecraft:empty",
+	"elements": [{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_1",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_2",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_3",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_4",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_5",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_6",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_7",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_8",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_9",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_10",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_11",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_12",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_13",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_14",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_15",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_16",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_17",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_18",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_19",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_20",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_21",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_22",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_23",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_25",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_26",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_27",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_29",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts_badlands/extensions/extension_31",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}
+]
+}

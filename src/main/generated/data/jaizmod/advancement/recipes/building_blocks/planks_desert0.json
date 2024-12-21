@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_desert_oak_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jaizmod:desert_oak_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "jaizmod:planks_desert0"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_desert_oak_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "jaizmod:planks_desert0"
+    ]
+  }
+}

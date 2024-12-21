@@ -1,0 +1,8 @@
+{
+  "parent": "jaizmod:block/template_water_temporary_light",
+  "textures": {
+    "dirt": "jaizmod:block/xray",
+    "bottom": "jaizmod:block/xray",
+    "top": "jaizmod:block/xray"
+  }
+}

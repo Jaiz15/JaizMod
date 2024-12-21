@@ -1,0 +1,14 @@
+{
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 67385450,
+		"separation": 32,
+		"spacing": 56,
+		"spread_type": "triangular"
+	},
+	"structures": [{
+		"structure": "jaizmod:trading_posts_badlands",
+		"weight": 1
+	}
+	]
+}

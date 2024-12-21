@@ -1,0 +1,280 @@
+{
+  "itemgroup.jungle": "Jungle Update",
+  "itemgroup.plantsandjunk": "Plants And Junk",
+  "itemgroup.desertmodupdate": "Dunes & Drought",
+  "itemgroup.glow_squid": "Glow Squid",
+  "itemgroup.tea_time": "Tea Time",
+
+  "item.jaizmod.mahogany_sign": "Mahogany Sign",
+  "item.jaizmod.mahogany_wall_sign": "Mahogany Sign",
+  "item.jaizmod.mahogany_hanging_sign": "Mahogany Hanging Sign",
+  "item.jaizmod.mahogany_wall_hanging_sign": "Mahogany Hanging Sign",
+
+  "painting.jaizmod.jaiz_mod_icon.title": "Jaiz Mod Icon",
+  "painting.jaizmod.jaiz_mod_icon.author": "Jaiz",
+
+  "painting.jaizmod.liminal.title": "Liminal",
+  "painting.jaizmod.liminal.author": "Monobloc_Chair",
+
+  "gamerule.doGlowingSquid": "Do Glowing Squid",
+
+  "item.jaizmod.guano": "Guano",
+  "entity.jaizmod.guano": "Guano",
+  "block.jaizmod.guano_block": "Guano Pile",
+
+  "block.jaizmod.amethyst_thorn": "Amethyst Thorn",
+
+  "block.jaizmod.slime_drip": "Slime Drip",
+  "block.jaizmod.slimey_stone": "Slimey Stone",
+
+  "item.jaizmod.fruit_bat_spawn_egg": "Fruit Bat Spawn Egg",
+  "entity.jaizmod.fruit_bat": "Fruit Bat",
+
+  "item.jaizmod.glowing_spyglass": "Glowing Spyglass",
+  "item.jaizmod.glowball": "Glow Ball",
+  "block.jaizmod.bioluminescent_bottle": "Bioluminescent Bottle",
+
+  "instrument.minecraft.amethyst_horn": "Amethyst Thorns",
+  "instrument.minecraft.air_horn": "Wind Burst",
+  "instrument.minecraft.ancient_horn": "Preservation",
+
+  "item.jaizmod.amethyst_horn": "Amethyst Horn",
+  "item.jaizmod.air_horn": "Air Horn",
+  "item.jaizmod.ancient_horn": "Ancient Horn",
+
+  "effect.jaizmod.stinky": "Stinky",
+  "effect.jaizmod.hypno": "Hypnotised",
+  "effect.jaizmod.shimmer": "Shimmer",
+
+  "jukebox_song.jaizmod.origami_hairball": "Krzysztof Pikes - Origami Hairball",
+
+  "biome.jaizmod.mahogany_forest": "Mahogany Forest",
+  "biome.jaizmod.fruit_bat_caves": "Fruit Bat Caves",
+
+  "block.jaizmod.mahogany_log": "Mahogany Log",
+  "block.jaizmod.stripped_mahogany_log": "Stripped Mahogany Log",
+  "block.jaizmod.mahogany_wood": "Mahogany Wood",
+  "block.jaizmod.stripped_mahogany_wood": "Stripped Mahogany Wood",
+  "block.jaizmod.mahogany_planks": "Mahogany Planks",
+  "block.jaizmod.mahogany_button": "Mahogany Button",
+  "block.jaizmod.mahogany_pressure_plate": "Mahogany Pressure Plate",
+  "block.jaizmod.mahogany_leaves": "Mahogany Leaves",
+  "block.jaizmod.mahogany_sapling": "Mahogany Sapling",
+  "block.jaizmod.mahogany_standing_sign": "Mahogany Standing Sign",
+  "block.jaizmod.mahogany_wall_sign": "Mahogany Wall Sign",
+
+  "block.jaizmod.mahogany_hanging_sign": "Mahogany Hanging Sign",
+  "block.jaizmod.mahogany_wall_hanging_sign": "Mahogany Wall Hanging Sign",
+
+  "block.jaizmod.water_torch": "Water Torch",
+
+  "block.jaizmod.mahogany_stairs": "Mahogany Stairs",
+  "block.jaizmod.mahogany_slab": "Mahogany Slab",
+  "block.jaizmod.mahogany_fence": "Mahogany Fence",
+  "block.jaizmod.mahogany_fence_gate": "Mahogany Fence Gate",
+  "block.jaizmod.mahogany_door": "Mahogany Door",
+  "block.jaizmod.mahogany_trapdoor": "Mahogany Trapdoor",
+
+
+
+  "item.jaizmod.butterfly_spawn_egg": "Butterfly Spawn Egg",
+  "item.jaizmod.firefly_swarm_spawn_egg": "Firefly Swarm Spawn Egg",
+  "item.jaizmod.dragonfly_spawn_egg": "Dragonfly Spawn Egg",
+  "item.jaizmod.caterpillar_spawn_egg": "Caterpillar Swarm Spawn Egg",
+  "entity.jaizmod.butterfly": "Butterfly",
+  "entity.jaizmod.dragonfly": "Dragonfly",
+  "entity.jaizmod.caterpillar": "Caterpillar",
+  "entity.jaizmod.fire_fly_swarm": "Firefly Swarm",
+  "item.jaizmod.firefly_bottle": "Bottle Of Fireflies",
+  "entity.jaizmod.snail": "Snail",
+  "item.jaizmod.snail_spawn_egg": "Snail Spawn Egg",
+  "block.jaizmod.shelf_mushroom": "Shelf Mushroom",
+  "block.jaizmod.firefly_bottle": "Bottle Of Fireflies",
+  "block.jaizmod.cocoon_block": "Butterfly Chrysalis",
+  "item.jaizmod.cocoon_block": "Butterfly Chrysalis",
+  "block.jaizmod.columbine": "Columbine",
+  "block.jaizmod.callalily_white": "Callalily White",
+  "block.jaizmod.callalily_pink": "Callalily Pink",
+  "block.jaizmod.callalily_purple": "Callalily Purple",
+  "block.jaizmod.callalily_lilac": "Callalily Lilac",
+  "block.jaizmod.callalily_yellow": "Callalily Yellow",
+
+  "block.jaizmod.ivy": "Ivy",
+  "block.jaizmod.undergrowth": "Undergrowth",
+  "block.jaizmod.rot_block": "Rot",
+  "block.jaizmod.rotten_log": "Rotten Log",
+  "block.jaizmod.rotten_wood": "Rotten Wood",
+  "block.jaizmod.stripped_rotten_log": "Stripped Rotten Log",
+  "block.jaizmod.stripped_rotten_wood": "Stripped Rotten Wood",
+  "block.jaizmod.rotten_planks": "Rotten Planks",
+  "block.jaizmod.rotten_door": "Rotten Door",
+  "block.jaizmod.rotten_trapdoor": "Rotten Trapdoor",
+  "block.jaizmod.rotten_slab": "Rotten Slab",
+  "block.jaizmod.rotten_stairs": "Rotten Stairs",
+  "block.jaizmod.rotten_standing_sign": "Rotten Sign",
+  "block.jaizmod.rotten_hanging_sign": "Rotten Hanging Sign",
+  "block.jaizmod.rotten_fence": "Rotten Fence",
+  "block.jaizmod.rotten_fence_gate": "Rotten Fence Gate",
+  "block.jaizmod.rotten_button": "Rotten Button",
+  "block.jaizmod.rotten_pressure_plate": "Rotten Pressure Plate",
+
+
+  "item.jaizmod.silk": "Silk",
+
+  "item.jaizmod.desert_oak_sign": "Desert Oak Sign",
+  "item.jaizmod.desert_oak_wall_sign": "Desert Oak Sign",
+  "item.jaizmod.hanging_desert_oak_sign": "Desert Oak Hanging Sign",
+  "item.jaizmod.desert_oak_wall_hanging_sign": "Desert Oak Hanging Sign",
+
+  "block.jaizmod.fancy_white_wool": "Fancy White Wool",
+  "block.jaizmod.fancy_blue_wool": "Fancy Blue Wool",
+  "block.jaizmod.fancy_black_wool": "Fancy Black Wool",
+  "block.jaizmod.fancy_gray_wool": "Fancy Gray Wool",
+  "block.jaizmod.fancy_light_gray_wool": "Fancy Light Gray Wool",
+  "block.jaizmod.fancy_brown_wool": "Fancy Brown Wool",
+  "block.jaizmod.fancy_red_wool": "Fancy Red Wool",
+  "block.jaizmod.fancy_orange_wool": "Fancy Orange Wool",
+  "block.jaizmod.fancy_yellow_wool": "Fancy Yellow Wool",
+  "block.jaizmod.fancy_lime_wool": "Fancy Lime Wool",
+  "block.jaizmod.fancy_green_wool": "Fancy Green Wool",
+  "block.jaizmod.fancy_cyan_wool": "Fancy Cyan Wool",
+  "block.jaizmod.fancy_light_blue_wool": "Fancy Light Blue Wool",
+  "block.jaizmod.fancy_purple_wool": "Fancy Purple Wool",
+  "block.jaizmod.fancy_magenta_wool": "Fancy Magenta Wool",
+  "block.jaizmod.fancy_pink_wool": "Fancy Pink Wool",
+
+  "block.jaizmod.fancy_white_carpet": "Fancy White Carpet",
+  "block.jaizmod.fancy_blue_carpet": "Fancy Blue Carpet",
+  "block.jaizmod.fancy_black_carpet": "Fancy Black Carpet",
+  "block.jaizmod.fancy_gray_carpet": "Fancy Gray Carpet",
+  "block.jaizmod.fancy_light_gray_carpet": "Fancy Light Gray Carpet",
+  "block.jaizmod.fancy_brown_carpet": "Fancy Brown Carpet",
+  "block.jaizmod.fancy_red_carpet": "Fancy Red Carpet",
+  "block.jaizmod.fancy_orange_carpet": "Fancy Orange Carpet",
+  "block.jaizmod.fancy_yellow_carpet": "Fancy Yellow Carpet",
+  "block.jaizmod.fancy_lime_carpet": "Fancy Lime Carpet",
+  "block.jaizmod.fancy_green_carpet": "Fancy Green Carpet",
+  "block.jaizmod.fancy_cyan_carpet": "Fancy Cyan Carpet",
+  "block.jaizmod.fancy_light_blue_carpet": "Fancy Light Blue Carpet",
+  "block.jaizmod.fancy_purple_carpet": "Fancy Purple Carpet",
+  "block.jaizmod.fancy_magenta_carpet": "Fancy Magenta Carpet",
+  "block.jaizmod.fancy_pink_carpet": "Fancy Pink Carpet",
+
+  "block.jaizmod.gilded_sandstone": "Gilded Sandstone",
+  "block.jaizmod.gilded_cut_sandstone": "Gilded Cut Sandstone",
+  "block.jaizmod.gilded_chiseled_sandstone": "Gilded Chiseled Sandstone",
+
+  "block.jaizmod.desert_oak_log": "Desert Oak Log",
+  "block.jaizmod.stripped_desert_oak_log": "Stripped Desert Oak Log",
+  "block.jaizmod.desert_oak_wood": "Desert Oak Wood",
+  "block.jaizmod.stripped_desert_oak_wood": "Stripped Desert Oak Wood",
+  "block.jaizmod.desert_oak_planks": "Desert Oak Planks",
+  "block.jaizmod.desert_oak_button": "Desert Oak Button",
+  "block.jaizmod.desert_oak_pressure_plate": "Desert Oak Pressure Plate",
+  "block.jaizmod.desert_oak_leaves": "Desert Oak Leaves",
+
+  "item.jaizmod.gourmet_meal": "Gourmet Meal",
+
+  "block.jaizmod.spice_barrel": "Spice Barrel",
+  "item.jaizmod.rare_spices": "Rare Spices",
+
+  "block.jaizmod.desert_oak_sapling": "Desert Oak Sapling",
+
+  "item.jaizmod.origami_hairball_music_disc": "Music Disc",
+  "item.jaizmod.origami_hairball_music_disc.desc": "Krzysztof Pikes - Origami Hairball",
+
+  "item.jaizmod.mimic_pot": "Mimic Pot",
+  "entity.jaizmod.mason_mouth": "Mason Mouth",
+  "entity.jaizmod.bandit": "Bandit",
+  "item.jaizmod.bandit_spawn_egg": "Bandit Spawn Egg",
+
+  "item.jaizmod.battered_axe_remnant": "Battered Axe Remnant",
+  "item.jaizmod.battered_axe": "Battered Axe",
+
+  "block.jaizmod.desert_oak_standing_sign": "Desert Oak Standing Sign",
+  "block.jaizmod.desert_oak_wall_sign": "Desert Oak Wall Sign",
+
+  "block.jaizmod.desert_oak_hanging_sign": "Desert Oak Hanging Sign",
+  "block.jaizmod.desert_oak_wall_hanging_sign": "Desert Oak Wall Hanging Sign",
+
+  "block.jaizmod.desert_oak_stairs": "Desert Oak Stairs",
+  "block.jaizmod.desert_oak_slab": "Desert Oak Slab",
+  "block.jaizmod.desert_oak_fence": "Desert Oak Fence",
+  "block.jaizmod.desert_oak_fence_gate": "Desert Oak Fence Gate",
+  "block.jaizmod.desert_oak_door": "Desert Oak Door",
+  "block.jaizmod.desert_oak_trapdoor": "Desert Oak Trapdoor",
+
+  "block.jaizmod.fossil_soil": "Fossil Soil",
+  "block.jaizmod.soil": "Soil",
+
+  "block.jaizmod.honeycomb_dirt": "HoneyComb Dirt",
+
+  "item.jaizmod.terracotta_bricks": "Terracotta Bricks",
+  "block.jaizmod.terracotta_bricks": "Terracotta Bricks",
+  "block.jaizmod.terracotta_brick_slab": "Terracotta Brick Slab",
+  "block.jaizmod.terracotta_brick_stairs": "Terracotta Brick Stairs",
+  "block.jaizmod.terracotta_brick_wall": "Terracotta Brick Wall",
+
+  "item.jaizmod.obsidian_shard": "Obsidian Shard",
+  "item.jaizmod.sharp_obsidian_shard": "Sharp Obsidian Shard",
+  "item.jaizmod.wedge_obsidian_shard": "Wedge Obsidian Shard",
+  "item.jaizmod.obsidian_dagger": "Obsidian Dagger",
+  "item.jaizmod.sharp_obsidian_dagger": "Sharp Obsidian Dagger",
+  "item.jaizmod.wedge_obsidian_dagger": "Wedge Obsidian Dagger",
+
+  "advancements.adventure.find_trading_post.description": "Find a desert trading outpost",
+  "advancements.adventure.find_trading_post.title": "The Silk Road",
+
+  "advancements.adventure.find_fossil_pit.description": "Find a fossil pit",
+  "advancements.adventure.find_fossil_pit.title": "Paleontology",
+
+  "advancements.adventure.sand.title": "I Hate Sand",
+  "advancements.adventure.sand.description": "It gets everywhere",
+
+  "advancements.adventure.rare_spices.description": "Obtain some rare spices",
+  "advancements.adventure.rare_spices.title": "The British Are Coming",
+
+  "advancements.adventure.tea_cup.description": "Smelt an unfired tea cup",
+  "advancements.adventure.tea_cup.title": "Ceramics 101",
+
+  "advancements.adventure.tea_root.description": "Craft an unfired tea cup",
+  "advancements.adventure.tea_root.title": "Tea Time!",
+
+  "item.jaizmod.mahogany_boat": "Mahogany Boat",
+  "item.jaizmod.mahogany_chest_boat": "Mahogany Chest Boat",
+
+  "item.jaizmod.rotten_boat": "Rotten Boat",
+  "item.jaizmod.rotten_chest_boat": "Rotten Chest Boat",
+
+  "item.jaizmod.desert_oak_boat": "Desert Oak Boat",
+  "item.jaizmod.desert_oak_chest_boat": "Desert Oak Chest Boat",
+
+  "item.jaizmod.obsidian_sword": "Obsidian Sword",
+  "item.jaizmod.sharp_obsidian_sword": "Sharp Obsidian Sword",
+  "item.jaizmod.wedge_obsidian_sword": "Wedge Obsidian Sword",
+  "item.jaizmod.wedge_regular_obsidian_sword": "Wedge Regular Obsidian Sword",
+  "item.jaizmod.sharp_wedge_obsidian_sword": "Sharp Wedge Obsidian Sword",
+  "item.jaizmod.sharp_regular_obsidian_sword": "Sharp Regular Obsidian Sword",
+
+  "entity.minecraft.villager.spice_trader": "Spice Trader",
+  "entity.minecraft.villager.tea_brewer": "Tea Brewer",
+
+  "block.jaizmod.tea_pot_block": "Tea Pot",
+  "item.jaizmod.tea_cup": "Tea Cup",
+  "item.jaizmod.unfired_tea_cup": "Un-Fired Tea Cup",
+  "item.jaizmod.chorus_fruit_tea": "Chorus Fruit Tea",
+  "item.jaizmod.cinnamon_tea": "Cinnamon Tea",
+  "item.jaizmod.flower_tea": "Flower Tea",
+  "item.jaizmod.glow_berry_tea": "Glow Berry Tea",
+  "item.jaizmod.gunpowder_green_tea": "Gunpowder-Green Tea",
+  "item.jaizmod.herbal_tea": "Herbal Tea",
+  "item.jaizmod.kombucha_tea": "Kombucha Tea",
+  "item.jaizmod.nether_fungus_tea": "Crimson Fungus Tea",
+  "item.jaizmod.warped_nether_fungus_tea": "Warped Fungus Tea",
+  "item.jaizmod.pitcher_plant_tea": "Pitcher Plant Tea",
+  "item.jaizmod.pumpkin_spice_tea": "Pumpkin Spice Tea",
+  "item.jaizmod.spore_blossom_tea": "Spore Blossom Tea",
+  "item.jaizmod.torch_flower_tea": "Torch Flower Tea",
+  "item.jaizmod.wither_rose_tea": "Wither Rose Tea",
+  "item.jaizmod.novel_tea": "Novel Tea"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "jaizmod:callalily_lilac"
+    }
+  },
+  "pattern": [
+    "R"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:magenta_dye"
+  }
+}

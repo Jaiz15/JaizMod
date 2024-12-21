@@ -1,0 +1,33 @@
+{
+  "parent": "jaizmod:adventure/find_trading_post",
+  "criteria": {
+    "rare_spices": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jaizmod:rare_spices"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.rare_spices.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jaizmod:rare_spices"
+    },
+    "title": {
+      "translate": "advancements.adventure.rare_spices.title"
+    }
+  },
+  "requirements": [
+    [
+      "rare_spices"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

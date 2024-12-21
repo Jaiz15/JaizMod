@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "jaizmod:block/rotten_log_item",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "jaizmod:block/rotten_log_item"
+    },
+    "axis=z": {
+      "model": "jaizmod:block/rotten_log_item",
+      "x": 90
+    }
+  }
+}

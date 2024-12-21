@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chest": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chest"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mahogany_boat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jaizmod:mahogany_boat"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "jaizmod:mahogany_chest_boat"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_mahogany_boat",
+      "has_chest"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "jaizmod:mahogany_chest_boat"
+    ]
+  }
+}

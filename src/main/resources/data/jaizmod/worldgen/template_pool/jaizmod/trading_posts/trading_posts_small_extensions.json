@@ -1,0 +1,69 @@
+{
+	"name": "jaizmod:jaizmod/trading_posts/trading_posts_small_extensions",
+	"fallback": "minecraft:empty",
+	"elements": [{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/extensions/extension_1",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/extensions/extension_3",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/extensions/extension_4",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/extensions/extension_5",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/extensions/extension_6",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/extensions/extension_11",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/extensions/extension_12",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}
+]
+}

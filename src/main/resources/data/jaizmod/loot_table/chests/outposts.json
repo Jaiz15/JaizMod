@@ -1,0 +1,621 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:brick",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:sandstone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:sand",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:cooked_porkchop",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:beef"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:cooked_beef",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:light_gray_terracotta"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:terracotta"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "jaizmod:fancy_light_gray_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "jaizmod:fancy_black_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "jaizmod:fancy_gray_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "jaizmod:fancy_white_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "jaizmod:fancy_brown_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "jaizmod:fancy_red_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "jaizmod:fancy_orange_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "jaizmod:fancy_yellow_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "jaizmod:fancy_green_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "jaizmod:fancy_lime_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "jaizmod:fancy_light_blue_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "jaizmod:fancy_cyan_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "jaizmod:fancy_blue_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "jaizmod:fancy_purple_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "jaizmod:fancy_magenta_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "jaizmod:fancy_pink_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "jaizmod:obsidian_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "jaizmod:wedge_obsidian_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "jaizmod:sharp_obsidian_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "jaizmod:spice_barrel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "jaizmod:rare_spices",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_relic"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_otherside"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_chirp"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:compass",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:name_tag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": false
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.8,
+                "max": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 5,
+                "max": 40
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": false
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.8,
+                "max": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 10,
+                "max": 50
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:lead",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:saddle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 8
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 5,
+                "max": 10
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond_boots",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 5,
+                "max": 10
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond_leggings",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond_helmet",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond_shovel",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 20
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 10,
+                "max": 20
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

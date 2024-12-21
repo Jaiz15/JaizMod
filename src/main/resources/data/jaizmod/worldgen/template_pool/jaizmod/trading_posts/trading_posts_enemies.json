@@ -1,0 +1,24 @@
+{
+	"name": "jaizmod:jaizmod/trading_posts/trading_posts_enemies",
+	"fallback": "minecraft:empty",
+	"elements": [{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/enemies/bandit",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 5,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/enemies/mimic_pot",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}
+]
+}

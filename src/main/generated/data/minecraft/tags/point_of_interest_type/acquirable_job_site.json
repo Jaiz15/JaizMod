@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "jaizmod:spicepoi",
+      "required": false
+    },
+    {
+      "id": "jaizmod:teapoi",
+      "required": false
+    }
+  ]
+}

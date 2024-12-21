@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_battered_axe_remnant": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jaizmod:battered_axe_remnant"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_copper_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:battered_axe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_stick",
+      "has_copper_ingot",
+      "has_battered_axe_remnant"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:battered_axe"
+    ]
+  }
+}

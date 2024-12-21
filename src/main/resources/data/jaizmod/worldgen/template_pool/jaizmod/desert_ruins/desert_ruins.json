@@ -1,0 +1,222 @@
+{
+	"name": "jaizmod:jaizmod/desert_ruins",
+	"fallback": "minecraft:empty",
+	"elements": [{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_1",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_2",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_3",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_4",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_5",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_6",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_7",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_8",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_9",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_10",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_11",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_12",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_13",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_14",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_15",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_16",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_17",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_18",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_19",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_20",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_21",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_22",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_23",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/desert_ruins/desert_ruin_24",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}
+]
+}

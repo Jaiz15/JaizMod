@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "tea_cup",
+  "ingredient": {
+    "item": "jaizmod:unfired_tea_cup"
+  },
+  "result": {
+    "id": "jaizmod:tea_cup"
+  }
+}

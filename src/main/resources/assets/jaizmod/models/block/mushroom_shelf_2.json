@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "jaizmod:block/mushroom_shelf_2",
+		"particle": "jaizmod:block/mushroom_shelf_2"
+	},
+	"elements": [
+		{
+			"from": [5, 9, 9],
+			"to": [13, 11, 16],
+			"faces": {
+				"north": {"uv": [10.5, 0, 14.5, 1], "texture": "#1"},
+				"east": {"uv": [10.5, 2, 14, 3], "texture": "#1"},
+				"south": {"uv": [10.5, 1, 14.5, 2], "texture": "#1"},
+				"west": {"uv": [10.5, 3, 14, 4], "texture": "#1"},
+				"up": {"uv": [10.5, 3.5, 6.5, 0], "texture": "#1"},
+				"down": {"uv": [10.5, 3.5, 6.5, 7], "texture": "#1"}
+			}
+		},
+		{
+			"from": [1, 5, 5],
+			"to": [14, 7, 16],
+			"faces": {
+				"north": {"uv": [6.5, 7, 13, 8], "texture": "#1"},
+				"east": {"uv": [6.5, 9, 12, 10], "texture": "#1"},
+				"south": {"uv": [6.5, 8, 13, 9], "texture": "#1"},
+				"west": {"uv": [6.5, 10, 12, 11], "texture": "#1"},
+				"up": {"uv": [6.5, 5.5, 0, 0], "texture": "#1"},
+				"down": {"uv": [6.5, 5.5, 0, 11], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "double_shelf",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0, 1]
+		}
+	]
+}

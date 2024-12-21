@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "minecraft:glow_ink_sac"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "jaizmod:bioluminescent_bottle"
+  }
+}

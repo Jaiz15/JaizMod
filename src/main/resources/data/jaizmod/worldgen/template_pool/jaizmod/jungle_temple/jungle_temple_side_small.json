@@ -1,0 +1,15 @@
+{
+	"name": "jaizmod:jaizmod/jungle_temple/jungle_temple_side_small",
+	"fallback": "minecraft:empty",
+	"elements": [{
+		"weight": 1,
+		"element": {
+			"location": "jaizmod:jaizmod/jungle_temple/temple_small_edge",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}
+	]
+}

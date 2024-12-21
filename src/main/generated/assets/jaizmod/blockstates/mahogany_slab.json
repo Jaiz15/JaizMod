@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "jaizmod:block/mahogany_slab"
+    },
+    "type=double": {
+      "model": "jaizmod:block/mahogany_planks"
+    },
+    "type=top": {
+      "model": "jaizmod:block/mahogany_slab_top"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_down",
+  "textures": {
+    "texture": "jaizmod:block/rotten_planks"
+  }
+}

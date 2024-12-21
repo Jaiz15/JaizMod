@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": {
+      "item": "jaizmod:mahogany_planks"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "RRR",
+    " X "
+  ],
+  "result": {
+    "count": 3,
+    "id": "jaizmod:mahogany_sign"
+  }
+}

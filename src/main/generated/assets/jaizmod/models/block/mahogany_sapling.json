@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "jaizmod:block/mahogany_sapling"
+  }
+}

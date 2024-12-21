@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_mahogany_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jaizmod:stripped_mahogany_wood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "jaizmod:planks_mahogany2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_stripped_mahogany_wood"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "jaizmod:planks_mahogany2"
+    ]
+  }
+}

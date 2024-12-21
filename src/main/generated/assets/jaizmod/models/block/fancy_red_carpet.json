@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "jaizmod:block/fancy_red_wool"
+  }
+}

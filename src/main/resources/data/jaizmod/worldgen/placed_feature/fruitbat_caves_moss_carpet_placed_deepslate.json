@@ -1,0 +1,40 @@
+{
+  "feature": "jaizmod:fruitbat_caves_moss_carpet_deepslate",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 112
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": 0
+        },
+        "max_inclusive": {
+          "absolute": 256
+        }
+      }
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:clamped",
+          "max_inclusive": 1,
+          "min_inclusive": 0,
+          "source": {
+            "type": "minecraft:uniform",
+              "max_inclusive": 1,
+              "min_inclusive": -3
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

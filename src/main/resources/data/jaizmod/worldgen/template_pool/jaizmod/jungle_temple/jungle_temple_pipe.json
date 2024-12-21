@@ -1,0 +1,105 @@
+{
+	"name": "jaizmod:jaizmod/jungle_temple/jungle_temple_pipe",
+	"fallback": "minecraft:empty",
+	"elements": [{
+		"weight": 2,
+		"element": {
+			"location": "jaizmod:jaizmod/jungle_temple/pit_entrance_1",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 3,
+		"element": {
+			"location": "jaizmod:jaizmod/jungle_temple/pit_entrance_2",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 3,
+		"element": {
+			"location": "jaizmod:jaizmod/jungle_temple/pit_entrance_3",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 3,
+		"element": {
+			"location": "jaizmod:jaizmod/jungle_temple/pit_entrance_4",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 3,
+		"element": {
+			"location": "jaizmod:jaizmod/jungle_temple/pit_entrance_5",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 1,
+		"element": {
+			"location": "jaizmod:jaizmod/jungle_temple/pit_entrance_6",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 2,
+		"element": {
+			"location": "jaizmod:jaizmod/jungle_temple/pit_bottom_1",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 2,
+		"element": {
+			"location": "jaizmod:jaizmod/jungle_temple/pit_bottom_2",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 2,
+		"element": {
+			"location": "jaizmod:jaizmod/jungle_temple/pit_bottom_3",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 2,
+		"element": {
+			"location": "jaizmod:jaizmod/jungle_temple/pit_bottom_4",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 2,
+		"element": {
+			"location": "jaizmod:jaizmod/jungle_temple/pit_bottom_5",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}
+	]
+}

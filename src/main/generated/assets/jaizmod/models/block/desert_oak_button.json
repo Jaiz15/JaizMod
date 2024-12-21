@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "jaizmod:block/desert_oak_planks"
+  }
+}

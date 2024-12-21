@@ -1,0 +1,14 @@
+{
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 97585647,
+		"separation": 44,
+		"spacing": 88,
+		"spread_type": "triangular"
+	},
+	"structures": [{
+		"structure": "jaizmod:rare_structures",
+		"weight": 1
+	}
+	]
+}

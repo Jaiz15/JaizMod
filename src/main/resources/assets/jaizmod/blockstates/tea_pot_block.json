@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,has_cup=false": {
+      "model": "jaizmod:block/tea_pot_block",
+      "y": 90
+    },
+    "facing=north,has_cup=false": {
+      "model": "jaizmod:block/tea_pot_block"
+    },
+    "facing=south,has_cup=false": {
+      "model": "jaizmod:block/tea_pot_block",
+      "y": 180
+    },
+    "facing=west,has_cup=false": {
+      "model": "jaizmod:block/tea_pot_block",
+      "y": 270
+    },
+    "facing=east,has_cup=true": {
+      "model": "jaizmod:block/tea_pot_block_with_cup",
+      "y": 90
+    },
+    "facing=north,has_cup=true": {
+      "model": "jaizmod:block/tea_pot_block_with_cup"
+    },
+    "facing=south,has_cup=true": {
+      "model": "jaizmod:block/tea_pot_block_with_cup",
+      "y": 180
+    },
+    "facing=west,has_cup=true": {
+      "model": "jaizmod:block/tea_pot_block_with_cup",
+      "y": 270
+    }
+  }
+}

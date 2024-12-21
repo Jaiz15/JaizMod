@@ -1,0 +1,48 @@
+{
+  "feature": "jaizmod:podzol_block_patch",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "data": 12,
+            "weight": 1
+          },
+          {
+            "data": 3,
+            "weight": 2
+          },
+          {
+            "data": 1,
+            "weight": 3
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:clamped",
+          "max_inclusive": 1,
+          "min_inclusive": 0,
+          "source": {
+            "type": "minecraft:uniform",
+              "max_inclusive": 1,
+              "min_inclusive": -3
+          }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

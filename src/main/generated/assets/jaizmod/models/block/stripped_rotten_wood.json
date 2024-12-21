@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "jaizmod:block/stripped_rotten_log",
+    "side": "jaizmod:block/stripped_rotten_log"
+  }
+}

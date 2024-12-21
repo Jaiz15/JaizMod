@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "jaizmod:block/firefly_bottle"
+    },
+    "hanging=true": {
+      "model": "jaizmod:block/firefly_bottle_hanging"
+    }
+  }
+}

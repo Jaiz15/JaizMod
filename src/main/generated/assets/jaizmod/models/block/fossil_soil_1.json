@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "jaizmod:block/fossil_soil_1"
+  }
+}

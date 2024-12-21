@@ -1,0 +1,14 @@
+{
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 23475467,
+		"separation": 22,
+		"spacing": 56,
+		"spread_type": "triangular"
+	},
+	"structures": [{
+		"structure": "jaizmod:jungle_temple",
+		"weight": 1
+	}
+	]
+}

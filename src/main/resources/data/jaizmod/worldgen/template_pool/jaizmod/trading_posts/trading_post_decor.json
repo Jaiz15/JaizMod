@@ -1,0 +1,213 @@
+{
+	"name": "jaizmod:jaizmod/trading_posts/trading_post_decor",
+	"fallback": "minecraft:empty",
+	"elements": [{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/decor_pot_1",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/decor_pot_2",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/decor_pot_3",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/decor_pot_4",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/decor_pot_5",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/decor_pot_6",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/decor_pot_7",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/decor_pot_8",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/block_decor_1",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/block_decor_2",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/block_decor_3",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/block_decor_4",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/block_decor_5",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/block_decor_7",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/block_decor_8",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/block_decor_9",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/block_decor_10",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/block_decor_11",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/block_decor_12",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/decor_loot_1",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/decor_loot_2",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/decor_loot_3",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}, {
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/trading_posts/decor/mimic_pot_decor",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}
+	]
+}

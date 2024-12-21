@@ -1,0 +1,453 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 12
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:terracotta",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:gold_ore",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:cyan_glazed_terracotta",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:blue_glazed_terracotta",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:green_glazed_terracotta",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:red_glazed_terracotta",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:orange_glazed_terracotta",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:purple_glazed_terracotta",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "jaizmod:fancy_black_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "jaizmod:fancy_blue_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "jaizmod:fancy_orange_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "jaizmod:fancy_white_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "jaizmod:fancy_pink_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "jaizmod:fancy_purple_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "jaizmod:fancy_lime_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "jaizmod:fancy_green_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "jaizmod:fancy_black_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "jaizmod:fancy_gray_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "jaizmod:silk",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:golden_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:efficiency": 2
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.4
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

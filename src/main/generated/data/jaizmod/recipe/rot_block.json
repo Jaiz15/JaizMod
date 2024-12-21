@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:dirt"
+    },
+    "X": {
+      "item": "minecraft:bone_meal"
+    }
+  },
+  "pattern": [
+    "XR",
+    "RX"
+  ],
+  "result": {
+    "count": 4,
+    "id": "jaizmod:rot_block"
+  }
+}

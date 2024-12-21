@@ -1,0 +1,85 @@
+{
+  "origami_hairball": {
+    "sounds": [ {
+      "name": "jaizmod:origami_hairball",
+      "stream": true
+    }
+    ]
+  },
+  "amethyst_horn": {
+    "subtitle": "sounds.jaizmod.amethyst_horn",
+    "sounds": [
+      "jaizmod:amethyst_horn_1",
+      "jaizmod:amethyst_horn_2"
+    ]
+  },
+  "air_horn": {
+    "subtitle": "sounds.jaizmod.air_horn",
+    "sounds": [
+      "jaizmod:air_horn_1",
+      "jaizmod:air_horn_2"
+    ]
+  },
+  "ancient_horn": {
+    "subtitle": "sounds.jaizmod.ancient_horn",
+    "sounds": [
+      "jaizmod:ancient_horn_01",
+      "jaizmod:ancient_horn_02",
+      "jaizmod:ancient_horn_3"
+    ]
+  },
+  "bandit_idle": {
+    "subtitle": "sounds.jaizmod.bandit_idle",
+    "sounds": [
+      "jaizmod:bandit_idle1",
+      "jaizmod:bandit_idle2",
+      "jaizmod:bandit_idle3",
+      "jaizmod:bandit_idle4",
+      "jaizmod:bandit_idle5",
+      "jaizmod:bandit_idle6",
+      "jaizmod:bandit_idle7",
+      "jaizmod:bandit_idle8"
+
+    ]
+  },  "bandit_damage": {
+  "subtitle": "sounds.jaizmod.bandit_hurt",
+  "sounds": [
+    "jaizmod:bandit_damage1",
+    "jaizmod:bandit_damage2",
+    "jaizmod:bandit_damage3",
+    "jaizmod:bandit_damage4",
+    "jaizmod:bandit_damage5",
+    "jaizmod:bandit_damage6"
+
+  ]
+},  "bandit_death": {
+  "subtitle": "sounds.jaizmod.bandit_death",
+  "sounds": [
+    "jaizmod:bandit_death1",
+    "jaizmod:bandit_death2",
+    "jaizmod:bandit_death3",
+    "jaizmod:bandit_death4"
+
+  ]
+},  "bandit_trade_fail": {
+  "subtitle": "sounds.jaizmod.bandit_trade_fail",
+  "sounds": [
+    "jaizmod:bandit_trade_fail1",
+    "jaizmod:bandit_trade_fail2",
+    "jaizmod:bandit_trade_fail3",
+    "jaizmod:bandit_trade_fail4"
+
+  ]
+},  "bandit_trade_success": {
+  "subtitle": "sounds.jaizmod.bandit_trade_success",
+  "sounds": [
+    "jaizmod:bandit_trade_success1",
+    "jaizmod:bandit_trade_success2",
+    "jaizmod:bandit_trade_success3",
+    "jaizmod:bandit_trade_success4",
+    "jaizmod:bandit_trade_success5",
+    "jaizmod:bandit_trade_success6"
+
+  ]
+}
+}

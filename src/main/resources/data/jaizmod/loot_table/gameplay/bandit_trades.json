@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:barter",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:acacia_wood"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "jaizmod:gameplay/bandit_trades"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": {
+      "item": "jaizmod:mahogany_planks"
+    }
+  },
+  "pattern": [
+    "RRR"
+  ],
+  "result": {
+    "count": 6,
+    "id": "jaizmod:mahogany_slab"
+  }
+}

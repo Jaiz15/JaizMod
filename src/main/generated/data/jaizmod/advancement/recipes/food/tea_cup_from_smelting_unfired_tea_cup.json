@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tea_cup_from_smelting_unfired_tea_cup"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_unfired_tea_cup": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jaizmod:unfired_tea_cup"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_unfired_tea_cup"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tea_cup_from_smelting_unfired_tea_cup"
+    ]
+  }
+}

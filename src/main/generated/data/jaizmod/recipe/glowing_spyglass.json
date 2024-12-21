@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "minecraft:glow_ink_sac"
+    },
+    "X": {
+      "item": "minecraft:spyglass"
+    }
+  },
+  "pattern": [
+    "LLL",
+    "LXL",
+    "LLL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "jaizmod:glowing_spyglass"
+  }
+}

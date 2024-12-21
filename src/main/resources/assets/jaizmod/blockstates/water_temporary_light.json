@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "waterlogged=true": {
+      "model": "minecraft:block/water"
+    },
+    "waterlogged=false": {
+      "model": "jaizmod:block/water_temporary_light"
+    }
+  }
+}

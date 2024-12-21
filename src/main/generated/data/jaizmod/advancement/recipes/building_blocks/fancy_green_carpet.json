@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fancy_green_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jaizmod:fancy_green_wool"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:fancy_green_carpet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_fancy_green_wool"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:fancy_green_carpet"
+    ]
+  }
+}

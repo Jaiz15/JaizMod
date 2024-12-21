@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "jaizmod:block/desert_oak_pressure_plate"
+    },
+    "powered=true": {
+      "model": "jaizmod:block/desert_oak_pressure_plate_down"
+    }
+  }
+}

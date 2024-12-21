@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "jaizmod:desert_oak_boat"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "jaizmod:desert_oak_chest_boat"
+  }
+}

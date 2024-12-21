@@ -1,0 +1,109 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:clay_ball"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:torchflower_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:pitcher_pod"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:sniffer_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:skull_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:bone_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:raw_copper"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:raw_gold"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:nautilus_shell"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:raw_iron"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jaizmod:origami_hairball_music_disc"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "jaizmod:battered_axe_remnant"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "jaizmod:amethyst_horn"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "jaizmod:air_horn"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "jaizmod:ancient_horn"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:bone_meal"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:wither_skeleton_skull"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:skeleton_skull"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 35,
+          "name": "minecraft:bone"
+        }
+      ]
+    }
+  ]
+}

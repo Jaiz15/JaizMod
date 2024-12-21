@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "hatch=0": {
+      "model": "jaizmod:block/cocoon_stage_0"
+    },
+    "hatch=1": {
+      "model": "jaizmod:block/cocoon_stage_1"
+    },
+    "hatch=2": {
+      "model": "jaizmod:block/cocoon_stage_2"
+    },
+    "hatch=3": {
+      "model": "jaizmod:block/cocoon_stage_3"
+    }
+  }
+}

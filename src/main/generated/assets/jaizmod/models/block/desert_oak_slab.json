@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "jaizmod:block/desert_oak_planks",
+    "side": "jaizmod:block/desert_oak_planks",
+    "top": "jaizmod:block/desert_oak_planks"
+  }
+}

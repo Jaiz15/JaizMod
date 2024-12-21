@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "jaizmod:obsidian_shard"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "R",
+    "X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "jaizmod:obsidian_dagger"
+  }
+}

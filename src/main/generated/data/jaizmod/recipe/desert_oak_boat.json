@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "jaizmod:desert_oak_planks"
+    }
+  },
+  "pattern": [
+    "R R",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "jaizmod:desert_oak_boat"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "jaizmod:block/desert_oak_slab"
+    },
+    "type=double": {
+      "model": "jaizmod:block/desert_oak_planks"
+    },
+    "type=top": {
+      "model": "jaizmod:block/desert_oak_slab_top"
+    }
+  }
+}

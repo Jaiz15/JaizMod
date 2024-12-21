@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": {
+      "item": "minecraft:cut_sandstone"
+    },
+    "S": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "pattern": [
+    "RS",
+    "SR"
+  ],
+  "result": {
+    "count": 4,
+    "id": "jaizmod:gilded_cut_sandstone"
+  }
+}

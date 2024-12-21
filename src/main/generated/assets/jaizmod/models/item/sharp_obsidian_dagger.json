@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "jaizmod:item/sharp_obsidian_dagger"
+  }
+}

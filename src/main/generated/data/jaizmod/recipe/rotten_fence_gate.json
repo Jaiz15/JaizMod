@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "jaizmod:rotten_planks"
+    }
+  },
+  "pattern": [
+    "RXR",
+    "RXR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "jaizmod:rotten_fence_gate"
+  }
+}

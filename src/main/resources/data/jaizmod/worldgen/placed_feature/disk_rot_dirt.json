@@ -1,0 +1,33 @@
+{
+  "feature": "jaizmod:disk_rot_dirt",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 7
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:clamped",
+          "max_inclusive": 1,
+          "min_inclusive": 0,
+          "source": {
+            "type": "minecraft:uniform",
+              "max_inclusive": 1,
+              "min_inclusive": -3
+          }
+        }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
+

@@ -1,0 +1,33 @@
+{
+  "parent": "jaizmod:adventure/tea_root",
+  "criteria": {
+    "tea_cup": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jaizmod:tea_cup"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.tea_cup.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jaizmod:tea_cup"
+    },
+    "title": {
+      "translate": "advancements.adventure.tea_cup.title"
+    }
+  },
+  "requirements": [
+    [
+      "tea_cup"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

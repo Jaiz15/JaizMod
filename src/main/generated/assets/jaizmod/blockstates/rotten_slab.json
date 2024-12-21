@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "jaizmod:block/rotten_slab"
+    },
+    "type=double": {
+      "model": "jaizmod:block/rotten_planks"
+    },
+    "type=top": {
+      "model": "jaizmod:block/rotten_slab_top"
+    }
+  }
+}

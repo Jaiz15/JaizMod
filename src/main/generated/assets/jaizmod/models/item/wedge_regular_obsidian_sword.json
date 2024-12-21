@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "jaizmod:item/wedge_regular_obsidian_sword"
+  }
+}

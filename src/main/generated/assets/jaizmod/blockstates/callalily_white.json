@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "jaizmod:block/callalily_white_bottom"
+    },
+    "half=upper": {
+      "model": "jaizmod:block/callalily_white_top"
+    }
+  }
+}

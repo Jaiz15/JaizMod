@@ -1,0 +1,25 @@
+{
+	"name": "jaizmod:jaizmod/jungle_temple/jungle_temple_side_wide",
+	"fallback": "minecraft:empty",
+	"elements": [{
+		"weight": 1,
+		"element": {
+			"location": "jaizmod:jaizmod/jungle_temple/temple_wide_edge",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},
+		{
+			"weight": 1,
+			"element": {
+				"location": "jaizmod:jaizmod/jungle_temple/temple_wide_edge_2",
+				"processors": "minecraft:empty",
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element",
+				"override_liquid_settings": "ignore_waterlogging"
+			}
+		}
+	]
+}
