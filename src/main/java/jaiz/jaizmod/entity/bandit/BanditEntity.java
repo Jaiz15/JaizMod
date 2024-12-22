@@ -13,7 +13,6 @@ import net.minecraft.entity.data.DataTracker;
 import net.minecraft.entity.data.TrackedData;
 import net.minecraft.entity.data.TrackedDataHandlerRegistry;
 import net.minecraft.entity.mob.*;
-import net.minecraft.entity.passive.IronGolemEntity;
 import net.minecraft.entity.passive.SnowGolemEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
@@ -71,7 +70,7 @@ public class BanditEntity extends HostileEntity {
                     bandit.getRandomBodyY(),
                     bandit.getParticleZ(1.2), 0.0, 0.0, 0.0);
         }
-        bandit.playSound(SoundEvents.ENTITY_ITEM_PICKUP, 1.0F, (bandit.random.nextFloat() - bandit.random.nextFloat()) * 0.2F + 1.0F);
+        bandit.playSound(SoundEvents.ENTITY_ITEM_PICKUP, 0.7F, (bandit.random.nextFloat() - bandit.random.nextFloat()) * 0.2F + 1.0F);
 
 
         if (getWorld() instanceof ServerWorld serverWorld) {
@@ -123,7 +122,7 @@ public class BanditEntity extends HostileEntity {
 
         if(peacefulTime <= 0){
         if (itemStack.isOf(ModItems.RARE_SPICES )) {
-            peacefulTime =this.random.nextInt(600) + 600;
+            peacefulTime =this.random.nextInt(1200) + 900;
             this.tradeAnimationState.start(this.age);
             this.tradeAnimationTimeout = 8;
             if (!player.getAbilities().creativeMode) {
@@ -243,10 +242,5 @@ public class BanditEntity extends HostileEntity {
     protected SoundEvent getDeathSound() {
         return ModSounds.BANDIT_DEATH;
     }
-
-    public int getPeacefulTime() {
-        return peacefulTime;
-    }
-
 
 }

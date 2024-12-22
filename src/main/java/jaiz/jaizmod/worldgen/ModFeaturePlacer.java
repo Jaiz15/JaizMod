@@ -38,16 +38,12 @@ public class ModFeaturePlacer {
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(ModBiomes.FRUIT_BAT_CAVES),
                 GenerationStep.Feature.UNDERGROUND_DECORATION, ModPlacedFeatures.MOSS_CARPET_DEEPSLATE_FRUIT_BAT_CAVES);
 
-        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.JUNGLE),
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.JUNGLE, ModBiomes.MAHOGANY_FOREST),
                 GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.PODZOL_PATCH);
-        BiomeModifications.addFeature(BiomeSelectors.includeByKey(ModBiomes.MAHOGANY_FOREST),
-                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.PODZOL_PATCH);
-        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.JUNGLE),
+
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.JUNGLE, ModBiomes.MAHOGANY_FOREST, BiomeKeys.BAMBOO_JUNGLE),
                 GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.MUD_PATCH);
-        BiomeModifications.addFeature(BiomeSelectors.includeByKey(ModBiomes.MAHOGANY_FOREST),
-                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.MUD_PATCH);
-        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.BAMBOO_JUNGLE),
-                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.MUD_PATCH);
+
 
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.OLD_GROWTH_BIRCH_FOREST, BiomeKeys.BIRCH_FOREST, BiomeKeys.FOREST, BiomeKeys.FLOWER_FOREST),
                 GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.ROTTEN_LOG_PLACED);
@@ -77,7 +73,8 @@ public class ModFeaturePlacer {
                         BiomeKeys.TAIGA, BiomeKeys.DARK_FOREST),
                 GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.UNDERGROWTH_PATCH_PLACED);
 
-        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.OLD_GROWTH_BIRCH_FOREST, BiomeKeys.BIRCH_FOREST, BiomeKeys.FOREST, BiomeKeys.FLOWER_FOREST),
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.OLD_GROWTH_BIRCH_FOREST, BiomeKeys.BIRCH_FOREST, BiomeKeys.FOREST, BiomeKeys.FLOWER_FOREST,
+                        BiomeKeys.JUNGLE, BiomeKeys.BAMBOO_JUNGLE, ModBiomes.MAHOGANY_FOREST),
                 GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.LARGE_FERNS_JAIZMOD);
 
 

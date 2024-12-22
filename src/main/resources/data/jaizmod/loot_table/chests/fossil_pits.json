@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 7,
           "name": "minecraft:clay_ball"
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 10,
           "name": "minecraft:bone_block"
         },
         {
@@ -41,7 +41,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 6,
           "name": "minecraft:raw_copper"
         },
         {
@@ -56,8 +56,24 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 6,
           "name": "minecraft:raw_iron"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "minecraft:coal"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:goat_horn",
+          "functions": [
+            {
+              "function": "minecraft:set_instrument",
+              "options": "#minecraft:goat_horns"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -85,22 +101,17 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 30,
           "name": "minecraft:bone_meal"
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:wither_skeleton_skull"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
+          "weight": 3,
           "name": "minecraft:skeleton_skull"
         },
         {
           "type": "minecraft:item",
-          "weight": 35,
+          "weight": 45,
           "name": "minecraft:bone"
         }
       ]

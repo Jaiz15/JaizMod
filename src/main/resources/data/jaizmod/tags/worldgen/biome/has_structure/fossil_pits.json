@@ -1,3 +1,9 @@
 { "values": [
-	"minecraft:desert"
+	"minecraft:desert",
+	"minecraft:badlands",
+	"minecraft:eroded_badlands",
+	"minecraft:river",
+	"minecraft:beach",
+	"minecraft:mangrove_swamp",
+	"minecraft:swamp"
 ]}

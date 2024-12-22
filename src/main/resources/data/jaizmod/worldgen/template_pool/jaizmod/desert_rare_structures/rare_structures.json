@@ -2,7 +2,7 @@
 	"name": "jaizmod:jaizmod/rare_structures",
 	"fallback": "minecraft:empty",
 	"elements": [{
-		"weight": 10,
+		"weight": 20,
 		"element": {
 			"location": "jaizmod:jaizmod/rare_structures/lampost_corner",
 			"processors": "minecraft:empty",
@@ -11,7 +11,7 @@
 			"override_liquid_settings": "ignore_waterlogging"
 		}
 	},{
-		"weight": 10,
+		"weight": 20,
 		"element": {
 			"location": "jaizmod:jaizmod/rare_structures/lampost_desert",
 			"processors": "minecraft:empty",
@@ -20,7 +20,7 @@
 			"override_liquid_settings": "ignore_waterlogging"
 		}
 	},{
-		"weight": 10,
+		"weight": 20,
 		"element": {
 			"location": "jaizmod:jaizmod/rare_structures/lampost_regular",
 			"processors": "minecraft:empty",
@@ -29,7 +29,7 @@
 			"override_liquid_settings": "ignore_waterlogging"
 		}
 	},{
-		"weight": 10,
+		"weight": 20,
 		"element": {
 			"location": "jaizmod:jaizmod/rare_structures/ruined_castle",
 			"processors": "minecraft:empty",
@@ -38,7 +38,7 @@
 			"override_liquid_settings": "ignore_waterlogging"
 		}
 	},{
-		"weight": 10,
+		"weight": 20,
 		"element": {
 			"location": "jaizmod:jaizmod/rare_structures/ruined_farm_small01",
 			"processors": "minecraft:empty",
@@ -47,7 +47,7 @@
 			"override_liquid_settings": "ignore_waterlogging"
 		}
 	},{
-		"weight": 10,
+		"weight": 20,
 		"element": {
 			"location": "jaizmod:jaizmod/rare_structures/ruined_farm_small02",
 			"processors": "minecraft:empty",
@@ -56,7 +56,7 @@
 			"override_liquid_settings": "ignore_waterlogging"
 		}
 	},{
-		"weight": 10,
+		"weight": 20,
 		"element": {
 			"location": "jaizmod:jaizmod/rare_structures/ruined_wall_large01",
 			"processors": "minecraft:empty",
@@ -65,7 +65,7 @@
 			"override_liquid_settings": "ignore_waterlogging"
 		}
 	},{
-		"weight": 10,
+		"weight": 20,
 		"element": {
 			"location": "jaizmod:jaizmod/rare_structures/ruined_wall_medium01",
 			"processors": "minecraft:empty",
@@ -74,7 +74,7 @@
 			"override_liquid_settings": "ignore_waterlogging"
 		}
 	},{
-		"weight": 10,
+		"weight": 20,
 		"element": {
 			"location": "jaizmod:jaizmod/rare_structures/ruined_wall_medium02",
 			"processors": "minecraft:empty",
@@ -83,7 +83,7 @@
 			"override_liquid_settings": "ignore_waterlogging"
 		}
 	},{
-		"weight": 10,
+		"weight": 20,
 		"element": {
 			"location": "jaizmod:jaizmod/rare_structures/ruined_wall_small01",
 			"processors": "minecraft:empty",
@@ -92,7 +92,7 @@
 			"override_liquid_settings": "ignore_waterlogging"
 		}
 	},{
-		"weight": 10,
+		"weight": 20,
 		"element": {
 			"location": "jaizmod:jaizmod/rare_structures/ruined_wall_small02",
 			"processors": "minecraft:empty",
@@ -101,7 +101,7 @@
 			"override_liquid_settings": "ignore_waterlogging"
 		}
 	},{
-		"weight": 10,
+		"weight": 20,
 		"element": {
 			"location": "jaizmod:jaizmod/rare_structures/ruined_wall_small03",
 			"processors": "minecraft:empty",
@@ -146,7 +146,7 @@
 			"override_liquid_settings": "ignore_waterlogging"
 		}
 	},{
-		"weight": 8,
+		"weight": 2,
 		"element": {
 			"location": "jaizmod:jaizmod/rare_structures/the_desert_monistary",
 			"processors": "minecraft:empty",
@@ -155,7 +155,7 @@
 			"override_liquid_settings": "ignore_waterlogging"
 		}
 	},{
-		"weight": 8,
+		"weight": 2,
 		"element": {
 			"location": "jaizmod:jaizmod/rare_structures/deserttowers",
 			"processors": "minecraft:empty",
@@ -164,7 +164,7 @@
 			"override_liquid_settings": "ignore_waterlogging"
 		}
 	},{
-		"weight": 8,
+		"weight": 2,
 		"element": {
 			"location": "jaizmod:jaizmod/rare_structures/digsite",
 			"processors": "minecraft:empty",
@@ -173,7 +173,7 @@
 			"override_liquid_settings": "ignore_waterlogging"
 		}
 	},{
-		"weight": 8,
+		"weight": 2,
 		"element": {
 			"location": "jaizmod:jaizmod/rare_structures/tower",
 			"processors": "minecraft:empty",
@@ -182,7 +182,7 @@
 			"override_liquid_settings": "ignore_waterlogging"
 		}
 	},{
-		"weight": 8,
+		"weight": 2,
 		"element": {
 			"location": "jaizmod:jaizmod/rare_structures/bluetent",
 			"processors": "minecraft:empty",
@@ -191,7 +191,7 @@
 			"override_liquid_settings": "ignore_waterlogging"
 		}
 	},{
-		"weight": 8,
+		"weight": 2,
 		"element": {
 			"location": "jaizmod:jaizmod/rare_structures/noblehouse",
 			"processors": "minecraft:empty",

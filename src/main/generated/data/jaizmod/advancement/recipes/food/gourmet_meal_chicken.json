@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_beetroot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:beetroot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_carrot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:carrot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cooked_chicken": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cooked_chicken"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_rare_spices": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jaizmod:rare_spices"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "jaizmod:gourmet_meal_chicken"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_rare_spices",
+      "has_beetroot",
+      "has_carrot",
+      "has_cooked_chicken"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "jaizmod:gourmet_meal_chicken"
+    ]
+  }
+}

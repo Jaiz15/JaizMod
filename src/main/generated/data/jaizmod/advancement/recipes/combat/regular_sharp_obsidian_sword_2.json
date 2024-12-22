@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_obsidian_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jaizmod:obsidian_shard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sharp_obsidian_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jaizmod:sharp_obsidian_shard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "jaizmod:regular_sharp_obsidian_sword_2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sharp_obsidian_shard",
+      "has_obsidian_shard",
+      "has_stick"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "jaizmod:regular_sharp_obsidian_sword_2"
+    ]
+  }
+}
