@@ -93,11 +93,13 @@ public class ModItemGroups {
                         // things go here
                         entries.add(ModItems.SILK);
                         entries.add(ModItems.RARE_SPICES);
+                        entries.add(ModItems.GOURMET_MEAL);
+                        entries.add(ModItems.ORIGAMI_HAIRBALL_MUSIC_DISC);
+                        entries.add(ModItems.BATTERED_AXE_REMNANT);
+                        entries.add(ModItems.BATTERED_AXE);
                         entries.add(ModItems.OBSIDIAN_SHARD);
                         entries.add(ModItems.WEDGE_OBSIDIAN_SHARD);
                         entries.add(ModItems.SHARP_OBSIDIAN_SHARD);
-                        entries.add(ModItems.BATTERED_AXE_REMNANT);
-                        entries.add(ModItems.BATTERED_AXE);
                         entries.add(ModItems.OBSIDIAN_DAGGER);
                         entries.add(ModItems.WEDGE_OBSIDIAN_DAGGER);
                         entries.add(ModItems.SHARP_OBSIDIAN_DAGGER);
@@ -168,7 +170,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_DESERT_OAK_WOOD);
                         entries.add(ModBlocks.FOSSIL_SOIL);
                         entries.add(ModBlocks.HONEYCOMB_DIRT);
-                        entries.add(ModItems.ORIGAMI_HAIRBALL_MUSIC_DISC);
                         entries.add(ModItems.AMETHYST_HORN);
                         entries.add(ModItems.AIR_HORN);
                         entries.add(ModItems.ANCIENT_HORN);

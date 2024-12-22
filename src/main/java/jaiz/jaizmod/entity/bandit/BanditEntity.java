@@ -12,14 +12,12 @@ import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.data.DataTracker;
 import net.minecraft.entity.data.TrackedData;
 import net.minecraft.entity.data.TrackedDataHandlerRegistry;
-import net.minecraft.entity.mob.HostileEntity;
-import net.minecraft.entity.mob.MobEntity;
+import net.minecraft.entity.mob.*;
 import net.minecraft.entity.passive.IronGolemEntity;
 import net.minecraft.entity.passive.SnowGolemEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.loot.LootTable;
-import net.minecraft.loot.LootTables;
 import net.minecraft.loot.context.LootContextParameterSet;
 import net.minecraft.loot.context.LootContextParameters;
 import net.minecraft.loot.context.LootContextTypes;
@@ -34,7 +32,6 @@ import net.minecraft.world.Difficulty;
 import net.minecraft.world.World;
 
 import java.util.List;
-import java.util.Objects;
 
 public class BanditEntity extends HostileEntity {
 
@@ -43,11 +40,11 @@ public class BanditEntity extends HostileEntity {
 
     private int peacefulTime = 0;
 
-    public AnimationState idleAnimationState = new AnimationState();
-    private int idleAnimationTimeout = 0;
-
     public AnimationState attackAnimationState = new AnimationState();
     public int attackAnimationTimeout = 0;
+
+    public AnimationState tradeAnimationState = new AnimationState();
+    public int tradeAnimationTimeout = 0;
 
     public BanditEntity(EntityType<? extends HostileEntity> entityType, World world) {
         super(entityType, world);
@@ -77,10 +74,8 @@ public class BanditEntity extends HostileEntity {
         bandit.playSound(SoundEvents.ENTITY_ITEM_PICKUP, 1.0F, (bandit.random.nextFloat() - bandit.random.nextFloat()) * 0.2F + 1.0F);
 
 
-        if (getWorld() instanceof ServerWorld) {
-            ServerWorld serverWorld = (ServerWorld)getWorld();
+        if (getWorld() instanceof ServerWorld serverWorld) {
             for (ItemStack itemStack : this.getBanditTrades(bandit, serverWorld)) {
-                System.out.println(itemStack.getItem().getName());
                 LookTargetUtil.give(bandit, itemStack, recipient.getPos());
             }
         }
@@ -96,11 +91,11 @@ public class BanditEntity extends HostileEntity {
     }
 
     private void setupAnimationStates() {
-        if (this.idleAnimationTimeout <= 0) {
-            this.idleAnimationTimeout = this.random.nextInt(20);
-            this.idleAnimationState.start(this.age);
+
+        if (this.tradeAnimationTimeout == 0) {
+            tradeAnimationState.stop();
         } else {
-            --this.idleAnimationTimeout;
+            --this.tradeAnimationTimeout;
         }
 
         if(this.isAttacking()  && attackAnimationTimeout <= 0) {
@@ -129,6 +124,8 @@ public class BanditEntity extends HostileEntity {
         if(peacefulTime <= 0){
         if (itemStack.isOf(ModItems.RARE_SPICES )) {
             peacefulTime =this.random.nextInt(600) + 600;
+            this.tradeAnimationState.start(this.age);
+            this.tradeAnimationTimeout = 8;
             if (!player.getAbilities().creativeMode) {
                 itemStack.decrement(1);
             }
@@ -189,9 +186,12 @@ public class BanditEntity extends HostileEntity {
     protected void initCustomGoals() {
         this.goalSelector.add(1, new SwimGoal(this));
         this.goalSelector.add(2, new BanditAttackGoal(this, 1d, false));
-        this.targetSelector.add(3, new ActiveTargetGoal<>(this, PlayerEntity.class, true));
-        this.targetSelector.add(4, new RevengeGoal(this));
-        this.targetSelector.add(5, new ActiveTargetGoal<>(this, IronGolemEntity.class, true));
+        this.targetSelector.add(4, new ActiveTargetGoal<>(this, PlayerEntity.class, true));
+        this.targetSelector.add(3, new RevengeGoal(this));
+        this.targetSelector.add(6, new ActiveTargetGoal<>(this, PillagerEntity.class, true));
+        this.targetSelector.add(6, new ActiveTargetGoal<>(this, EvokerEntity.class, true));
+        this.targetSelector.add(6, new ActiveTargetGoal<>(this, VindicatorEntity.class, true));
+        this.targetSelector.add(6, new ActiveTargetGoal<>(this, VexEntity.class, true));
         this.targetSelector.add(6, new ActiveTargetGoal<>(this, SnowGolemEntity.class, true));
         this.goalSelector.add(7, new WanderAroundFarGoal(this, 1.0));
 

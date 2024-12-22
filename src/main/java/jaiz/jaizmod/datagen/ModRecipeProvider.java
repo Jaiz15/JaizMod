@@ -68,18 +68,28 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.GLOW_INK_SAC), conditionsFromItem(Items.GLOW_INK_SAC))
                 .offerTo(exporter, Identifier.of(getRecipeName(ModItems.GLOWING_SPYGLASS)));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.GOURMET_MEAL, 1)
-                .pattern("RX")
-                .pattern("SY")
-                .input('S', Items.BEETROOT)
-                .input('R', Items.CARROT)
-                .input('Y', Items.COOKED_CHICKEN)
-                .input('X', ModItems.RARE_SPICES)
-                .criterion(hasItem(Items.BEETROOT), conditionsFromItem(Items.BEETROOT))
-                .criterion(hasItem(Items.COOKED_CHICKEN), conditionsFromItem(Items.COOKED_CHICKEN))
-                .criterion(hasItem(Items.CARROT), conditionsFromItem(Items.CARROT))
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.GOURMET_MEAL, 1)
+                .input(ModItems.RARE_SPICES)
+                .input(Items.BEETROOT)
+                .input(Items.COOKED_CHICKEN)
+                .input(Items.CARROT)
                 .criterion(hasItem(ModItems.RARE_SPICES), conditionsFromItem(ModItems.RARE_SPICES))
-                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.GOURMET_MEAL)));
+                .criterion(hasItem(Items.BEETROOT), conditionsFromItem(Items.BEETROOT))
+                .criterion(hasItem(Items.CARROT), conditionsFromItem(Items.CARROT))
+                .criterion(hasItem(Items.COOKED_CHICKEN), conditionsFromItem(Items.COOKED_CHICKEN))
+                .offerTo(exporter, Identifier.of(JaizMod.MOD_ID, "gourmet_meal_chicken"));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.GOURMET_MEAL, 1)
+                .input(ModItems.RARE_SPICES)
+                .input(Items.BEETROOT)
+                .input(Items.COOKED_RABBIT)
+                .input(Items.CARROT)
+                .criterion(hasItem(ModItems.RARE_SPICES), conditionsFromItem(ModItems.RARE_SPICES))
+                .criterion(hasItem(Items.BEETROOT), conditionsFromItem(Items.BEETROOT))
+                .criterion(hasItem(Items.CARROT), conditionsFromItem(Items.CARROT))
+                .criterion(hasItem(Items.COOKED_RABBIT), conditionsFromItem(Items.COOKED_RABBIT))
+                .offerTo(exporter, Identifier.of(JaizMod.MOD_ID, "gourmet_meal_rabbit"));
+
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModItems.WATER_TORCH, 4)
                 .pattern("Y")
@@ -530,6 +540,43 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.SHARP_OBSIDIAN_SHARD), conditionsFromItem(ModItems.SHARP_OBSIDIAN_SHARD))
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .offerTo(exporter, Identifier.of(getRecipeName(ModItems.SHARP_WEDGE_OBSIDIAN_SWORD)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.SHARP_WEDGE_OBSIDIAN_SWORD, 1)
+                .pattern("C")
+                .pattern("R")
+                .pattern("X")
+                .input('R', ModItems.SHARP_OBSIDIAN_SHARD)
+                .input('C', ModItems.WEDGE_OBSIDIAN_SHARD)
+                .input('X', Items.STICK)
+                .criterion(hasItem(ModItems.WEDGE_OBSIDIAN_SHARD), conditionsFromItem(ModItems.WEDGE_OBSIDIAN_SHARD))
+                .criterion(hasItem(ModItems.SHARP_OBSIDIAN_SHARD), conditionsFromItem(ModItems.SHARP_OBSIDIAN_SHARD))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, Identifier.of(JaizMod.MOD_ID, "sharp_wedge_obsidian_sword_2"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.WEDGE_REGULAR_OBSIDIAN_SWORD, 1)
+                .pattern("R")
+                .pattern("C")
+                .pattern("X")
+                .input('R', ModItems.OBSIDIAN_SHARD)
+                .input('C', ModItems.WEDGE_OBSIDIAN_SHARD)
+                .input('X', Items.STICK)
+                .criterion(hasItem(ModItems.WEDGE_OBSIDIAN_SHARD), conditionsFromItem(ModItems.WEDGE_OBSIDIAN_SHARD))
+                .criterion(hasItem(ModItems.OBSIDIAN_SHARD), conditionsFromItem(ModItems.OBSIDIAN_SHARD))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, Identifier.of(JaizMod.MOD_ID, "regular_wedge_obsidian_sword_2"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.SHARP_REGULAR_OBSIDIAN_SWORD, 1)
+                .pattern("R")
+                .pattern("C")
+                .pattern("X")
+                .input('R', ModItems.OBSIDIAN_SHARD)
+                .input('C', ModItems.SHARP_OBSIDIAN_SHARD)
+                .input('X', Items.STICK)
+                .criterion(hasItem(ModItems.SHARP_OBSIDIAN_SHARD), conditionsFromItem(ModItems.SHARP_OBSIDIAN_SHARD))
+                .criterion(hasItem(ModItems.OBSIDIAN_SHARD), conditionsFromItem(ModItems.OBSIDIAN_SHARD))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, Identifier.of(JaizMod.MOD_ID, "regular_sharp_obsidian_sword_2"));
+
 
         //daggers
 

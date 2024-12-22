@@ -1,4 +1,4 @@
-// 1.21.1	2024-12-21T13:29:37.6613381	JaizMod/Tags for minecraft:item
+// 1.21.1	2024-12-22T13:43:27.9302217	JaizMod/Tags for minecraft:item
 5e20eb99669eb5bf681329b2170ad667a7271eec data\minecraft\tags\item\fences.json
 d590e5d3c0e6aaa641c4f1f98f54585b5520ffea data\minecraft\tags\item\walls.json
 27584bfc0041243ee571a3de490e692965899965 data\minecraft\tags\item\wooden_pressure_plates.json
@@ -8,8 +8,8 @@ c51642706a93ff5f7642d069d8a9a3e2057c96c3 data\minecraft\tags\item\fence_gates.js
 72d432862fb4c2eeeb7cbb5bd13db5164df568fa data\minecraft\tags\item\small_flowers.json
 030e852604d55bc74bebfda15dc2df242f7a28af data\minecraft\tags\item\leaves.json
 b41c71fa3f7e43b08103ebe74d8987fc1f67d77e data\minecraft\tags\item\stone_bricks.json
-29bbb428e7120ffda94e9f54ff1c493b025fbd08 data\minecraft\tags\item\wooden_slabs.json
 0f5a79c5dcabead31ace99fee3bda20accf7f316 data\minecraft\tags\item\flowers.json
+29bbb428e7120ffda94e9f54ff1c493b025fbd08 data\minecraft\tags\item\wooden_slabs.json
 57844522a0accacf14148cf61010414a2045805d data\minecraft\tags\item\wooden_doors.json
 5e20eb99669eb5bf681329b2170ad667a7271eec data\minecraft\tags\item\wooden_fences.json
 2aab8bebe3e1225e0aa8be29ed23da6051ddd615 data\minecraft\tags\item\axes.json

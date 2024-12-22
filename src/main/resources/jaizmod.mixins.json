@@ -5,6 +5,7 @@
   "mixins": [
     "ExampleMixin",
     "GlowSquidMixin",
+    "IronGolemEntityMixin",
     "SquidMixin",
     "StructurePlacerTypeInvoker",
     "TargetGoalMixin",

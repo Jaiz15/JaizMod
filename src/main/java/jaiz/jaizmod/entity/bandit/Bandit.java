@@ -48,8 +48,8 @@ public class Bandit <T extends BanditEntity> extends SinglePartEntityModel<T> {
 		this.setHeadAngles(netHeadYaw, headPitch);
 
 		this.animateMovement(DunesAndDroughtAnimations.BANDIT_WALK, limbSwing, limbSwingAmount, 2f, 2.5f);
-		this.updateAnimation(entity.idleAnimationState, DunesAndDroughtAnimations.BANDIT_IDLE, ageInTicks, 1f);
 		this.updateAnimation(entity.attackAnimationState, DunesAndDroughtAnimations.BANDIT_ATTACK, ageInTicks, 1f);
+		this.updateAnimation(entity.tradeAnimationState, DunesAndDroughtAnimations.BANDIT_ATTACK, ageInTicks, 1f);
 	}
 
 	private void setHeadAngles(float headYaw, float headPitch) {
