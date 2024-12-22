@@ -1,22 +1,14 @@
 package jaiz.jaizmod.entity.bandit;
 
-import jaiz.jaizmod.JaizMod;
-import jaiz.jaizmod.block.ModBlocks;
 import jaiz.jaizmod.item.ModItems;
 import jaiz.jaizmod.sound.ModSounds;
 import jaiz.jaizmod.util.ModLootTables;
-import net.minecraft.block.Block;
-import net.minecraft.block.entity.VaultBlockEntity;
-import net.minecraft.command.argument.EntityAnchorArgumentType;
 import net.minecraft.entity.*;
 import net.minecraft.entity.ai.brain.task.LookTargetUtil;
 import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.damage.DamageSource;
-import net.minecraft.entity.damage.DamageSources;
-import net.minecraft.entity.damage.DamageType;
-import net.minecraft.entity.damage.DamageTypes;
 import net.minecraft.entity.data.DataTracker;
 import net.minecraft.entity.data.TrackedData;
 import net.minecraft.entity.data.TrackedDataHandlerRegistry;
@@ -25,9 +17,7 @@ import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.entity.passive.IronGolemEntity;
 import net.minecraft.entity.passive.SnowGolemEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.loot.LootTable;
 import net.minecraft.loot.LootTables;
 import net.minecraft.loot.context.LootContextParameterSet;
@@ -36,26 +26,22 @@ import net.minecraft.loot.context.LootContextTypes;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.server.world.ServerWorld;
-import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
-import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.Difficulty;
-import net.minecraft.world.GameRules;
 import net.minecraft.world.World;
 
 import java.util.List;
 import java.util.Objects;
-import java.util.function.Supplier;
 
 public class BanditEntity extends HostileEntity {
 
     private static final TrackedData<Boolean> ATTACKING =
             DataTracker.registerData(BanditEntity.class, TrackedDataHandlerRegistry.BOOLEAN);
 
-    public int peacefulTime = 0;
+    private int peacefulTime = 0;
 
     public AnimationState idleAnimationState = new AnimationState();
     private int idleAnimationTimeout = 0;
@@ -66,6 +52,38 @@ public class BanditEntity extends HostileEntity {
     public BanditEntity(EntityType<? extends HostileEntity> entityType, World world) {
         super(entityType, world);
         this.experiencePoints = 16;
+    }
+
+    private RegistryKey<LootTable> getBanditLootTable() {
+        return ModLootTables.BANDIT_TRADES_GAMEPLAY;
+    }
+
+    private List<ItemStack> getBanditTrades(BanditEntity bandit, ServerWorld serverWorld) {
+            LootTable lootTable = serverWorld.getServer().getReloadableRegistries().getLootTable(getBanditLootTable());
+            LootContextParameterSet lootContextParameterSet = new LootContextParameterSet.Builder(serverWorld)
+                    .add(LootContextParameters.ORIGIN, bandit.getPos())
+                    .add(LootContextParameters.THIS_ENTITY, bandit)
+                    .build(LootContextTypes.GIFT);
+            return lootTable.generateLoot(lootContextParameterSet);
+    }
+
+    private void TradingItemDropper(BanditEntity bandit, LivingEntity recipient) {
+        for (int i = 0; i < bandit.getRandom().nextInt(9) + 3; i++) {
+            bandit.getWorld().addParticle(ParticleTypes.HAPPY_VILLAGER,
+                    bandit.getParticleX(1.2),
+                    bandit.getRandomBodyY(),
+                    bandit.getParticleZ(1.2), 0.0, 0.0, 0.0);
+        }
+        bandit.playSound(SoundEvents.ENTITY_ITEM_PICKUP, 1.0F, (bandit.random.nextFloat() - bandit.random.nextFloat()) * 0.2F + 1.0F);
+
+
+        if (getWorld() instanceof ServerWorld) {
+            ServerWorld serverWorld = (ServerWorld)getWorld();
+            for (ItemStack itemStack : this.getBanditTrades(bandit, serverWorld)) {
+                System.out.println(itemStack.getItem().getName());
+                LookTargetUtil.give(bandit, itemStack, recipient.getPos());
+            }
+        }
     }
 
     @Override
@@ -104,46 +122,19 @@ public class BanditEntity extends HostileEntity {
         this.limbAnimator.updateLimbs(f, 0.2f);
     }
 
-
-    private List<ItemStack> getBanditTrades(BanditEntity bandit) {
-        LootTable lootTable = bandit.getWorld().getServer().getReloadableRegistries().getLootTable(getBanditLootTable());
-        LootContextParameterSet lootContextParameterSet = new LootContextParameterSet.Builder((ServerWorld)bandit.getWorld())
-                .add(LootContextParameters.ORIGIN, bandit.getPos())
-                .add(LootContextParameters.THIS_ENTITY, bandit)
-                .build(LootContextTypes.BARTER);
-        return lootTable.generateLoot(lootContextParameterSet);
-    }
-
-    private RegistryKey<LootTable> getBanditLootTable() {
-        return ModLootTables.BANDIT_TRADES_GAMEPLAY;
-    }
-
-    private void TradingItemDropper(BanditEntity bandit, LivingEntity recipient) {
-        for (int i = 0; i < this.getRandom().nextInt(9) + 3; i++) {
-            this.getWorld().addParticle(ParticleTypes.HAPPY_VILLAGER,
-                    this.getParticleX(1.2),
-                    this.getRandomBodyY(),
-                    this.getParticleZ(1.2), 0.0, 0.0, 0.0);
-        }
-        this.playSound(SoundEvents.ENTITY_ITEM_PICKUP, 1.0F, (this.random.nextFloat() - this.random.nextFloat()) * 0.2F + 1.0F);
-        for (ItemStack itemStack : this.getBanditTrades(bandit)) {
-            LookTargetUtil.give(bandit, itemStack, recipient.getPos());
-        }
-    }
-
     @Override
     public ActionResult interactMob(PlayerEntity player, Hand hand) {
         ItemStack itemStack = player.getStackInHand(hand);
 
         if(peacefulTime <= 0){
         if (itemStack.isOf(ModItems.RARE_SPICES )) {
-                peacefulTime =this.random.nextInt(600) + 600;
+            peacefulTime =this.random.nextInt(600) + 600;
             if (!player.getAbilities().creativeMode) {
                 itemStack.decrement(1);
             }
             this.playSound(ModSounds.BANDIT_TRADE,1.0f, 1.0f);
-            this.TradingItemDropper(this, player);
-                return ActionResult.success(this.getWorld().isClient);
+            this.TradingItemDropper(this, this.getEntityWorld().getClosestPlayer(this, 32));
+            return ActionResult.success(this.getWorld().isClient);
             }
 
             else {
@@ -252,5 +243,10 @@ public class BanditEntity extends HostileEntity {
     protected SoundEvent getDeathSound() {
         return ModSounds.BANDIT_DEATH;
     }
+
+    public int getPeacefulTime() {
+        return peacefulTime;
+    }
+
 
 }

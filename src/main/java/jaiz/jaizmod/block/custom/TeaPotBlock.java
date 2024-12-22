@@ -123,7 +123,7 @@ public class TeaPotBlock extends Block {
                 world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
                         (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
                 if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                ShelfMushroomBlock.dropStack(world, pos, new ItemStack(ModItems.CHORUS_FRUIT_TEA));
+                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.CHORUS_FRUIT_TEA));
                 world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
                 return ItemActionResult.success(world.isClient);
             }
@@ -132,7 +132,7 @@ public class TeaPotBlock extends Block {
                 world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
                         (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
                 if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                ShelfMushroomBlock.dropStack(world, pos, new ItemStack(ModItems.NOVEL_TEA));
+                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.NOVEL_TEA));
                 world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
                 return ItemActionResult.success(world.isClient);
             }
@@ -141,7 +141,7 @@ public class TeaPotBlock extends Block {
                 world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
                         (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
                 if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                ShelfMushroomBlock.dropStack(world, pos, new ItemStack(ModItems.PITCHER_PLANT_TEA));
+                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.PITCHER_PLANT_TEA));
                 world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
                 return ItemActionResult.success(world.isClient);
             }
@@ -150,7 +150,7 @@ public class TeaPotBlock extends Block {
                 world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
                         (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
                 if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                ShelfMushroomBlock.dropStack(world, pos, new ItemStack(ModItems.TORCH_FLOWER_TEA));
+                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.TORCH_FLOWER_TEA));
                 world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
                 return ItemActionResult.success(world.isClient);
             }
@@ -159,7 +159,7 @@ public class TeaPotBlock extends Block {
                 world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
                         (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
                 if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                ShelfMushroomBlock.dropStack(world, pos, new ItemStack(ModItems.HERBAL_TEA));
+                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.HERBAL_TEA));
                 world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
                 return ItemActionResult.success(world.isClient);
             }
@@ -168,7 +168,7 @@ public class TeaPotBlock extends Block {
                 world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
                         (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
                 if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                ShelfMushroomBlock.dropStack(world, pos, new ItemStack(ModItems.GLOW_BERRY_TEA));
+                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.GLOW_BERRY_TEA));
                 world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
                 return ItemActionResult.success(world.isClient);
             }
@@ -176,7 +176,7 @@ public class TeaPotBlock extends Block {
                 world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
                         (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
                 if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                ShelfMushroomBlock.dropStack(world, pos, new ItemStack(ModItems.GUNPOWDER_GREEN_TEA));
+                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.GUNPOWDER_GREEN_TEA));
                 world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
                 return ItemActionResult.success(world.isClient);
             }
@@ -184,7 +184,7 @@ public class TeaPotBlock extends Block {
                 world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
                         (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
                 if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                ShelfMushroomBlock.dropStack(world, pos, new ItemStack(ModItems.KOMBUCHA_TEA));
+                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.KOMBUCHA_TEA));
                 world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
                 return ItemActionResult.success(world.isClient);
             }
@@ -192,7 +192,7 @@ public class TeaPotBlock extends Block {
                 world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
                         (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
                 if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                ShelfMushroomBlock.dropStack(world, pos, new ItemStack(ModItems.NETHER_FUNGUS_TEA));
+                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.NETHER_FUNGUS_TEA));
                 world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
                 return ItemActionResult.success(world.isClient);
             }
@@ -200,7 +200,7 @@ public class TeaPotBlock extends Block {
                 world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
                         (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
                 if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                ShelfMushroomBlock.dropStack(world, pos, new ItemStack(ModItems.WARPED_NETHER_FUNGUS_TEA));
+                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.WARPED_NETHER_FUNGUS_TEA));
                 world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
                 return ItemActionResult.success(world.isClient);
             }
@@ -208,7 +208,7 @@ public class TeaPotBlock extends Block {
                 world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
                         (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
                 if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                ShelfMushroomBlock.dropStack(world, pos, new ItemStack(ModItems.PUMPKIN_SPICE_TEA));
+                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.PUMPKIN_SPICE_TEA));
                 world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
                 return ItemActionResult.success(world.isClient);
             }
@@ -216,7 +216,7 @@ public class TeaPotBlock extends Block {
                 world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
                         (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
                 if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                ShelfMushroomBlock.dropStack(world, pos, new ItemStack(ModItems.SPORE_BLOSSOM_TEA));
+                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.SPORE_BLOSSOM_TEA));
                 world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
                 return ItemActionResult.success(world.isClient);
             }
@@ -224,7 +224,7 @@ public class TeaPotBlock extends Block {
                 world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
                         (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
                 if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                ShelfMushroomBlock.dropStack(world, pos, new ItemStack(ModItems.WITHER_ROSE_TEA));
+                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.WITHER_ROSE_TEA));
                 world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
                 return ItemActionResult.success(world.isClient);
             }
@@ -232,7 +232,7 @@ public class TeaPotBlock extends Block {
                 world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
                         (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
                 if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                ShelfMushroomBlock.dropStack(world, pos, new ItemStack(ModItems.FLOWER_TEA));
+                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.FLOWER_TEA));
                 world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
                 return ItemActionResult.success(world.isClient);
             }
