@@ -115,7 +115,7 @@ public class BanditEntity extends HostileEntity {
     }
 
     private RegistryKey<LootTable> getBanditLootTable() {
-        return LootTables.ABANDONED_MINESHAFT_CHEST;
+        return ModLootTables.BANDIT_TRADES_GAMEPLAY;
     }
 
     private void TradingItemDropper(BanditEntity bandit, LivingEntity recipient) {
