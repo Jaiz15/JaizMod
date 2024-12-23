@@ -169,6 +169,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GILDED_CUT_SANDSTONE)
                 .add(ModBlocks.TERRACOTTA_BRICK_SLAB);
 
+        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
+                .add(ModBlocks.DESERT_OAK_LEAVES)
+                .add(ModBlocks.MAHOGANY_LEAVES);
+
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.ROTTEN_PLANKS)
                 .add(ModBlocks.ROTTEN_DOOR)
@@ -221,6 +225,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.HANGING_DESERT_OAK_SIGN)
                 .add(ModBlocks.WALL_HANGING_DESERT_OAK_SIGN)
                 .add(ModBlocks.WALL_DESERT_OAK_SIGN)
+                .add(ModBlocks.SPICE_BARREL)
                 .add(ModBlocks.STANDING_DESERT_OAK_SIGN);
 
         getOrCreateTagBuilder(BlockTags.FLOWERS)

@@ -1,6 +1,7 @@
-// 1.21.1	2024-12-22T13:43:27.9302217	JaizMod/Tags for minecraft:block
+// 1.21.1	2024-12-23T15:46:06.8003223	JaizMod/Tags for minecraft:block
 d590e5d3c0e6aaa641c4f1f98f54585b5520ffea data\minecraft\tags\block\walls.json
-5bb1c4bffc3bb33a5482d7719341f94772133430 data\minecraft\tags\block\mineable\axe.json
+030e852604d55bc74bebfda15dc2df242f7a28af data\minecraft\tags\block\mineable\hoe.json
+196e8d1e9372eda13b5fd9a5a6204bd5e0d2e5d4 data\minecraft\tags\block\mineable\axe.json
 03d8977bb67556bd3ae4226e5a19fb1bdfee1924 data\minecraft\tags\block\wooden_stairs.json
 c51642706a93ff5f7642d069d8a9a3e2057c96c3 data\minecraft\tags\block\fence_gates.json
 69934052d6069a4fec3c1e7e9aa0a247a8aa6431 data\minecraft\tags\block\dirt.json

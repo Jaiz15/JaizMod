@@ -1,0 +1,33 @@
+{
+	"name": "jaizmod:jaizmod/fossil_pits/fossil_pit_extendors",
+	"fallback": "minecraft:empty",
+	"elements": [{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/fossil_pits/fossil_pit_extend_1",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/fossil_pits/fossil_pit_extend_2",
+			"processors": "jaizmod:fossil_pit_diamonds",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 5,
+		"element": {
+			"location": "jaizmod:jaizmod/fossil_pits/fossil_pit_extend_3",
+			"processors": "jaizmod:fossil_pit_diamonds",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}
+]
+}

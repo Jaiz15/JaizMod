@@ -203,7 +203,7 @@ public class ModBlocks {
             new FossilSoilBlock(
                     Blocks.AIR,
                     SoundEvents.ITEM_BRUSH_BRUSHING_GRAVEL,
-                    SoundEvents.ITEM_BRUSH_BRUSHING_GRAVEL_COMPLETE,
+                    SoundEvents.BLOCK_GRAVEL_BREAK,
                     AbstractBlock.Settings.create()
                             .mapColor(MapColor.BROWN)
                             .instrument(NoteBlockInstrument.SNARE)

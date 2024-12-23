@@ -1,4 +1,4 @@
-// 1.21.1	2024-12-22T13:43:27.9292212	JaizMod/Block Loot Tables
+// 1.21.1	2024-12-23T15:46:06.7993229	JaizMod/Block Loot Tables
 861593acec16045652d0066edd09ef82730ea500 data\jaizmod\loot_table\blocks\terracotta_brick_slab.json
 39564a393d27a6e8ffc1822d6f7a824f164ea8d0 data\jaizmod\loot_table\blocks\fancy_light_blue_wool.json
 0cb3159d4b10b3f9002050305eb92fb137d3b29f data\jaizmod\loot_table\blocks\honeycomb_dirt.json
@@ -73,8 +73,8 @@ e3501d5fe817d1eff0b6cf58653c297482649130 data\jaizmod\loot_table\blocks\mahogany
 8cf24aa7c68d59038c89bdb76e0c2898e9bec046 data\jaizmod\loot_table\blocks\fancy_blue_wool.json
 d7393213ff03073152e04f6c71276f770af9cf6b data\jaizmod\loot_table\blocks\desert_oak_standing_sign.json
 41537b22c29950cc224fd496d64ca693b6361aa8 data\jaizmod\loot_table\blocks\stripped_rotten_wood.json
-d7393213ff03073152e04f6c71276f770af9cf6b data\jaizmod\loot_table\blocks\desert_oak_wall_sign.json
 5c11687793e197690d38e83371e48c99160b9543 data\jaizmod\loot_table\blocks\stripped_desert_oak_wood.json
+d7393213ff03073152e04f6c71276f770af9cf6b data\jaizmod\loot_table\blocks\desert_oak_wall_sign.json
 057e538ab1c37136a855a891eebc5086b233c67f data\jaizmod\loot_table\blocks\bioluminescent_bottle.json
 39261984c3bedb7a6937874102dd7ac67aa7e21b data\jaizmod\loot_table\blocks\mahogany_trapdoor.json
 5795c134be73183321cbc68a1996a06cf260c2c0 data\jaizmod\loot_table\blocks\terracotta_bricks.json

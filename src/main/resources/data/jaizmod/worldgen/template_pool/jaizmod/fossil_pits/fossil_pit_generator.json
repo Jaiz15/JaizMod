@@ -46,6 +46,15 @@
 			"element_type": "minecraft:single_pool_element",
 			"override_liquid_settings": "ignore_waterlogging"
 		}
+	},{
+		"weight": 5,
+		"element": {
+			"location": "jaizmod:jaizmod/fossil_pits/fossil_pit_generator6",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
 	}
 ]
 }
