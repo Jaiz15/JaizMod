@@ -9,8 +9,6 @@ import net.minecraft.util.Identifier;
 
 public class ModTags {
     public static class Blocks {
-        public static final TagKey<Block> SENSED_BY_AMETHYST_HORN =
-                createTag("amethyst_horn_sensed");
 
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(JaizMod.MOD_ID, name));
@@ -18,6 +16,12 @@ public class ModTags {
     }
 
     public static class Items {
+
+        public static final TagKey<Item> TEA_INGREDIENT =
+                createTag("tea_ingredient");
+        public static final TagKey<Item> TEA_FLOWERS =
+                createTag("tea_flowers");
+
 
 
         private static TagKey<Item> createTag(String name) {

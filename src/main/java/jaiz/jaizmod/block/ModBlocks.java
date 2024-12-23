@@ -200,12 +200,12 @@ public class ModBlocks {
 
     public static final Block FOSSIL_SOIL = registerBlock(
             "fossil_soil",
-            new BrushableBlock(
-                    Blocks.DIRT,
+            new FossilSoilBlock(
+                    Blocks.AIR,
                     SoundEvents.ITEM_BRUSH_BRUSHING_GRAVEL,
                     SoundEvents.ITEM_BRUSH_BRUSHING_GRAVEL_COMPLETE,
                     AbstractBlock.Settings.create()
-                            .mapColor(MapColor.STONE_GRAY)
+                            .mapColor(MapColor.BROWN)
                             .instrument(NoteBlockInstrument.SNARE)
                             .strength(0.25F)
                             .sounds(BlockSoundGroup.SUSPICIOUS_GRAVEL)

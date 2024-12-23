@@ -2,15 +2,18 @@ package jaiz.jaizmod.block.custom;
 
 import jaiz.jaizmod.block.ModBlocks;
 import jaiz.jaizmod.item.ModItems;
+import jaiz.jaizmod.util.ModTags;
 import net.minecraft.block.*;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.registry.tag.ItemTags;
+import net.minecraft.registry.tag.TagKey;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.state.StateManager;
@@ -29,6 +32,8 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldView;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.HashMap;
 
 public class TeaPotBlock extends Block {
     public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
@@ -107,140 +112,71 @@ public class TeaPotBlock extends Block {
 
     }
 
+    public static HashMap<Item, Item> getTeaRecipes() {
+        HashMap<Item, Item> recipes = new HashMap<>();
+        recipes.put(Items.WITHER_ROSE, ModItems.WITHER_ROSE_TEA);
+        recipes.put(Items.CHORUS_FRUIT, ModItems.CHORUS_FRUIT_TEA);
+        recipes.put(Items.DANDELION, ModItems.FLOWER_TEA);
+        recipes.put(Items.POPPY, ModItems.FLOWER_TEA);
+        recipes.put(Items.BLUE_ORCHID, ModItems.FLOWER_TEA);
+        recipes.put(Items.ALLIUM, ModItems.FLOWER_TEA);
+        recipes.put(Items.AZURE_BLUET, ModItems.FLOWER_TEA);
+        recipes.put(Items.RED_TULIP, ModItems.FLOWER_TEA);
+        recipes.put(Items.ORANGE_TULIP, ModItems.FLOWER_TEA);
+        recipes.put(Items.WHITE_TULIP, ModItems.FLOWER_TEA);
+        recipes.put(Items.PINK_TULIP, ModItems.FLOWER_TEA);
+        recipes.put(Items.OXEYE_DAISY, ModItems.FLOWER_TEA);
+        recipes.put(Items.CORNFLOWER, ModItems.FLOWER_TEA);
+        recipes.put(Items.LILAC, ModItems.FLOWER_TEA);
+        recipes.put(Items.LILY_OF_THE_VALLEY, ModItems.FLOWER_TEA);
+        recipes.put(Items.SUNFLOWER, ModItems.FLOWER_TEA);
+        recipes.put(Items.PEONY, ModItems.FLOWER_TEA);
+        recipes.put(Items.ROSE_BUSH, ModItems.FLOWER_TEA);
+        recipes.put(Items.GLOW_BERRIES, ModItems.GLOW_BERRY_TEA);
+        recipes.put(Items.SPORE_BLOSSOM, ModItems.SPORE_BLOSSOM_TEA);
+        recipes.put(Items.GUNPOWDER, ModItems.GUNPOWDER_GREEN_TEA);
+        recipes.put(Items.FERN, ModItems.HERBAL_TEA);
+        recipes.put(Items.RED_MUSHROOM, ModItems.HERBAL_TEA);
+        recipes.put(Items.BROWN_MUSHROOM, ModItems.HERBAL_TEA);
+        recipes.put(Items.WHEAT, ModItems.KOMBUCHA_TEA);
+        recipes.put(Items.KELP, ModItems.KOMBUCHA_TEA);
+        recipes.put(Items.WARPED_FUNGUS, ModItems.WARPED_NETHER_FUNGUS_TEA);
+        recipes.put(Items.CRIMSON_FUNGUS, ModItems.NETHER_FUNGUS_TEA);
+        recipes.put(Items.BOOK, ModItems.NOVEL_TEA);
+        recipes.put(Items.PUMPKIN, ModItems.PUMPKIN_SPICE_TEA);
+        recipes.put(Items.PITCHER_PLANT, ModItems.PITCHER_PLANT_TEA);
+        recipes.put(Items.TORCHFLOWER, ModItems.TORCH_FLOWER_TEA);
+        return recipes;
+    }
+
     @Override
     protected ItemActionResult onUseWithItem(ItemStack stack, BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         BlockState blockStatetrue = state.with(HAS_CUP, true);
         BlockState blockStatefalse = state.with(HAS_CUP, false);
 
         if ((stack.isOf(ModItems.TEA_CUP) && !state.get(HAS_CUP))) {
-            world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5, (double)pos.getZ() + 0.5, SoundEvents.BLOCK_STONE_PLACE, SoundCategory.BLOCKS, 1.0f, 1.0f);
+            world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
+                    (double)pos.getZ() + 0.5, SoundEvents.BLOCK_STONE_PLACE, SoundCategory.BLOCKS, 1.0f, 1.0f);
             stack.decrementUnlessCreative(1, player);
             world.setBlockState(pos, blockStatetrue, Block.NOTIFY_ALL);
             return ItemActionResult.success(world.isClient);
         }
         else if(state.get(HAS_CUP)){
-            if((stack.isOf(Items.CHORUS_FRUIT))){
-                world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
-                        (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
-                if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.CHORUS_FRUIT_TEA));
-                world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
-                return ItemActionResult.success(world.isClient);
+            HashMap<Item, Item> recipes = getTeaRecipes();
+            if (recipes.containsKey(stack.getItem())) {
+                ItemStack output = recipes.get(stack.getItem()).getDefaultStack();
+                dropStack(world, pos, output);
             }
+            if ((stack.isIn(ModTags.Items.TEA_INGREDIENT))) {
+            world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
+            world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
+                    (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
+            if (!player.getAbilities().creativeMode) {stack.decrement(1);}}
 
-            else if((stack.isOf(Items.BOOK))){
-                world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
-                        (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
-                if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.NOVEL_TEA));
-                world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
-                return ItemActionResult.success(world.isClient);
-            }
-
-            else if((stack.isOf(Items.PITCHER_PLANT))){
-                world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
-                        (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
-                if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.PITCHER_PLANT_TEA));
-                world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
-                return ItemActionResult.success(world.isClient);
-            }
-
-            else if((stack.isOf(Items.TORCHFLOWER))){
-                world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
-                        (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
-                if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.TORCH_FLOWER_TEA));
-                world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
-                return ItemActionResult.success(world.isClient);
-            }
-
-            else if((stack.isOf(Items.BROWN_MUSHROOM) || stack.isOf(Items.RED_MUSHROOM) || stack.isOf(Items.FERN))){
-                world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
-                        (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
-                if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.HERBAL_TEA));
-                world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
-                return ItemActionResult.success(world.isClient);
-            }
-
-            else if((stack.isOf(Items.GLOW_BERRIES))){
-                world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
-                        (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
-                if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.GLOW_BERRY_TEA));
-                world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
-                return ItemActionResult.success(world.isClient);
-            }
-            else if((stack.isOf(Items.GUNPOWDER))){
-                world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
-                        (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
-                if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.GUNPOWDER_GREEN_TEA));
-                world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
-                return ItemActionResult.success(world.isClient);
-            }
-            else if((stack.isOf(Items.WHEAT))){
-                world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
-                        (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
-                if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.KOMBUCHA_TEA));
-                world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
-                return ItemActionResult.success(world.isClient);
-            }
-            else if((stack.isOf(Items.CRIMSON_FUNGUS))){
-                world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
-                        (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
-                if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.NETHER_FUNGUS_TEA));
-                world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
-                return ItemActionResult.success(world.isClient);
-            }
-            else if((stack.isOf(Items.WARPED_FUNGUS))){
-                world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
-                        (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
-                if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.WARPED_NETHER_FUNGUS_TEA));
-                world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
-                return ItemActionResult.success(world.isClient);
-            }
-            else if((stack.isOf(Items.PUMPKIN))){
-                world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
-                        (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
-                if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.PUMPKIN_SPICE_TEA));
-                world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
-                return ItemActionResult.success(world.isClient);
-            }
-            else if((stack.isOf(Items.SPORE_BLOSSOM))){
-                world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
-                        (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
-                if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.SPORE_BLOSSOM_TEA));
-                world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
-                return ItemActionResult.success(world.isClient);
-            }
-            else if((stack.isOf(Items.WITHER_ROSE))){
-                world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
-                        (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
-                if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.WITHER_ROSE_TEA));
-                world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
-                return ItemActionResult.success(world.isClient);
-            }
-            else if((stack.isIn(ItemTags.FLOWERS))){
-                world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5,
-                        (double)pos.getZ() + 0.5, SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
-                if (!player.getAbilities().creativeMode) {stack.decrement(1);}
-                TeaPotBlock.dropStack(world, pos, new ItemStack(ModItems.FLOWER_TEA));
-                world.setBlockState(pos, blockStatefalse, Block.NOTIFY_ALL);
-                return ItemActionResult.success(world.isClient);
-            }
+            return super.onUseWithItem(stack, state, world, pos, player, hand, hit);
         }
-
         return super.onUseWithItem(stack, state, world, pos, player, hand, hit);
     }
-
 
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
