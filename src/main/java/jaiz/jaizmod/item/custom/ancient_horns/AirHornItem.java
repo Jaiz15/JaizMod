@@ -54,7 +54,7 @@ public class AirHornItem extends GoatHornItem {
                             user.getX(),
                             user.getY(),
                             user.getZ(),
-                            3.0F,
+                            5.0F,
                             false,
                             World.ExplosionSourceType.TRIGGER,
                             ParticleTypes.GUST_EMITTER_SMALL,

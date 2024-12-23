@@ -5,6 +5,7 @@ import jaiz.jaizmod.JaizMod;
 import jaiz.jaizmod.block.ModBlocks;
 import jaiz.jaizmod.item.ModItemGroups;
 import jaiz.jaizmod.item.ModItems;
+import jaiz.jaizmod.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.block.Blocks;
@@ -1019,6 +1020,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.ROTTEN_BOAT), conditionsFromItem(ModItems.ROTTEN_BOAT))
                 .criterion(hasItem(Items.CHEST), conditionsFromItem(Items.CHEST))
                 .offerTo(exporter, Identifier.of(JaizMod.MOD_ID, "rotten_chest_boat"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.MACUAHUITL, 1)
+                .pattern("RCR")
+                .pattern("RCR")
+                .pattern(" X ")
+                .input('R', ModTags.Items.OBSIDIAN_SHARDS)
+                .input('C', ItemTags.PLANKS)
+                .input('X', Items.STICK)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.MACUAHUITL)));
 
     }
 }

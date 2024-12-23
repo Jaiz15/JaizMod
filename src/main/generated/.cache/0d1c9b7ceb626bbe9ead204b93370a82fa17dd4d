@@ -1,4 +1,4 @@
-// 1.21.1	2024-12-23T15:46:06.8013247	JaizMod/Recipes
+// 1.21.1	2024-12-23T22:25:20.7831237	JaizMod/Recipes
 b010b370382c19a40c0bd063bbf4fa6badb3d4d2 data\jaizmod\advancement\recipes\combat\wedge_obsidian_dagger.json
 fcd3d4ee50a83b363e18ccaeff6603aef2200cfe data\jaizmod\advancement\recipes\building_blocks\desert_oak_wood.json
 1db182afd2eab9003863f530dab700b73ed64394 data\jaizmod\recipe\gourmet_meal_rabbit.json
@@ -49,6 +49,7 @@ e4e2e598e1b90931d237f8d6e687776a2e4800de data\jaizmod\recipe\planks_desert2.json
 1836561257a8cab342a456528701fc08ff70b39a data\jaizmod\advancement\recipes\building_blocks\planks_mahogany0.json
 172e1921afdd44e788d97c9a35a6b29263401c86 data\jaizmod\advancement\recipes\food\tea_cup_from_smelting_unfired_tea_cup.json
 84ed149b4d02aaeeb80e9dff495c1701794d97d7 data\jaizmod\advancement\recipes\combat\sharp_obsidian_sword.json
+21708a13007a15e77ff64827132f10ee091815f9 data\jaizmod\advancement\recipes\combat\macuahuitl.json
 9dc34dea8576c662af5b7da2a08eae92cdb7d22b data\jaizmod\recipe\fancy_cyan_wool.json
 d97eade7252b985dbdb5c40603e4cf2f193a67cc data\jaizmod\recipe\stripped_mahogany_wood.json
 9c3bc575550d04e0099fa80a16ee7710e5057613 data\jaizmod\recipe\sharp_obsidian_dagger.json
@@ -70,6 +71,7 @@ e6c28c4b373ad0bf742d7cabf9421518a575cc38 data\jaizmod\recipe\yellow_dye.json
 114970dca54db99ea183acf7522813ed8b36aef8 data\jaizmod\recipe\fertiliser_from_guano.json
 cf9697e51c1442c29ec2b07ae23a92ec6b932492 data\jaizmod\advancement\recipes\building_blocks\fancy_red_carpet.json
 da4974ffea721388e4f9185348fc9cc498fd826b data\jaizmod\recipe\wedge_regular_obsidian_sword.json
+06355462f02a57302373d6199ae3542b477bf87d data\jaizmod\recipe\macuahuitl.json
 39b8e5bc1904df84d5ccb97deb985e203d2f9797 data\jaizmod\advancement\recipes\combat\sharp_obsidian_dagger.json
 711cce25829d039f0c2388642eb2e9c8d4b1bd9e data\jaizmod\recipe\fancy_purple_wool.json
 801983332a66e0e0b0197c8e3e9365ee2278aaa4 data\jaizmod\advancement\recipes\building_blocks\fancy_light_gray_carpet.json

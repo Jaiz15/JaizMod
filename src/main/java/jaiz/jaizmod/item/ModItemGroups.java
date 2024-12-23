@@ -109,6 +109,7 @@ public class ModItemGroups {
                         entries.add(ModItems.WEDGE_REGULAR_OBSIDIAN_SWORD);
                         entries.add(ModItems.SHARP_WEDGE_OBSIDIAN_SWORD);
                         entries.add(ModItems.SHARP_REGULAR_OBSIDIAN_SWORD);
+                        entries.add(ModItems.MACUAHUITL);
                         entries.add(ModItems.MIMIC_POT);
                         entries.add(ModItems.BANDIT_SPAWN_EGG);
                         entries.add(ModBlocks.FANCY_WHITE_WOOL);

@@ -1,7 +1,29 @@
 {
   "variants": {
-    "": {
+    "facing=down": {
       "model": "jaizmod:block/spice_barrel"
+    },
+    "facing=east": {
+      "model": "jaizmod:block/spice_barrel_rotated",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "jaizmod:block/spice_barrel_rotated",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "jaizmod:block/spice_barrel_rotated",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "jaizmod:block/spice_barrel"
+    },
+    "facing=west": {
+      "model": "jaizmod:block/spice_barrel_rotated",
+      "x": 90,
+      "y": 270
     }
   }
 }

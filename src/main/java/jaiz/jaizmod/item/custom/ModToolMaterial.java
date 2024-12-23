@@ -23,6 +23,8 @@ public enum ModToolMaterial implements ToolMaterial {
     SHARP_WEDGE_OBSIDIAN_SWORD(1050, 0.4f, 4.0f, 12, () -> Ingredient.ofItems(Blocks.OBSIDIAN)),
     SHARP_REGULAR_OBSIDIAN_SWORD(900, 0.4f, 6.0f, 12, () -> Ingredient.ofItems(Blocks.OBSIDIAN)),
 
+    MAYAN_SWORD(128, 0.2f, 9.0f, 18, () -> Ingredient.ofItems(Blocks.OBSIDIAN)),
+
     BATTERED( 712, 15f, 4.0f, 20, () -> Ingredient.ofItems(Items.COPPER_INGOT)),
 
     // Tool Material Stuff Goes here

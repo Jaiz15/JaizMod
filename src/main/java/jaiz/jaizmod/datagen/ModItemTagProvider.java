@@ -22,6 +22,65 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.AXES)
                 .add(ModItems.BATTERED_AXE);
 
+        getOrCreateTagBuilder(ItemTags.SWORDS)
+                .add(ModItems.OBSIDIAN_DAGGER)
+                .add(ModItems.SHARP_REGULAR_OBSIDIAN_SWORD)
+                .add(ModItems.SHARP_OBSIDIAN_DAGGER)
+                .add(ModItems.SHARP_WEDGE_OBSIDIAN_SWORD)
+                .add(ModItems.WEDGE_REGULAR_OBSIDIAN_SWORD)
+                .add(ModItems.WEDGE_OBSIDIAN_DAGGER)
+                .add(ModItems.WEDGE_OBSIDIAN_SWORD)
+                .add(ModItems.SHARP_OBSIDIAN_SWORD)
+                .add(ModItems.MACUAHUITL)
+                .add(ModItems.OBSIDIAN_SWORD);
+
+        getOrCreateTagBuilder(ItemTags.SHARP_WEAPON_ENCHANTABLE)
+                .add(ModItems.OBSIDIAN_DAGGER)
+                .add(ModItems.SHARP_REGULAR_OBSIDIAN_SWORD)
+                .add(ModItems.SHARP_OBSIDIAN_DAGGER)
+                .add(ModItems.SHARP_WEDGE_OBSIDIAN_SWORD)
+                .add(ModItems.WEDGE_REGULAR_OBSIDIAN_SWORD)
+                .add(ModItems.WEDGE_OBSIDIAN_DAGGER)
+                .add(ModItems.WEDGE_OBSIDIAN_SWORD)
+                .add(ModItems.SHARP_OBSIDIAN_SWORD)
+                .add(ModItems.MACUAHUITL)
+                .add(ModItems.BATTERED_AXE)
+                .add(ModItems.OBSIDIAN_SWORD);
+
+        getOrCreateTagBuilder(ItemTags.MINING_ENCHANTABLE)
+                .add(ModItems.BATTERED_AXE);
+
+        getOrCreateTagBuilder(ItemTags.MINING_LOOT_ENCHANTABLE)
+                .add(ModItems.BATTERED_AXE);
+
+        getOrCreateTagBuilder(ItemTags.VANISHING_ENCHANTABLE)
+                .add(ModItems.OBSIDIAN_DAGGER)
+                .add(ModItems.SHARP_REGULAR_OBSIDIAN_SWORD)
+                .add(ModItems.SHARP_OBSIDIAN_DAGGER)
+                .add(ModItems.SHARP_WEDGE_OBSIDIAN_SWORD)
+                .add(ModItems.WEDGE_REGULAR_OBSIDIAN_SWORD)
+                .add(ModItems.WEDGE_OBSIDIAN_DAGGER)
+                .add(ModItems.WEDGE_OBSIDIAN_SWORD)
+                .add(ModItems.SHARP_OBSIDIAN_SWORD)
+                .add(ModItems.MACUAHUITL)
+                .add(ModItems.BATTERED_AXE)
+                .add(ModItems.OBSIDIAN_SWORD);
+
+        getOrCreateTagBuilder(ItemTags.DURABILITY_ENCHANTABLE)
+                .add(ModItems.OBSIDIAN_DAGGER)
+                .add(ModItems.SHARP_REGULAR_OBSIDIAN_SWORD)
+                .add(ModItems.SHARP_OBSIDIAN_DAGGER)
+                .add(ModItems.SHARP_WEDGE_OBSIDIAN_SWORD)
+                .add(ModItems.WEDGE_REGULAR_OBSIDIAN_SWORD)
+                .add(ModItems.WEDGE_OBSIDIAN_DAGGER)
+                .add(ModItems.WEDGE_OBSIDIAN_SWORD)
+                .add(ModItems.SHARP_OBSIDIAN_SWORD)
+                .add(ModItems.MACUAHUITL)
+                .add(ModItems.BATTERED_AXE)
+                .add(ModItems.OBSIDIAN_SWORD);
+
+
+
         getOrCreateTagBuilder(ItemTags.FENCES)
                 .add(ModBlocks.ROTTEN_FENCE.asItem())
                 .add(ModBlocks.DESERT_OAK_FENCE.asItem())

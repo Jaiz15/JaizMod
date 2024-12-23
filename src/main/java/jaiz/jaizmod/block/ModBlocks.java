@@ -226,7 +226,7 @@ public class ModBlocks {
             new WallBlock(AbstractBlock.Settings.copy(Blocks.STONE_BRICK_WALL).requiresTool()));
 
     public static final Block SPICE_BARREL = registerBlock("spice_barrel",
-            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+            new SpiceBarrelBlock(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
 
 
     public static final Block GUANO_PILE = registerBlock("guano_block",

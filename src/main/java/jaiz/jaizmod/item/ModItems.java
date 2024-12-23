@@ -101,6 +101,13 @@ public class ModItems {
     public static final Item WITHER_ROSE_TEA = registerItem("wither_rose_tea", new WitherTeaItem(new Item.Settings().food(ModFoodComponents.WITHER_ROSE_TEA).maxCount(1)));
 
 
+    public static final Item MACUAHUITL = registerItem(
+            "macuahuitl",
+            new MayanSwordItem(
+                    ModToolMaterial.MAYAN_SWORD, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterial.OBSIDIAN_SWORD, 6, -3.7f))
+            )
+    );
+
     public static final Item OBSIDIAN_SWORD = registerItem(
             "obsidian_sword",
             new SwordItem(

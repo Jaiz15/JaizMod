@@ -21,6 +21,8 @@ public class ModTags {
                 createTag("tea_ingredient");
         public static final TagKey<Item> TEA_FLOWERS =
                 createTag("tea_flowers");
+        public static final TagKey<Item> OBSIDIAN_SHARDS =
+                createTag("obsidian_shards");
 
 
 

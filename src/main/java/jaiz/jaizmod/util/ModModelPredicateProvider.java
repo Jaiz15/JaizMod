@@ -14,10 +14,16 @@ public class ModModelPredicateProvider {
         registerHornModel(ModItems.AMETHYST_HORN);
         registerHornModel(ModItems.AIR_HORN);
         registerHornModel(ModItems.ANCIENT_HORN);
+        registerBlockingSwordModel(ModItems.MACUAHUITL);
     }
 
     private static void registerHornModel(Item item) {
         FabricModelPredicateProviderRegistry.register(Identifier.ofVanilla("tooting"), (stack, world, entity, seed) ->
+                entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0F : 0.0F);
+    }
+
+    private static void registerBlockingSwordModel(Item item) {
+        FabricModelPredicateProviderRegistry.register(Identifier.ofVanilla("blocking"), (stack, world, entity, seed) ->
                 entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0F : 0.0F);
     }
 

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "tag": "minecraft:planks"
+    },
+    "R": {
+      "tag": "jaizmod:obsidian_shards"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "RCR",
+    "RCR",
+    " X "
+  ],
+  "result": {
+    "count": 1,
+    "id": "jaizmod:macuahuitl"
+  }
+}

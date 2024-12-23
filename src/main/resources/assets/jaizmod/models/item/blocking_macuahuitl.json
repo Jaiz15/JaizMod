@@ -1,0 +1,29 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "jaizmod:item/macuahuitl"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [106.42, -68.64, 142.09],
+			"translation": [-1.75, 4.75, 2.5],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-178.11, 75.6, 133.08],
+			"translation": [0, 4, 2],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -18, 65],
+			"translation": [5.25, 1.5, -5.5],
+			"scale": [1.12, 1.12, 1.12]
+		},
+		"firstperson_lefthand": {
+			"rotation": [3, -22, -11],
+			"translation": [6.75, 0.75, -7.5],
+			"scale": [1.12, 1.12, 1.12]
+		}
+	}
+}
