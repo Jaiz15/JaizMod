@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "moss": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#jaizmod:plants_advancement"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.husbandry.plants_and_junk_root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:moss_block"
+    },
+    "title": {
+      "translate": "advancements.husbandry.plants_and_junk_root.title"
+    }
+  },
+  "requirements": [
+    [
+      "moss"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

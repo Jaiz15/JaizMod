@@ -4,8 +4,10 @@ import jaiz.jaizmod.sound.ModSounds;
 import jaiz.jaizmod.statuseffects.ModStatusEffects;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Fertilizable;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.entity.mob.PillagerEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.projectile.WindChargeEntity;
 import net.minecraft.item.*;
@@ -50,12 +52,15 @@ public class AncientHornItem extends GoatHornItem {
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         ItemStack itemStack = user.getStackInHand(hand);
         user.setCurrentHand(hand);
+        if (!user.getAbilities().creativeMode) {
+            itemStack.damage(1, user, LivingEntity.getSlotForHand(hand));
+        }
         world.playSound(null, user.getX(), user.getY(), user.getZ(), ModSounds.ANCIENT_HORN, SoundCategory.PLAYERS, 15.0f, user.getPitch() * -0.05f + 1f);
 
         if(user.isSneaking()){
             user.getItemCooldownManager().set(this, 320);
             user.clearStatusEffects();
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 160, 0, false, true));
+            user.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 180, 1, false, true));
 
         }
         else
@@ -79,6 +84,10 @@ public class AncientHornItem extends GoatHornItem {
                     fertilizable.grow((ServerWorld)world, world.random, user.getBlockPos().down(), blockState);
                 }
                 }
+            }
+            int o = user.getRandom().nextInt(9) + 3;
+            for (int i = 0; i < o; i++) {
+                user.getWorld().addParticle(ParticleTypes.HAPPY_VILLAGER, user.getParticleX(1.2), user.getRandomBodyY(), user.getParticleZ(1.2), 0.0, 0.0, 0.0);
             }
 
             user.getItemCooldownManager().set(this, 120);

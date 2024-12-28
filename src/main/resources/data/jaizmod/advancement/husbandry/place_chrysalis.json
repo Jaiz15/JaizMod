@@ -1,0 +1,34 @@
+{
+  "parent": "jaizmod:husbandry/plants_and_junk_root",
+  "criteria": {
+    "cocoon": {
+      "conditions": {
+        "location": [
+          {
+            "block": "jaizmod:cocoon_block",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.husbandry.place_chrysalis.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jaizmod:cocoon_block"
+    },
+    "title": {
+      "translate": "advancements.husbandry.place_chrysalis.title"
+    }
+  },
+  "requirements": [
+    [
+      "cocoon"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "jaizmod:husbandry/plants_and_junk_root",
+  "criteria": {
+    "firefly_bottle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jaizmod:firefly_bottle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.husbandry.firefly_bottle.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jaizmod:firefly_bottle"
+    },
+    "title": {
+      "translate": "advancements.husbandry.firefly_bottle.title"
+    }
+  },
+  "requirements": [
+    [
+      "firefly_bottle"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

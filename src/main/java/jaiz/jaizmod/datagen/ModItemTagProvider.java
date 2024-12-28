@@ -63,6 +63,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.WEDGE_OBSIDIAN_SWORD)
                 .add(ModItems.SHARP_OBSIDIAN_SWORD)
                 .add(ModItems.MACUAHUITL)
+                .add(ModItems.AIR_HORN)
+                .add(ModItems.AMETHYST_HORN)
+                .add(ModItems.ANCIENT_HORN)
                 .add(ModItems.BATTERED_AXE)
                 .add(ModItems.OBSIDIAN_SWORD);
 
@@ -76,9 +79,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.WEDGE_OBSIDIAN_SWORD)
                 .add(ModItems.SHARP_OBSIDIAN_SWORD)
                 .add(ModItems.MACUAHUITL)
+                .add(ModItems.AIR_HORN)
+                .add(ModItems.AMETHYST_HORN)
+                .add(ModItems.ANCIENT_HORN)
                 .add(ModItems.BATTERED_AXE)
                 .add(ModItems.OBSIDIAN_SWORD);
-
 
 
         getOrCreateTagBuilder(ItemTags.FENCES)
@@ -122,6 +127,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.DIRT)
                 .add(ModBlocks.HONEYCOMB_DIRT.asItem())
                 .add(ModBlocks.ROT_BLOCK.asItem());
+
+        getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.PETRIFIED_ARMOR_TRIM_SMITHING_TEMPLATE);
 
 
         getOrCreateTagBuilder(ItemTags.FENCE_GATES)

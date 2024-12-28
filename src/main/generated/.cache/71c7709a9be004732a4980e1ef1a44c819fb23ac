@@ -1,11 +1,11 @@
-// 1.21.1	2024-12-23T22:25:20.7831237	JaizMod/Tags for minecraft:item
-ede824b8af4f7300fdc620227892a39740ddb48f data\minecraft\tags\item\enchantable\vanishing.json
+// 1.21.1	2024-12-27T00:04:17.3480302	JaizMod/Tags for minecraft:item
+297708a5134122765f0ade067abcab0821d8fe83 data\minecraft\tags\item\enchantable\vanishing.json
 27584bfc0041243ee571a3de490e692965899965 data\minecraft\tags\item\wooden_pressure_plates.json
 21720c14583681293108e95770369da69c88930a data\minecraft\tags\item\saplings.json
 72d432862fb4c2eeeb7cbb5bd13db5164df568fa data\minecraft\tags\item\small_flowers.json
 29bbb428e7120ffda94e9f54ff1c493b025fbd08 data\minecraft\tags\item\wooden_slabs.json
-ede824b8af4f7300fdc620227892a39740ddb48f data\minecraft\tags\item\enchantable\durability.json
 0f5a79c5dcabead31ace99fee3bda20accf7f316 data\minecraft\tags\item\flowers.json
+297708a5134122765f0ade067abcab0821d8fe83 data\minecraft\tags\item\enchantable\durability.json
 5e20eb99669eb5bf681329b2170ad667a7271eec data\minecraft\tags\item\wooden_fences.json
 2aab8bebe3e1225e0aa8be29ed23da6051ddd615 data\minecraft\tags\item\axes.json
 2a0a3f137baaad0acd0718f9134c2bf28d1c1cd4 data\minecraft\tags\item\planks.json
@@ -21,5 +21,6 @@ c51642706a93ff5f7642d069d8a9a3e2057c96c3 data\minecraft\tags\item\fence_gates.js
 57844522a0accacf14148cf61010414a2045805d data\minecraft\tags\item\wooden_doors.json
 b41c71fa3f7e43b08103ebe74d8987fc1f67d77e data\minecraft\tags\item\stone_bricks.json
 ede824b8af4f7300fdc620227892a39740ddb48f data\minecraft\tags\item\enchantable\sharp_weapon.json
+bce62053f7b1099431086272fd2dc41531d5fa8f data\minecraft\tags\item\trim_templates.json
 08024a480ad1aab7d2d6a68fd33847c05e659b25 data\minecraft\tags\item\swords.json
 90d661fee970baf66d9bcf025b4dd6b758601f77 data\minecraft\tags\item\dirt.json

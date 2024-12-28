@@ -1,0 +1,41 @@
+{
+  "parent": "jaizmod:adventure/find_trading_post",
+  "criteria": {
+    "gild_mimic": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "jaizmod:mason_mouth"
+            }
+          }
+        ],
+        "item": {
+          "items": "#jaizmod:mason_mouth_transformable"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.gild_mimic.description"
+    },
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "jaizmod:mimic_pot"
+    },
+    "title": {
+      "translate": "advancements.adventure.gild_mimic.title"
+    }
+  },
+  "requirements": [
+    [
+      "gild_mimic"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

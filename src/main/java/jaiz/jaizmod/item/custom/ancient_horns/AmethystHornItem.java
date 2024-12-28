@@ -39,8 +39,11 @@ public class AmethystHornItem extends GoatHornItem {
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         ItemStack itemStack = user.getStackInHand(hand);
         user.setCurrentHand(hand);
+        if (!user.getAbilities().creativeMode) {
+            itemStack.damage(1, user, LivingEntity.getSlotForHand(hand));
+        }
         world.playSound(null, user.getX(), user.getY(), user.getZ(), ModSounds.AMETHYST_HORN, SoundCategory.PLAYERS, 15.0f, user.getPitch() * -0.05f + 1f);
-        int o = user.getRandom().nextInt(9) + 3;
+        int o = user.getRandom().nextInt(12) + 5;
 
         if(user.isSneaking()){
             user.getItemCooldownManager().set(this, 320);

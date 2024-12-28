@@ -140,9 +140,13 @@ public abstract class GlowSquidMixin extends SquidEntity {
         if(this.getWorld().getGameRules().getBoolean(ModGameRules.DO_GLOWING_SQUID) == true){
         if(this.getWorld() !=null && !getWorld().isClient){
             if(SquidLightBlockEntity.waterNeedsUpdate(this.getWorld(), this.getBlockPos())){
-                this.getWorld().setBlockState(this.getBlockPos(), ModBlocks.WATER_TEMPORARY_LIGHT.getDefaultState().with(WaterTickingBlock.WATERLOGGED, true));
+                this.getWorld().setBlockState(this.getBlockPos(),
+                        ModBlocks.WATER_TEMPORARY_LIGHT.getDefaultState()
+                        .with(WaterTickingBlock.WATERLOGGED, true));
             } else if (!SquidLightBlockEntity.waterNeedsUpdate(this.getWorld(), this.getBlockPos())) {
-                this.getWorld().setBlockState(this.getBlockPos(), ModBlocks.WATER_TEMPORARY_LIGHT.getDefaultState().with(WaterTickingBlock.WATERLOGGED, false));
+                this.getWorld().setBlockState(this.getBlockPos(),
+                        ModBlocks.WATER_TEMPORARY_LIGHT.getDefaultState()
+                        .with(WaterTickingBlock.WATERLOGGED, false));
             }
         }
     }

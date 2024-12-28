@@ -81,5 +81,13 @@
     "jaizmod:bandit_trade_success6"
 
   ]
+},  "shield_drum": {
+  "subtitle": "sounds.jaizmod.shield_drum",
+  "sounds": [
+    "jaizmod:shield_drum_1",
+    "jaizmod:shield_drum_2",
+    "jaizmod:shield_drum_3"
+
+  ]
 }
 }

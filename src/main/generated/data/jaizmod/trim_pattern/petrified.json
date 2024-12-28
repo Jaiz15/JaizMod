@@ -1,0 +1,8 @@
+{
+  "asset_id": "jaizmod:petrified",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.jaizmod.petrified"
+  },
+  "template_item": "jaizmod:petrified_armor_trim_smithing_template"
+}

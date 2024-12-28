@@ -146,6 +146,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GLOW_BALL, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.ORIGAMI_HAIRBALL_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PETRIFIED_ARMOR_TRIM_SMITHING_TEMPLATE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.SHARP_OBSIDIAN_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.WEDGE_OBSIDIAN_DAGGER, Models.HANDHELD);

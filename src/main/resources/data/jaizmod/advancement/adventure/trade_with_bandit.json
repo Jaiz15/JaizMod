@@ -1,0 +1,41 @@
+{
+  "parent": "jaizmod:adventure/rare_spices",
+  "criteria": {
+    "spice_trade": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "jaizmod:bandit"
+            }
+          }
+        ],
+        "item": {
+          "items": "jaizmod:rare_spices"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.spice_trade.description"
+    },
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "jaizmod:spice_barrel"
+    },
+    "title": {
+      "translate": "advancements.adventure.spice_trade.title"
+    }
+  },
+  "requirements": [
+    [
+      "spice_trade"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

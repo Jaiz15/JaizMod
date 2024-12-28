@@ -16,7 +16,8 @@ public class ModTags {
     }
 
     public static class Items {
-
+        public static final TagKey<Item> MASON_MOUTH_TRANSFORMABLE =
+                createTag("mason_mouth_transformable");
         public static final TagKey<Item> TEA_INGREDIENT =
                 createTag("tea_ingredient");
         public static final TagKey<Item> TEA_FLOWERS =

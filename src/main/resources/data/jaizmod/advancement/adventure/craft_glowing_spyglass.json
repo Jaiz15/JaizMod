@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "glowing_spyglass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jaizmod:glowing_spyglass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.glowing_spyglass.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jaizmod:glowing_spyglass"
+    },
+    "title": {
+      "translate": "advancements.adventure.glowing_spyglass.title"
+    }
+  },
+  "requirements": [
+    [
+      "glowing_spyglass"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

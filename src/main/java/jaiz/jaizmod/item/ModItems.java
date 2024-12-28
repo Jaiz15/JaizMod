@@ -12,6 +12,7 @@ import jaiz.jaizmod.item.custom.ancient_horns.AncientHornItem;
 import jaiz.jaizmod.item.custom.GlowingSpyGlassItem;
 import jaiz.jaizmod.item.custom.teas.*;
 import jaiz.jaizmod.sound.ModSounds;
+import jaiz.jaizmod.trim.ModTrimPatterns;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -25,11 +26,11 @@ import static net.minecraft.item.Items.register;
 
 public class ModItems {
 
-
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(JaizMod.MOD_ID, name), item);
     }
 
+    public static final Item PETRIFIED_ARMOR_TRIM_SMITHING_TEMPLATE = registerItem("petrified_armor_trim_smithing_template", SmithingTemplateItem.of(ModTrimPatterns.PETRIFIED));
 
     public static final Item GLOWING_SPYGLASS = registerItem("glowing_spyglass", new GlowingSpyGlassItem(new Item.Settings().maxCount(1)));
 
@@ -49,7 +50,6 @@ public class ModItems {
     public static final Item WATER_TORCH = register(new VerticallyAttachableBlockItem(ModBlocks.WATER_TORCH, ModBlocks.WALL_WATER_TORCH, new Item.Settings(), Direction.DOWN));
 
     public static final Item FRUIT_BAT_SPAWN_EGG = registerItem("fruit_bat_spawn_egg", new SpawnEggItem(ModEntities.FRUIT_BAT, 0x341609, 0xe9c79a, new Item.Settings()));
-
     public static final Item GUANO = registerItem("guano", new GuanoItem(new Item.Settings()));
     public static final Item GLOW_BALL = registerItem("glowball", new GlowBallItem(new Item.Settings()));
 
@@ -63,24 +63,22 @@ public class ModItems {
     public static final Item FIREFLY_SWARM_SPAWN_EGG = registerItem("firefly_swarm_spawn_egg", new SpawnEggItem(ModEntities.FIRE_FLY_SWARM, 0x0E0709, 0x9DFF18, new Item.Settings()));
     public static final Item DRAGONFLY_SPAWN_EGG = registerItem("dragonfly_spawn_egg", new SpawnEggItem(ModEntities.DRAGONFLY, 0x2C0818, 0x658DD3, new Item.Settings()));
 
-
     public static final Item ROTTEN_SIGN = registerItem("rotten_sign", new SignItem(new Item.Settings().maxCount(16), ModBlocks.STANDING_ROTTEN_SIGN, ModBlocks.WALL_ROTTEN_SIGN));
     public static final Item HANGING_ROTTEN_SIGN = registerItem("rotten_hanging_sign", new HangingSignItem(ModBlocks.HANGING_ROTTEN_SIGN, ModBlocks.WALL_HANGING_ROTTEN_SIGN, new Item.Settings().maxCount(16)));
 
     public static final Item SILK = registerItem("silk", new Item(new Item.Settings()));
     public static final Item BATTERED_AXE_REMNANT = registerItem("battered_axe_remnant", new Item(new Item.Settings()));
 
-    public static final Item AMETHYST_HORN = registerItem("amethyst_horn", new AmethystHornItem(new Item.Settings().maxCount(1), InstrumentTags.GOAT_HORNS));
-    public static final Item AIR_HORN = registerItem("air_horn", new AirHornItem(new Item.Settings().maxCount(1), InstrumentTags.GOAT_HORNS));
-    public static final Item ANCIENT_HORN = registerItem("ancient_horn", new AncientHornItem(new Item.Settings().maxCount(1), InstrumentTags.GOAT_HORNS));
-
+    public static final Item AMETHYST_HORN = registerItem("amethyst_horn", new AmethystHornItem(new Item.Settings().maxCount(1).maxDamage(64), InstrumentTags.GOAT_HORNS));
+    public static final Item AIR_HORN = registerItem("air_horn", new AirHornItem(new Item.Settings().maxCount(1).maxDamage(64), InstrumentTags.GOAT_HORNS));
+    public static final Item ANCIENT_HORN = registerItem("ancient_horn", new AncientHornItem(new Item.Settings().maxCount(1).maxDamage(64), InstrumentTags.GOAT_HORNS));
 
     public static final Item RARE_SPICES = registerItem("rare_spices", new Item(new Item.Settings().food(ModFoodComponents.RARE_SPICES)));
     public static final Item GOURMET_MEAL = registerItem("gourmet_meal", new Item(new Item.Settings().food(ModFoodComponents.GOURMET_MEAL).maxCount(16)));
     public static final Item OBSIDIAN_SHARD = registerItem("obsidian_shard", new Item(new Item.Settings()));
     public static final Item SHARP_OBSIDIAN_SHARD = registerItem("sharp_obsidian_shard", new Item(new Item.Settings()));
     public static final Item WEDGE_OBSIDIAN_SHARD = registerItem("wedge_obsidian_shard", new Item(new Item.Settings()));
-    public static final Item MIMIC_POT = registerItem("mimic_pot", new SpawnEggItem(ModEntities.MASON_MOUTH, 0xFFFFFF, 0xFFFFFF, new Item.Settings()));
+    public static final Item MIMIC_POT = registerItem("mimic_pot", new SpawnEggItem(ModEntities.MASON_MOUTH, 0xFFFFFF, 0xFFFFFF, new Item.Settings().maxCount(1)));
     public static final Item BANDIT_SPAWN_EGG = registerItem("bandit_spawn_egg", new SpawnEggItem(ModEntities.BANDIT, 0xD3B081, 0x715F3B, new Item.Settings()));
 
     public static final Item UNFIRED_TEA_CUP = registerItem("unfired_tea_cup", new Item(new Item.Settings().maxCount(1)));
@@ -104,7 +102,7 @@ public class ModItems {
     public static final Item MACUAHUITL = registerItem(
             "macuahuitl",
             new MayanSwordItem(
-                    ModToolMaterial.MAYAN_SWORD, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterial.OBSIDIAN_SWORD, 6, -3.7f))
+                    ModToolMaterial.MAYAN_SWORD, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterial.OBSIDIAN_SWORD, 6, -3.5f))
             )
     );
 

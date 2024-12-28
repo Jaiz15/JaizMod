@@ -4,16 +4,20 @@ package jaiz.jaizmod.entity.bandit;
 import jaiz.jaizmod.entity.animation.DunesAndDroughtAnimations;
 import net.minecraft.client.model.*;
 import net.minecraft.client.render.VertexConsumer;
+import net.minecraft.client.render.entity.model.ModelWithArms;
 import net.minecraft.client.render.entity.model.SinglePartEntityModel;
 import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.util.Arm;
 import net.minecraft.util.math.MathHelper;
 
-public class Bandit <T extends BanditEntity> extends SinglePartEntityModel<T> {
+public class Bandit <T extends BanditEntity> extends SinglePartEntityModel<T> implements ModelWithArms {
 	private final ModelPart bandit;
 	private final ModelPart head;
+	private final ModelPart hands;
 
 	public Bandit(ModelPart root) {
 		this.bandit = root.getChild("bandit");
+		this.hands = root.getChild("bandit").getChild("body").getChild("arms").getChild("item");
 		this.head = bandit.getChild("body").getChild("head");
 	}
 	public static TexturedModelData getTexturedModelData() {
@@ -32,9 +36,14 @@ public class Bandit <T extends BanditEntity> extends SinglePartEntityModel<T> {
 				.uv(22, 0).cuboid(-1.0F, -3.0F, -6.0F, 2.0F, 4.0F, 2.0F, new Dilation(0.0F))
 				.uv(28, 0).cuboid(-4.0F, -9.25F, -4.0F, 8.0F, 7.0F, 8.0F, new Dilation(0.51F)), ModelTransform.pivot(0.0F, -12.0F, 0.0F));
 
+
 		ModelPartData arms = body.addChild("arms", ModelPartBuilder.create().uv(44, 15).cuboid(-4.0F, 2.7F, -2.55F, 8.0F, 4.0F, 4.0F, new Dilation(0.0F))
 				.uv(24, 52).cuboid(-8.0F, -1.3F, -2.55F, 4.0F, 8.0F, 4.0F, new Dilation(0.0F))
 				.uv(52, 23).cuboid(4.0F, -1.3F, -2.55F, 4.0F, 8.0F, 4.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, -9.25F, -0.5F, -0.7418F, 0.0F, 0.0F));
+
+		ModelPartData item = arms.addChild("item", ModelPartBuilder.create(), ModelTransform.of(0.0F, 3.0F, 3.0F, -19.9F, 0.0F, 0.0F));
+
+
 		return TexturedModelData.of(modelData, 72, 72);
 	}
 
@@ -66,4 +75,8 @@ public class Bandit <T extends BanditEntity> extends SinglePartEntityModel<T> {
 		return bandit;
 	}
 
+	@Override
+	public void setArmAngle(Arm arm, MatrixStack matrices) {
+		this.hands.rotate(matrices);
+	}
 }

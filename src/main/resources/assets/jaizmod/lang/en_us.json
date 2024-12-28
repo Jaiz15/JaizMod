@@ -20,6 +20,9 @@
 
   "item.jaizmod.macuahuitl": "Macuahuitl",
 
+  "item.jaizmod.petrified_armor_trim_smithing_template": "Smithing Template",
+  "trim_pattern.jaizmod.petrified": "Petrified Armor Trim",
+
   "item.jaizmod.guano": "Guano",
   "entity.jaizmod.guano": "Guano",
   "block.jaizmod.guano_block": "Guano Pile",
@@ -232,6 +235,30 @@
 
   "advancements.adventure.sand.title": "I Hate Sand",
   "advancements.adventure.sand.description": "It gets everywhere",
+
+  "advancements.husbandry.place_chrysalis.description": "Place a butterfly chrysalis",
+  "advancements.husbandry.place_chrysalis.title": "The Miracle Of Life",
+
+  "advancements.husbandry.plants_and_junk_root.title": "Planks And Junk",
+  "advancements.husbandry.plants_and_junk_root.description": "So many bugs",
+
+  "advancements.adventure.gild_mimic.description": "Use a gilding item on a mimic pot",
+  "advancements.adventure.gild_mimic.title": "Pretty Mimicry",
+
+  "advancements.adventure.blow_me_im_horny.description": "Obtain an ancient horn from a fossil pit",
+  "advancements.adventure.blow_me_im_horny.title": "Blow Me I'm Horny",
+
+  "advancements.adventure.spice_trade.description": "Trade with a bandit",
+  "advancements.adventure.spice_trade.title": "Deal With Danger",
+
+  "advancements.adventure.obsidian_shards.description": "Obtain an obsidian shard, perfect for making weapons",
+  "advancements.adventure.obsidian_shards.title": "Obsidian Arsenal",
+
+  "advancements.adventure.glowing_spyglass.description":  "Craft a glowing spyglass",
+  "advancements.adventure.glowing_spyglass.title": "Land Glow!",
+
+  "advancements.husbandry.firefly_bottle.title": "Stars In A Jar",
+  "advancements.husbandry.firefly_bottle.description": "Obtain a firefly bottle",
 
   "advancements.adventure.rare_spices.description": "Obtain some rare spices",
   "advancements.adventure.rare_spices.title": "The British Are Coming",

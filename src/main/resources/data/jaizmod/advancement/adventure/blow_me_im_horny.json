@@ -1,0 +1,33 @@
+{
+  "parent": "jaizmod:adventure/find_fossil_pit",
+  "criteria": {
+    "horny": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#jaizmod:ancient_horns"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.blow_me_im_horny.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jaizmod:amethyst_horn"
+    },
+    "title": {
+      "translate": "advancements.adventure.blow_me_im_horny.title"
+    }
+  },
+  "requirements": [
+    [
+      "horny"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

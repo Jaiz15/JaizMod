@@ -21,7 +21,7 @@ public class ModEntities {
 
     public static final EntityType<MasonmouthEntity> MASON_MOUTH = Registry.register(Registries.ENTITY_TYPE,
             Identifier.of(JaizMod.MOD_ID, "mason_mouth"),
-            EntityType.Builder.create(MasonmouthEntity::new, SpawnGroup.MISC).dimensions(0.75f, 1.0f).build());
+            EntityType.Builder.create(MasonmouthEntity::new, SpawnGroup.MISC).dimensions(0.875f, 1.0f).build());
 
     public static final EntityType<BanditEntity> BANDIT = Registry.register(Registries.ENTITY_TYPE,
             Identifier.of(JaizMod.MOD_ID, "bandit"),

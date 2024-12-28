@@ -27,6 +27,8 @@ public class ModSounds {
     public static final SoundEvent AIR_HORN = registerSoundEvent("air_horn");
     public static final SoundEvent ANCIENT_HORN = registerSoundEvent("ancient_horn");
 
+    public static final SoundEvent SHIELD_DRUM = registerSoundEvent("shield_drum");
+
     public static final SoundEvent BANDIT_IDLE = registerSoundEvent("bandit_idle");
     public static final SoundEvent BANDIT_DAMAGE = registerSoundEvent("bandit_damage");
     public static final SoundEvent BANDIT_DEATH = registerSoundEvent("bandit_death");

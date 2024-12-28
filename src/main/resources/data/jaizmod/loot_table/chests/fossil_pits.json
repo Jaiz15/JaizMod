@@ -22,6 +22,11 @@
         {
           "type": "minecraft:item",
           "weight": 1,
+          "name": "jaizmod:petrified_armor_trim_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
           "name": "minecraft:sniffer_egg"
         },
         {

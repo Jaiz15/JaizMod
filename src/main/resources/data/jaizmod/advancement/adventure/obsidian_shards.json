@@ -1,0 +1,33 @@
+{
+  "parent": "jaizmod:adventure/desert_root",
+  "criteria": {
+    "obsidian_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#jaizmod:obsidian_shards"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.obsidian_shards.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jaizmod:obsidian_shard"
+    },
+    "title": {
+      "translate": "advancements.adventure.obsidian_shards.title"
+    }
+  },
+  "requirements": [
+    [
+      "obsidian_shard"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

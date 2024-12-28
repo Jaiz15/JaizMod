@@ -1,6 +1,7 @@
 package jaiz.jaizmod;
 
 import jaiz.jaizmod.datagen.*;
+import jaiz.jaizmod.trim.ModTrimPatterns;
 import jaiz.jaizmod.worldgen.features.ModConfiguredFeatures;
 import jaiz.jaizmod.worldgen.features.ModPlacedFeatures;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
@@ -20,6 +21,7 @@ public class JaizModDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModBlockTagProvider::new);
 		pack.addProvider(ModWorldGenerator::new);
 		pack.addProvider(ModPoiTagProvider::new);
+		pack.addProvider(ModRegistryDataGenerator::new);
 
 	}
 
@@ -27,5 +29,6 @@ public class JaizModDataGenerator implements DataGeneratorEntrypoint {
 	public void buildRegistry(RegistryBuilder registryBuilder) {
 		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::boostrap);
 		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::boostrap);
+		registryBuilder.addRegistry(RegistryKeys.TRIM_PATTERN, ModTrimPatterns::bootstrap);
 	}
 }
