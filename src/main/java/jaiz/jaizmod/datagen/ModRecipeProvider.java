@@ -34,6 +34,35 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     @Override
     public void generate(RecipeExporter exporter) {
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PLATED_CALCITE, 4)
+                .pattern("RX")
+                .pattern("XR")
+                .input('R', Items.CALCITE)
+                .input('X', Items.POLISHED_BLACKSTONE)
+                .criterion(hasItem(Items.CALCITE), conditionsFromItem(Items.CALCITE))
+                .criterion(hasItem(Items.POLISHED_BLACKSTONE), conditionsFromItem(Items.POLISHED_BLACKSTONE))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModBlocks.PLATED_CALCITE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_PLATED_CALCITE, 4)
+                .pattern("RR")
+                .pattern("RR")
+                .input('R', ModBlocks.PLATED_CALCITE)
+                .criterion(hasItem(ModBlocks.PLATED_CALCITE), conditionsFromItem(ModBlocks.PLATED_CALCITE))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModBlocks.CHISELED_PLATED_CALCITE)));
+
+        StonecuttingRecipeJsonBuilder.createStonecutting(Ingredient.ofItems(ModBlocks.PLATED_CALCITE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_PLATED_CALCITE, 1)
+                .criterion(hasItem(ModBlocks.PLATED_CALCITE), conditionsFromItem(ModBlocks.PLATED_CALCITE))
+                .offerTo(exporter, Identifier.of(JaizMod.MOD_ID, "chiseled_plated_calcite_from_stone_cutter"));
+
+        StonecuttingRecipeJsonBuilder.createStonecutting(Ingredient.ofItems(Items.CALCITE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.PLATED_CALCITE, 1)
+                .criterion(hasItem(Items.CALCITE), conditionsFromItem(Items.CALCITE))
+                .offerTo(exporter, Identifier.of(JaizMod.MOD_ID, "plated_calcite_from_stone_cutter"));
+
+        StonecuttingRecipeJsonBuilder.createStonecutting(Ingredient.ofItems(Items.TERRACOTTA), RecipeCategory.BUILDING_BLOCKS, ModBlocks.TERRACOTTA_BRICKS, 1)
+                .criterion(hasItem(Items.TERRACOTTA), conditionsFromItem(Items.TERRACOTTA))
+                .offerTo(exporter, Identifier.of(JaizMod.MOD_ID, "terracotta_bricks_from_stone_cutter"));
+
+
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DYNAMITE, 1)
                 .input(Items.PAPER)
                 .input(Items.STRING)

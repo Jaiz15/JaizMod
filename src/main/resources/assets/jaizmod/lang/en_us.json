@@ -1,9 +1,13 @@
 {
+  "itemgroup._jaizmod": "JaizMod",
   "itemgroup.jungle": "Jungle Update",
   "itemgroup.plantsandjunk": "Plants And Junk",
   "itemgroup.desertmodupdate": "Dunes & Drought",
   "itemgroup.glow_squid": "Glow Squid",
   "itemgroup.tea_time": "Tea Time",
+
+  "block.jaizmod.plated_calcite": "Plated Calcite",
+  "block.jaizmod.chiseled_plated_calcite": "Chiseled Plated Calcite",
 
   "item.jaizmod.mahogany_sign": "Mahogany Sign",
   "item.jaizmod.mahogany_wall_sign": "Mahogany Sign",

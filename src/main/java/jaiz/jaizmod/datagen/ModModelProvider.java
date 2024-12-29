@@ -17,6 +17,9 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PLATED_CALCITE);
+
         blockStateModelGenerator.registerTintableCross(ModBlocks.AMETHYST_THORN, BlockStateModelGenerator.TintType.NOT_TINTED);
 
         blockStateModelGenerator.registerTintableCross(ModBlocks.COLUMBINE, BlockStateModelGenerator.TintType.NOT_TINTED);

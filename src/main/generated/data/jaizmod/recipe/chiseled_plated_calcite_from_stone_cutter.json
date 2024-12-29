@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "jaizmod:plated_calcite"
+  },
+  "result": {
+    "count": 1,
+    "id": "jaizmod:chiseled_plated_calcite"
+  }
+}

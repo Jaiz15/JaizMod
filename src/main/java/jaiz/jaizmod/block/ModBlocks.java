@@ -33,6 +33,13 @@ public class ModBlocks {
     public static final BooleanProperty HAS_CUP = BooleanProperty.of("has_cup");
     public static final Block TEAPOTBLOCK = registerBlock("tea_pot_block", new TeaPotBlock(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).luminance(state -> 13).nonOpaque()));
 
+    public static final Block CHISELED_PLATED_CALCITE = registerBlock("chiseled_plated_calcite",
+            new DirectionalModelBlock(AbstractBlock.Settings.copy(Blocks.CALCITE)));
+
+    public static final Block PLATED_CALCITE = registerBlock("plated_calcite",
+            new Block(AbstractBlock.Settings.copy(Blocks.CALCITE)));
+
+
     public static final Block BIOLUMINESCENT_BOTTLE = registerBlock("bioluminescent_bottle",
             new BioluminescentBottleBlock(AbstractBlock.Settings.copy(Blocks.GLASS).sounds(BlockSoundGroup.GLASS).luminance(state -> 15)));
 

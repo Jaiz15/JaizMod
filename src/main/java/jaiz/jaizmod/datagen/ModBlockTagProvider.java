@@ -167,6 +167,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GILDED_CHISELED_SANDSTONE)
                 .add(ModBlocks.GILDED_SANDSTONE)
                 .add(ModBlocks.GILDED_CUT_SANDSTONE)
+                .add(ModBlocks.CHISELED_PLATED_CALCITE)
+                .add(ModBlocks.PLATED_CALCITE)
                 .add(ModBlocks.TERRACOTTA_BRICK_SLAB);
 
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)

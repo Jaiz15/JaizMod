@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"front": "jaizmod:block/chiseled_plated_calcite",
+		"side": "jaizmod:block/chiseled_plated_calcite_side_2",
+		"top": "jaizmod:block/chiseled_plated_calcite_top"
+	}
+}

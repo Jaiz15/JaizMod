@@ -43,10 +43,6 @@ public class ModItems {
     public static final Item ROTTEN_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.ROTTEN_BOAT_ID, ModBoats.ROTTEN_BOAT, false);
     public static final Item ROTTEN_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.ROTTEN_CHEST_BOAT_ID, ModBoats.ROTTEN_BOAT, true);
 
-
-
-
-
     public static final Item WATER_TORCH = register(new VerticallyAttachableBlockItem(ModBlocks.WATER_TORCH, ModBlocks.WALL_WATER_TORCH, new Item.Settings(), Direction.DOWN));
 
     public static final Item FRUIT_BAT_SPAWN_EGG = registerItem("fruit_bat_spawn_egg", new SpawnEggItem(ModEntities.FRUIT_BAT, 0x341609, 0xe9c79a, new Item.Settings()));

@@ -1,4 +1,4 @@
-// 1.21.1	2024-12-28T23:55:21.1096224	JaizMod/Tags for minecraft:block
+// 1.21.1	2024-12-29T17:40:08.362993	JaizMod/Tags for minecraft:block
 d590e5d3c0e6aaa641c4f1f98f54585b5520ffea data\minecraft\tags\block\walls.json
 030e852604d55bc74bebfda15dc2df242f7a28af data\minecraft\tags\block\mineable\hoe.json
 196e8d1e9372eda13b5fd9a5a6204bd5e0d2e5d4 data\minecraft\tags\block\mineable\axe.json
@@ -13,7 +13,7 @@ bc5cbba7585c6d25affe7d12609ccb4edf0a13b0 data\minecraft\tags\block\wool.json
 d0c6eac5c3e424fabcc9a21f42e7dc29811002bd data\minecraft\tags\block\planks.json
 02b298068cab5961b975e6b4dc31e4af23a01cc9 data\minecraft\tags\block\mineable\shovel.json
 94cd60f59b1286d0ea9c3ba9383e0f735ece94bc data\minecraft\tags\block\fences.json
-0c940542201d79e69d5ea983297eec30eb45e631 data\minecraft\tags\block\mineable\pickaxe.json
+a5f5003574472b1f26a5e16851d6ec7915c77261 data\minecraft\tags\block\mineable\pickaxe.json
 27584bfc0041243ee571a3de490e692965899965 data\minecraft\tags\block\wooden_pressure_plates.json
 72d432862fb4c2eeeb7cbb5bd13db5164df568fa data\minecraft\tags\block\small_flowers.json
 e13c296a27966b8849eec9acdbf9c6fa2ffe04e1 data\minecraft\tags\block\saplings.json

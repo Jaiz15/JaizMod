@@ -93,6 +93,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STANDING_MAHOGANY_SIGN);
         addDrop(ModBlocks.WALL_MAHOGANY_SIGN);
 
+        addDrop(ModBlocks.CHISELED_PLATED_CALCITE);
+        addDrop(ModBlocks.PLATED_CALCITE);
+
         addDrop(ModBlocks.GUANO_PILE, ModItems.GUANO);
         addDrop(ModBlocks.SLIME_DRIP, Items.SLIME_BALL);
 
