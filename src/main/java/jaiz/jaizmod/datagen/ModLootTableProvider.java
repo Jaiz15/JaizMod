@@ -71,9 +71,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.TERRACOTTA_BRICK_SLAB, slabDrops(ModBlocks.TERRACOTTA_BRICK_SLAB));
         addDrop(ModBlocks.TERRACOTTA_BRICK_STAIRS);
 
-
         addDrop(ModBlocks.DESERT_OAK_LEAVES, leavesDrops(ModBlocks.DESERT_OAK_LEAVES, ModBlocks.DESERT_OAK_SAPLING, 0.2f));
-
 
         addDrop(ModBlocks.MAHOGANY_WOOD);
         addDrop(ModBlocks.STRIPPED_MAHOGANY_WOOD);

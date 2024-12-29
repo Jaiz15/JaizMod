@@ -188,9 +188,7 @@ public class BanditEntity extends HostileEntity {
         this.goalSelector.add(2, new BanditAttackGoal(this, 1d, false));
         this.targetSelector.add(4, new ActiveTargetGoal<>(this, PlayerEntity.class, true));
         this.targetSelector.add(3, new RevengeGoal(this));
-        this.targetSelector.add(6, new ActiveTargetGoal<>(this, PillagerEntity.class, true));
-        this.targetSelector.add(6, new ActiveTargetGoal<>(this, EvokerEntity.class, true));
-        this.targetSelector.add(6, new ActiveTargetGoal<>(this, VindicatorEntity.class, true));
+        this.targetSelector.add(6, new ActiveTargetGoal<>(this, IllagerEntity.class, true));
         this.targetSelector.add(6, new ActiveTargetGoal<>(this, VexEntity.class, true));
         this.targetSelector.add(6, new ActiveTargetGoal<>(this, SnowGolemEntity.class, true));
         this.goalSelector.add(7, new WanderAroundFarGoal(this, 1.0));

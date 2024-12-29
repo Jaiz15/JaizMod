@@ -254,7 +254,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SHELF_MUSHROOM_BLOCK)
                 .add(ModBlocks.IVY)
                 .add(ModBlocks.UNDERGROWTH);
-        
+
 
     }
 }

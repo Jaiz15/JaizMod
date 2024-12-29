@@ -31,7 +31,6 @@ public class ModBlocks {
     public static final IntProperty SIZE = IntProperty.of("size", 0, 2);
     public static final IntProperty ROTTING = IntProperty.of("rotting", 0, 1);
     public static final BooleanProperty HAS_CUP = BooleanProperty.of("has_cup");
-
     public static final Block TEAPOTBLOCK = registerBlock("tea_pot_block", new TeaPotBlock(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).luminance(state -> 13).nonOpaque()));
 
     public static final Block BIOLUMINESCENT_BOTTLE = registerBlock("bioluminescent_bottle",
@@ -313,7 +312,7 @@ public class ModBlocks {
 
     public static final SaplingGenerator MAHOGANY = new SaplingGenerator("mahogany_tree",
             Optional.of(ModConfiguredFeatures.MAHOGANY_TREE),
-            Optional.empty(),
+            Optional.of(ModConfiguredFeatures.SMALL_MAHOGANY_TREE),
             Optional.empty());
     public static final Block MAHOGANY_SAPLING = registerBlock("mahogany_sapling",
             new SaplingBlock(MAHOGANY, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)));

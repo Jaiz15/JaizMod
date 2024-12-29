@@ -9,8 +9,11 @@ import jaiz.jaizmod.entity.firefly.FireFlySwarmEntity;
 import jaiz.jaizmod.entity.fruit_bat.FruitBatEntity;
 import jaiz.jaizmod.entity.mason_mouth.MasonmouthEntity;
 import jaiz.jaizmod.entity.snail.SnailEntity;
+import jaiz.jaizmod.entity.thrown_entity.DynamiteEntity;
 import jaiz.jaizmod.entity.thrown_entity.GlowballEntity;
 import jaiz.jaizmod.entity.thrown_entity.GuanoEntity;
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
+import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
 import net.minecraft.registry.Registries;
@@ -26,6 +29,10 @@ public class ModEntities {
     public static final EntityType<BanditEntity> BANDIT = Registry.register(Registries.ENTITY_TYPE,
             Identifier.of(JaizMod.MOD_ID, "bandit"),
             EntityType.Builder.create(BanditEntity::new, SpawnGroup.MISC).dimensions(0.6f, 1.9f).build());
+
+    public static final EntityType<DynamiteEntity> DYNAMITE = Registry.register(Registries.ENTITY_TYPE,
+            Identifier.of(JaizMod.MOD_ID, "dynamite"),
+            FabricEntityTypeBuilder.<DynamiteEntity>create(SpawnGroup.MISC, DynamiteEntity::new).dimensions(EntityDimensions.fixed(0.4f, 0.4f)).build());
 
 
     public static final EntityType<GuanoEntity> GUANO = Registry.register(Registries.ENTITY_TYPE,

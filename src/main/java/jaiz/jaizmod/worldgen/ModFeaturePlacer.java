@@ -19,6 +19,9 @@ public class ModFeaturePlacer {
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.DESERT, BiomeKeys.BADLANDS, BiomeKeys.ERODED_BADLANDS, BiomeKeys.WOODED_BADLANDS),
                 GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.DESERT_OAK_PLACED_KEY);
 
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.JUNGLE, ModBiomes.MAHOGANY_FOREST),
+                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.SMALL_MAHOGANY_PLACED);
+
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(ModBiomes.FRUIT_BAT_CAVES),
                 GenerationStep.Feature.UNDERGROUND_DECORATION, ModPlacedFeatures.POO_PLACED);
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(ModBiomes.FRUIT_BAT_CAVES),

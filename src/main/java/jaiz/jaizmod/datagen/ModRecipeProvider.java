@@ -34,6 +34,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     @Override
     public void generate(RecipeExporter exporter) {
 
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DYNAMITE, 1)
+                .input(Items.PAPER)
+                .input(Items.STRING)
+                .input(Items.GUNPOWDER)
+                .criterion(hasItem(Items.PAPER), conditionsFromItem(Items.PAPER))
+                .criterion(hasItem(Items.STRING), conditionsFromItem(Items.STRING))
+                .criterion(hasItem(Items.GUNPOWDER), conditionsFromItem(Items.GUNPOWDER))
+                .criterion(hasItem(ModItems.DYNAMITE), conditionsFromItem(ModItems.DYNAMITE))
+                .offerTo(exporter, Identifier.of(JaizMod.MOD_ID, "dynamite"));
+
         List<ItemConvertible> UNFIRED_TEA_CUP = List.of(ModItems.UNFIRED_TEA_CUP);
         offerSmelting(exporter, UNFIRED_TEA_CUP, RecipeCategory.FOOD, ModItems.TEA_CUP, 0.25f, 200, "tea_cup");
         offerBlasting(exporter, UNFIRED_TEA_CUP, RecipeCategory.FOOD, ModItems.TEA_CUP, 0.25f, 150, "tea_cup");

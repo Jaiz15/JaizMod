@@ -89,6 +89,7 @@ public class JaizModClient implements ClientModInitializer {
 
 		EntityRendererRegistry.register(ModEntities.GUANO, FlyingItemEntityRenderer::new);
 		EntityRendererRegistry.register(ModEntities.GLOWBALL, FlyingItemEntityRenderer::new);
+		EntityRendererRegistry.register(ModEntities.DYNAMITE, FlyingItemEntityRenderer::new);
 
 		EntityRendererRegistry.register(ModEntities.FRUIT_BAT, FruitBatRenderer::new);
 		EntityModelLayerRegistry.registerModelLayer(ModModelLayers.FRUIT_BAT, FruitBat::getTexturedModelData);

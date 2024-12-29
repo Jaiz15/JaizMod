@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.gen.Invoker;
 @Mixin(StructureType.class)
 public interface StructurePlacerTypeInvoker {
     @Invoker("register")
-    static <S extends Structure> StructureType<S> callRegister(String id, MapCodec<JaizJungleTempleStructurePlacer> codec) {
+    static <S extends Structure> StructureType<S> callRegister(String id, MapCodec<S> codec) {
         throw new IllegalStateException();
     }
 }

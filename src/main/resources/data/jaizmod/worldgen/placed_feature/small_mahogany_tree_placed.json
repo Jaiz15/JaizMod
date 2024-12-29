@@ -1,5 +1,5 @@
 {
-  "feature": "jaizmod:rotten_log",
+  "feature": "jaizmod:mahogany_tree_small",
   "placement": [
     {
       "type": "minecraft:count",
@@ -8,10 +8,14 @@
         "distribution": [
           {
             "data": 0,
-            "weight": 64
+            "weight": 3
           },
           {
             "data": 1,
+            "weight": 3
+          },
+          {
+            "data": 3,
             "weight": 1
           }
         ]
@@ -36,7 +40,7 @@
       "predicate": {
         "type": "minecraft:would_survive",
         "state": {
-          "Name": "minecraft:oak_sapling",
+          "Name": "jaizmod:mahogany_sapling",
           "Properties": {
             "stage": "0"
           }

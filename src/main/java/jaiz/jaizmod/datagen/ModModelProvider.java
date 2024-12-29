@@ -17,7 +17,6 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-
         blockStateModelGenerator.registerTintableCross(ModBlocks.AMETHYST_THORN, BlockStateModelGenerator.TintType.NOT_TINTED);
 
         blockStateModelGenerator.registerTintableCross(ModBlocks.COLUMBINE, BlockStateModelGenerator.TintType.NOT_TINTED);
@@ -103,6 +102,7 @@ public class ModModelProvider extends FabricModelProvider {
         desert_oak_pool.pressurePlate(ModBlocks.DESERT_OAK_PRESSURE_PLATE);
 
         blockStateModelGenerator.registerTintableCross(ModBlocks.DESERT_OAK_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerTintableCross(ModBlocks.MAHOGANY_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 
         blockStateModelGenerator.registerDoor(ModBlocks.DESERT_OAK_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.DESERT_OAK_TRAPDOOR);
@@ -113,9 +113,6 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerHangingSign(ModBlocks.HANGING_DESERT_OAK_SIGN, ModBlocks.HANGING_DESERT_OAK_SIGN, ModBlocks.WALL_HANGING_DESERT_OAK_SIGN);
 
-
-        blockStateModelGenerator.registerTintableCross(ModBlocks.MAHOGANY_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
-
         blockStateModelGenerator.registerTintableCross(ModBlocks.SLIME_DRIP, BlockStateModelGenerator.TintType.NOT_TINTED);
 
         blockStateModelGenerator.registerHangingSign(ModBlocks.HANGING_MAHOGANY_SIGN, ModBlocks.HANGING_MAHOGANY_SIGN, ModBlocks.WALL_HANGING_MAHOGANY_SIGN);
@@ -125,6 +122,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
 
         itemModelGenerator.register(ModItems.SILK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DYNAMITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.RARE_SPICES, Models.GENERATED);
         itemModelGenerator.register(ModItems.OBSIDIAN_SHARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.WEDGE_OBSIDIAN_SHARD, Models.GENERATED);

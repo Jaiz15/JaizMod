@@ -51,6 +51,11 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
+          "name": "jaizmod:dynamite"
+        },
+        {
+          "type": "minecraft:item",
           "name": "jaizmod:sharp_obsidian_shard",
           "weight": 1
         },

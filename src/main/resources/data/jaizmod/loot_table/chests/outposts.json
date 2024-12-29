@@ -58,6 +58,11 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 5,
+          "name": "jaizmod:dynamite"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 6,
           "name": "minecraft:cooked_beef",
           "functions": [

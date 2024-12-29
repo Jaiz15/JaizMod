@@ -17,7 +17,7 @@ public class ModPlacedFeatures {
 
     public static final RegistryKey<PlacedFeature> DESERT_OAK_PLACED_KEY = registerKey("desert_oak_placed");
 
-    public static final RegistryKey<PlacedFeature> MAHOGANY_PLACED = registerKey("mahogany_tree_placed");
+    public static final RegistryKey<PlacedFeature> SMALL_MAHOGANY_PLACED = registerKey("small_mahogany_tree_placed");
 
     public static final RegistryKey<PlacedFeature> ROTTEN_LOG_PLACED = registerKey("rotten_log_placed");
 

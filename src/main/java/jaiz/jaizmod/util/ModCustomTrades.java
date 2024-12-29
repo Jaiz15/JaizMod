@@ -1,5 +1,6 @@
 package jaiz.jaizmod.util;
 
+import jaiz.jaizmod.block.ModBlocks;
 import jaiz.jaizmod.item.ModItems;
 import jaiz.jaizmod.villager.ModVillagers;
 import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
@@ -7,11 +8,114 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.village.TradeOffer;
 import net.minecraft.village.TradedItem;
+import net.minecraft.village.VillagerProfession;
 
 public class ModCustomTrades {
     public static void registerCustomTrades() {
 
         //tea
+
+
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.TEA_BREWER, 1, factories -> {
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 12),
+                    new ItemStack(ModBlocks.TEAPOTBLOCK, 1),
+                    3, 8, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 5),
+                    new ItemStack(ModItems.TEA_CUP, 1),
+                    3, 2, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 8),
+                    new ItemStack(ModItems.SPORE_BLOSSOM_TEA, 1),
+                    3, 2, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 8),
+                    new ItemStack(ModItems.GLOW_BERRY_TEA, 1),
+                    3, 2, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 8),
+                    new ItemStack(ModItems.WITHER_ROSE_TEA, 1),
+                    3, 2, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 8),
+                    new ItemStack(ModItems.TORCH_FLOWER_TEA, 1),
+                    3, 2, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 8),
+                    new ItemStack(ModItems.PUMPKIN_SPICE_TEA, 1),
+                    3, 2, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 8),
+                    new ItemStack(ModItems.WARPED_NETHER_FUNGUS_TEA, 1),
+                    3, 2, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 8),
+                    new ItemStack(ModItems.NETHER_FUNGUS_TEA, 1),
+                    3, 2, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 8),
+                    new ItemStack(ModItems.KOMBUCHA_TEA, 1),
+                    3, 2, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 8),
+                    new ItemStack(ModItems.GUNPOWDER_GREEN_TEA, 1),
+                    3, 2, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 8),
+                    new ItemStack(ModItems.HERBAL_TEA, 1),
+                    3, 2, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 8),
+                    new ItemStack(ModItems.PITCHER_PLANT_TEA, 1),
+                    3, 2, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 8),
+                    new ItemStack(ModItems.FLOWER_TEA, 1),
+                    3, 2, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 2),
+                    new ItemStack(ModItems.UNFIRED_TEA_CUP, 1),
+                    3, 2, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(ModBlocks.TEAPOTBLOCK.asItem(), 1),
+                    new ItemStack(Items.EMERALD, 1),
+                    3, 6, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.CLAY_BALL, 16),
+                    new ItemStack(Items.EMERALD, 1),
+                    16, 3, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.CLAY_BALL, 22),
+                    new ItemStack(Items.EMERALD, 1),
+                    16, 3, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.CLAY_BALL, 24),
+                    new ItemStack(Items.EMERALD, 2),
+                    16, 3, 0.05f
+            ));
+        });
+
+
+
         TradeOfferHelper.registerVillagerOffers(ModVillagers.TEA_BREWER, 1, factories -> {
             factories.add((entity, random) -> new TradeOffer(
                     new TradedItem(Items.EMERALD, 1),
@@ -21,6 +125,63 @@ public class ModCustomTrades {
         });
 
         TradeOfferHelper.registerVillagerOffers(ModVillagers.TEA_BREWER, 2, factories -> {
+
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.COPPER_INGOT, 12),
+                    new ItemStack(Items.EMERALD, 1),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.COPPER_INGOT, 16),
+                    new ItemStack(Items.EMERALD, 1),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.COPPER_INGOT, 18),
+                    new ItemStack(Items.EMERALD, 2),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 1),
+                    new ItemStack(Items.COPPER_INGOT, 4),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 3),
+                    new ItemStack(Items.COPPER_INGOT, 16),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 1),
+                    new ItemStack(Items.RAW_COPPER, 6),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 1),
+                    new ItemStack(Items.FERN, 4),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 1),
+                    new ItemStack(Items.BROWN_MUSHROOM, 4),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 1),
+                    new ItemStack(Items.RED_MUSHROOM, 4),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 4),
+                    new ItemStack(Items.GLOW_BERRIES, 7),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.GLOW_BERRIES, 22),
+                    new ItemStack(Items.EMERALD, 3),
+                    12, 10, 0.05f
+            ));
+
             factories.add((entity, random) -> new TradeOffer(
                     new TradedItem(Items.EMERALD, 3),
                     new ItemStack(Items.COAL, 12),
@@ -65,6 +226,11 @@ public class ModCustomTrades {
 
         TradeOfferHelper.registerVillagerOffers(ModVillagers.TEA_BREWER, 3, factories -> {
             factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 6),
+                    new ItemStack(ModBlocks.TEAPOTBLOCK, 1),
+                    3, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
                     new TradedItem(Items.EMERALD, 8),
                     new ItemStack(ModItems.TEA_CUP, 1),
                     4, 10, 0.05f
@@ -74,9 +240,70 @@ public class ModCustomTrades {
                     new ItemStack(ModItems.UNFIRED_TEA_CUP, 1),
                     4, 10, 0.05f
             ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 6),
+                    new ItemStack(Items.CAMPFIRE, 1),
+                    3, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.CAMPFIRE, 2),
+                    new ItemStack(Items.EMERALD, 3),
+                    12, 10, 0.05f
+            ));
+
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.COPPER_INGOT, 12),
+                    new ItemStack(Items.EMERALD, 1),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.COPPER_INGOT, 16),
+                    new ItemStack(Items.EMERALD, 1),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.COPPER_INGOT, 18),
+                    new ItemStack(Items.EMERALD, 2),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 1),
+                    new ItemStack(Items.COPPER_INGOT, 4),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 3),
+                    new ItemStack(Items.COPPER_INGOT, 16),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 1),
+                    new ItemStack(Items.RAW_COPPER, 6),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 8),
+                    new ItemStack(Items.SPORE_BLOSSOM, 1),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 3),
+                    new ItemStack(Items.GLOW_BERRIES, 7),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.GLOW_BERRIES, 18),
+                    new ItemStack(Items.EMERALD, 3),
+                    12, 10, 0.05f
+            ));
         });
 
         TradeOfferHelper.registerVillagerOffers(ModVillagers.TEA_BREWER, 4, factories -> {
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 4),
+                    new ItemStack(ModBlocks.TEAPOTBLOCK, 1),
+                    3, 12, 0.05f
+            ));
             factories.add((entity, random) -> new TradeOffer(
                     new TradedItem(Items.EMERALD, 3),
                     new ItemStack(ModItems.FLOWER_TEA, 1),
@@ -331,6 +558,32 @@ public class ModCustomTrades {
         });
 
         TradeOfferHelper.registerVillagerOffers(ModVillagers.SPICE_TRADER, 4, factories -> {
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.FERN, 16),
+                    new ItemStack(Items.EMERALD, 1),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.BROWN_MUSHROOM, 8),
+                    new ItemStack(Items.EMERALD, 1),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.RED_MUSHROOM, 8),
+                    new ItemStack(Items.EMERALD, 1),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.BROWN_MUSHROOM, 12),
+                    new ItemStack(Items.EMERALD, 1),
+                    12, 10, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.RED_MUSHROOM, 12),
+                    new ItemStack(Items.EMERALD, 1),
+                    12, 10, 0.05f
+            ));
+
             factories.add((entity, random) -> new TradeOffer(
                     new TradedItem(ModItems.RARE_SPICES, 10),
                     new ItemStack(Items.RAW_IRON_BLOCK, 1),

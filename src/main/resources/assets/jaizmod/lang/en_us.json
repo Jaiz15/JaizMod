@@ -214,6 +214,9 @@
 
   "block.jaizmod.honeycomb_dirt": "HoneyComb Dirt",
 
+  "item.jaizmod.dynamite": "Dynamite",
+  "entity.jaizmod.dynamite": "Dynamite",
+
   "item.jaizmod.terracotta_bricks": "Terracotta Bricks",
   "block.jaizmod.terracotta_bricks": "Terracotta Bricks",
   "block.jaizmod.terracotta_brick_slab": "Terracotta Brick Slab",

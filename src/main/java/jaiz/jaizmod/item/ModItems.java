@@ -73,6 +73,8 @@ public class ModItems {
     public static final Item AIR_HORN = registerItem("air_horn", new AirHornItem(new Item.Settings().maxCount(1).maxDamage(64), InstrumentTags.GOAT_HORNS));
     public static final Item ANCIENT_HORN = registerItem("ancient_horn", new AncientHornItem(new Item.Settings().maxCount(1).maxDamage(64), InstrumentTags.GOAT_HORNS));
 
+    public static final Item DYNAMITE = registerItem("dynamite", new DynamiteItem(new Item.Settings()));
+
     public static final Item RARE_SPICES = registerItem("rare_spices", new Item(new Item.Settings().food(ModFoodComponents.RARE_SPICES)));
     public static final Item GOURMET_MEAL = registerItem("gourmet_meal", new Item(new Item.Settings().food(ModFoodComponents.GOURMET_MEAL).maxCount(16)));
     public static final Item OBSIDIAN_SHARD = registerItem("obsidian_shard", new Item(new Item.Settings()));
